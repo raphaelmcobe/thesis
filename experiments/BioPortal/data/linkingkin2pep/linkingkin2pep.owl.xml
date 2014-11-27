@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.pamgene.com/ontology/K2P.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.pamgene.com/ontology/K2P.owl">
+    <Prefix name="ont" IRI="http://owl.cs.manchester.ac.uk/ontology#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Kinase"/>
+        <Class IRI="#Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Peptide"/>
+        <Class IRI="#BiologicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Protein"/>
+        <Class IRI="#BiologicalEntity"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#BiologicalEntity"/>
+        <Class IRI="#PeptideInformation"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#BiologicalEntity"/>
+        <NamedIndividual IRI="#BiologicalEntity_14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Kinase"/>
+        <NamedIndividual IRI="#Kinase_16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Peptide"/>
+        <NamedIndividual IRI="#Peptide_11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Protein"/>
+        <NamedIndividual IRI="#Protein_17"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#part_of"/>
+        <NamedIndividual IRI="#Peptide_11"/>
+        <NamedIndividual IRI="#Protein_17"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_part"/>
+        <NamedIndividual IRI="#Protein_17"/>
+        <NamedIndividual IRI="#Peptide_11"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_part"/>
+        <ObjectProperty IRI="#part_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#phoshporylated_by"/>
+        <ObjectProperty IRI="#phoshporylates"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#phoshporylated_by"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#phoshporylates"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_part"/>
+        <Class IRI="#Protein"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#part_of"/>
+        <Class IRI="#Peptide"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#phoshporylates"/>
+        <Class IRI="#Kinase"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#ObjectProperty_13"/>
+        <Class IRI="#PeptideInformation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_part"/>
+        <Class IRI="#Peptide"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#part_of"/>
+        <Class IRI="#Protein"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#phoshporylates"/>
+        <Class IRI="#Protein"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#AccessionID"/>
+        <DataProperty IRI="#ID"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#Sequence"/>
+        <DataProperty IRI="#ID"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#AccessionID"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#ID"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#Sequence"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#ID"/>
+        <Class IRI="#BiologicalEntity"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#ID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,288 @@
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Brother_subClassOf_Adoptive_Sibling                          1         524                 1              277.00         6              218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Brother_subClassOf_Male_Adopted_Relation                     2         524                 1              278.00         6              219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Daughter_subClassOf_Adoptive_Child                           3         524                 1              280.00         7              222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Daughter_subClassOf_Female_Adopted_Relation                  4         524                 1              278.00         7              219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Father_subClassOf_Adoptive_Parent                            5         524                 1              277.00         7              219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Father_subClassOf_Male_Adopted_Relation                      6         524                 1              276.00         6              217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Granddaughter_subClassOf_Adoptive_Grandchild                 7         524                 1              276.00         7              218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Granddaughter_subClassOf_Female_Adopted_Relation             8         524                 1              280.00         7              221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Grandfather_subClassOf_Adoptive_Grandparent                  9         524                 1              270.00         4              211.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Grandfather_subClassOf_Male_Adopted_Relation                 10        524                 1              278.00         6              220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Grandmother_subClassOf_Adoptive_Grandparent                  11        524                 1              270.00         4              210.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Grandmother_subClassOf_Female_Adopted_Relation               12        524                 1              279.00         7              220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Grandson_subClassOf_Adoptive_Grandchild                      13        524                 1              274.00         6              215.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Grandson_subClassOf_Male_Adopted_Relation                    14        524                 1              277.00         7              219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Mother_subClassOf_Adoptive_Parent                            15        524                 1              279.00         7              222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Mother_subClassOf_Female_Adopted_Relation                    16        524                 1              278.00         7              221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Parent_subClassOf_Adopted_Kin_Relation                       17        524                 1              267.00         4              211.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Parent_subClassOf_Parent_Relation                            18        524                 1              268.00         4              210.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Sister_subClassOf_Adoptive_Sibling                           19        524                 1              278.00         7              219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Sister_subClassOf_Female_Adopted_Relation                    20        524                 1              279.00         7              220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Son_subClassOf_Adoptive_Child                                21        524                 1              266.00         4              208.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Adoptive_Son_subClassOf_Male_Adopted_Relation                         22        524                 1              274.00         6              219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Female_Adopted_Relation_subClassOf_Adopted_Kin_Relation               23        524                 1              269.00         4              211.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Female_Adopted_Relation_subClassOf_Female_Relation                    24        524                 1              269.00         4              210.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Female_Blood_Relation_subClassOf_Blood_Relation                       25        524                 1              270.00         5              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Female_Blood_Relation_subClassOf_Female_Relation                      26        524                 1              270.00         5              213.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Female_Cousin_subClassOf_Cousin                                       27        524                 1              275.00         7              219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Female_Cousin_subClassOf_Female_Blood_Relation                        28        524                 1              274.00         6              216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Female_Fictive_Kin_subClassOf_Female_Relation                         29        524                 1              268.00         4              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Female_Fictive_Kin_subClassOf_Fictive_Kin_Relation                    30        524                 1              268.00         4              210.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Female_Foster_Relation_subClassOf_Female_Relation                     31        524                 1              268.00         4              211.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Female_Foster_Relation_subClassOf_Foster_Kin_Relation                 32        524                 1              268.00         5              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Female_Partner_subClassOf_Female_Relation                             33        524                 1              268.00         4              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Female_Partner_subClassOf_Partner_Relation                            34        524                 1              270.00         5              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Female_Step_Relation_subClassOf_Female_Relation                       35        524                 1              268.00         4              210.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Female_Step_Relation_subClassOf_Step_Kin_Relation                     36        524                 1              265.00         4              210.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Brother_subClassOf_Foster_Sibling                              37        524                 1              271.00         5              213.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Brother_subClassOf_Male_Foster_Relation                        38        524                 2              324.00         18             262.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Daughter_subClassOf_Female_Foster_Relation                     39        524                 1              274.00         6              216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Daughter_subClassOf_Foster_Child                               40        524                 1              274.00         7              216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Father_subClassOf_Foster_Parent                                41        524                 1              276.00         5              218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Father_subClassOf_Male_Foster_Relation                         42        524                 2              324.00         17             264.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Granddaughter_subClassOf_Female_Foster_Relation                43        524                 1              267.00         4              209.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Granddaughter_subClassOf_Foster_Grandchild                     44        524                 1              266.00         4              211.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Grandfather_subClassOf_Foster_Grandparent                      45        524                 1              276.00         6              217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Grandfather_subClassOf_Male_Foster_Relation                    46        524                 1              275.00         7              218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Grandmother_subClassOf_Female_Foster_Relation                  47        524                 2              319.00         16             257.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Grandmother_subClassOf_Foster_Grandparent                      48        524                 1              277.00         6              219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Grandson_subClassOf_Foster_Grandchild                          49        524                 1              278.00         7              218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Grandson_subClassOf_Male_Foster_Relation                       50        524                 1              278.00         6              220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Mother_subClassOf_Female_Foster_Relation                       51        524                 2              319.00         16             259.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Mother_subClassOf_Foster_Parent                                52        524                 1              279.00         6              220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Parent_subClassOf_Foster_Kin_Relation                          53        524                 1              269.00         4              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Parent_subClassOf_Parent_Relation                              54        524                 1              269.00         5              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Sister_subClassOf_Female_Foster_Relation                       55        524                 2              320.00         17             261.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Sister_subClassOf_Foster_Sibling                               56        524                 1              274.00         5              215.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Son_subClassOf_Foster_Child                                    57        524                 1              270.00         4              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Foster_Son_subClassOf_Male_Foster_Relation                            58        524                 1              279.00         7              223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Fraternal_Twin_Brother_subClassOf_Fraternal_Twin_Sibling              59        524                 1              276.00         6              215.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Fraternal_Twin_Brother_subClassOf_Twin_Brother                        60        524                 1              284.00         7              223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Fraternal_Twin_Sister_subClassOf_Fraternal_Twin_Sibling               61        524                 1              281.00         6              218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Fraternal_Twin_Sister_subClassOf_Twin_Sister                          62        524                 1              278.00         6              220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Granddaughter_subClassOf_Female_Blood_Relation                        63        524                 1              274.00         6              216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Granddaughter_subClassOf_Grandchild                                   64        524                 1              269.00         4              209.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Grandson_subClassOf_Grandchild                                        65        524                 1              280.00         7              220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Grandson_subClassOf_Male_Blood_Relation                               66        524                 1              280.00         7              222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Great_Granddaughter_subClassOf_Female_Blood_Relation                  67        524                 1              270.00         4              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Great_Granddaughter_subClassOf_Great_Grandchild                       68        524                 1              271.00         4              211.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Great_Grandfather_subClassOf_Great_Grandparent                        69        524                 1              276.00         6              217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Great_Grandfather_subClassOf_Male_Blood_Relation                      70        524                 1              273.00         4              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Great_Grandmother_subClassOf_Female_Blood_Relation                    71        524                 1              268.00         4              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Great_Grandmother_subClassOf_Great_Grandparent                        72        524                 1              268.00         4              211.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Great_Grandson_subClassOf_Great_Grandchild                            73        524                 1              279.00         6              216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Great_Grandson_subClassOf_Male_Blood_Relation                         74        524                 1              278.00         6              217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Half_Brother_subClassOf_Half_Sibling                                  75        524                 1              272.00         4              213.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Half_Brother_subClassOf_Male_Blood_Relation                           76        524                 1              277.00         6              218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Half_Sister_subClassOf_Female_Blood_Relation                          77        524                 1              270.00         4              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Half_Sister_subClassOf_Half_Sibling                                   78        524                 1              271.00         4              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Identical_Twin_Brother_subClassOf_Identical_Twin_Sibling              79        524                 1              275.00         4              215.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Identical_Twin_Brother_subClassOf_Twin_Brother                        80        524                 1              275.00         4              214.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Identical_Twin_Sister_subClassOf_Identical_Twin_Sibling               81        524                 1              284.00         7              223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Identical_Twin_Sister_subClassOf_Twin_Sister                          82        524                 1              283.00         7              222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Male_Adopted_Relation_subClassOf_Adopted_Kin_Relation                 83        524                 1              271.00         5              213.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Male_Adopted_Relation_subClassOf_Male_Relation                        84        524                 1              266.00         4              209.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Male_Blood_Relation_subClassOf_Blood_Relation                         85        524                 1              270.00         5              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Male_Blood_Relation_subClassOf_Male_Relation                          86        524                 1              271.00         5              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Male_Cousin_subClassOf_Cousin                                         87        524                 1              275.00         6              216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Male_Cousin_subClassOf_Male_Blood_Relation                            88        524                 1              279.00         6              218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Male_Fictive_Kin_subClassOf_Fictive_Kin_Relation                      89        524                 1              271.00         5              213.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Male_Fictive_Kin_subClassOf_Male_Relation                             90        524                 1              272.00         5              214.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Male_Foster_Relation_subClassOf_Foster_Kin_Relation                   91        524                 1              268.00         5              211.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Male_Foster_Relation_subClassOf_Male_Relation                         92        524                 1              268.00         4              210.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Male_Partner_subClassOf_Male_Relation                                 93        524                 1              270.00         5              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Male_Partner_subClassOf_Partner_Relation                              94        524                 1              271.00         5              215.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Male_Step_Relation_subClassOf_Male_Relation                           95        524                 1              271.00         5              213.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Male_Step_Relation_subClassOf_Step_Kin_Relation                       96        524                 1              268.00         5              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Maternal_Grandfather_subClassOf_Male_Blood_Relation                   97        524                 1              276.00         6              218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Maternal_Grandfather_subClassOf_Maternal_Grandparent                  98        524                 1              271.00         4              213.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Maternal_Grandmother_subClassOf_Female_Blood_Relation                 99        524                 1              277.00         7              219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Maternal_Grandmother_subClassOf_Maternal_Grandparent                  100       524                 1              277.00         7              217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Natural_Brother_subClassOf_Male_Blood_Relation                        101       524                 1              269.00         4              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Natural_Brother_subClassOf_Natural_Full_Sibling                       102       524                 1              272.00         4              210.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Natural_Daughter_subClassOf_Female_Blood_Relation                     103       524                 1              272.00         4              213.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Natural_Daughter_subClassOf_Natural_Child                             104       524                 1              269.00         4              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Natural_Father_subClassOf_Male_Blood_Relation                         105       524                 1              273.00         4              214.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Natural_Father_subClassOf_Natural_Parent                              106       524                 1              271.00         4              211.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Natural_Mother_subClassOf_Female_Blood_Relation                       107       524                 1              272.00         4              215.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Natural_Mother_subClassOf_Natural_Parent                              108       524                 1              275.00         6              216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Natural_Parent_subClassOf_First_Degree_Relation                       109       524                 1              272.00         5              213.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Natural_Parent_subClassOf_Parent_Relation                             110       524                 1              272.00         5              213.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Natural_Sister_subClassOf_Female_Blood_Relation                       111       524                 1              276.00         6              218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Natural_Sister_subClassOf_Natural_Full_Sibling                        112       524                 1              276.00         6              219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Natural_Son_subClassOf_Male_Blood_Relation                            113       524                 1              273.00         4              210.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Natural_Son_subClassOf_Natural_Child                                  114       524                 1              272.00         4              213.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Paternal_Grandfather_subClassOf_Male_Blood_Relation                   115       524                 1              269.00         4              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Paternal_Grandfather_subClassOf_Paternal_Grandparent                  116       524                 1              272.00         4              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Paternal_Grandmother_subClassOf_Female_Blood_Relation                 117       524                 1              275.00         6              215.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Paternal_Grandmother_subClassOf_Paternal_Grandparent                  118       524                 1              268.00         4              210.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Brother_subClassOf_Male_Step_Relation                            119       524                 1              272.00         4              211.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Brother_subClassOf_Step_Sibling                                  120       524                 1              276.00         7              216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Daughter_subClassOf_Female_Step_Relation                         121       524                 1              275.00         7              219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Daughter_subClassOf_Step_Child                                   122       524                 1              276.00         7              216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Father_subClassOf_Male_Step_Relation                             123       524                 1              273.00         4              214.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Father_subClassOf_Step_Parent                                    124       524                 1              272.00         4              214.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Granddaughter_subClassOf_Female_Step_Relation                    125       524                 2              315.00         15             254.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Granddaughter_subClassOf_Step_Grandchild                         126       524                 1              273.00         6              216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Grandfather_subClassOf_Male_Step_Relation                        127       524                 2              321.00         17             262.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Grandfather_subClassOf_Step_Grandparent                          128       524                 1              272.00         5              214.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Grandmother_subClassOf_Female_Step_Relation                      129       524                 2              318.00         16             257.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Grandmother_subClassOf_Step_Grandparent                          130       524                 1              279.00         7              219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Grandson_subClassOf_Male_Step_Relation                           131       524                 2              318.00         17             258.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Grandson_subClassOf_Step_Grandchild                              132       524                 1              276.00         6              217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Mother_subClassOf_Female_Step_Relation                           133       524                 1              272.00         4              213.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Mother_subClassOf_Step_Parent                                    134       524                 1              273.00         4              211.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Parent_subClassOf_Parent_Relation                                135       524                 1              270.00         5              213.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Parent_subClassOf_Step_Kin_Relation                              136       524                 1              268.00         5              212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Sister_subClassOf_Female_Step_Relation                           137       524                 1              273.00         6              218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Sister_subClassOf_Step_Sibling                                   138       524                 1              276.00         7              217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Son_subClassOf_Male_Step_Relation                                139       524                 1              271.00         4              213.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Step_Son_subClassOf_Step_Child                                        140       524                 1              272.00         6              217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Twin_Brother_subClassOf_Natural_Brother                               141       524                 1              277.00         6              217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Twin_Brother_subClassOf_Twin_Sibling                                  142       524                 1              274.00         4              213.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Twin_Sister_subClassOf_Natural_Sister                                 143       524                 1              272.00         4              213.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Twin_Sister_subClassOf_Twin_Sibling                                   144       524                 1              272.00         4              212.00              13             

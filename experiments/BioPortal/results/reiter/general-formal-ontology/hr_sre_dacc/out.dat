@@ -1,0 +1,20 @@
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Chronoid_subClassOf_Temporal_region                                   1         190                 1              290.00         6              235.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Left_time_boundary_subClassOf_Time_boundary                           2         190                 3              341.00         16             284.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Line_subClassOf_Spatial_boundary                                      3         190                 7              762.00         118            686.00              33             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Material_boundary_subClassOf_Presential                               4         190                 3              598.00         46             527.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Material_object_subClassOf_Presential                                 5         190                 3              522.00         40             451.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Point_subClassOf_Spatial_boundary                                     6         190                 8              896.00         142            811.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Processual_role_subClassOf_Role                                       7         190                 3              426.00         38             361.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Relational_role_subClassOf_Role                                       8         190                 5              522.00         67             448.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Right_time_boundary_subClassOf_Time_boundary                          9         190                 3              358.00         21             298.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Surface_subClassOf_Spatial_boundary                                   10        190                 6              592.00         85             519.00              33             

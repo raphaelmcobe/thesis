@@ -1,0 +1,450 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#BaseCharacteristicQualifier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CharacteristicQualifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#BaseUnit"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CompositeCharacteristicQualifier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CharacteristicQualifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CompositeUnit"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Name"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#PhysicalCharacteristic"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Relationship"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Type"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#Acre"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#AcreToMeterSquared"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#AcreToSquareMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#AngstromToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#Are"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#BarToKilopascal"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#Becquerel"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#Bushel"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#BushelToLiter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#CelsiusToKelvin"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#CentigramToKilogram"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#CentimeterCubed"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#CentimeterSquared"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#CentimeterToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#CentisecondToSecond"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#DecibarToBar"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#DecigramToKilogram"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#DecimeterToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#DecisecondToSecond"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#DegreToRadian"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#DekagramToKilogram"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#DekameterToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#DekasecondToSecond"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#FahrenheitDegreeToKelvin"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#FathomToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#FootGoldCoastToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#FootSquared"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#FootToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#Gallon"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#GallonToLiter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#GradToRadian"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#GramToKilogram"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#Hectare"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#HectogramToKilogram"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#HectometerToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#HectosecondToSecond"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#Hertz"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#HourToSecond"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#InchCubed"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#InchToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#Kilohertz"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#Kiloliter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#KilometerSquared"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#KilometerToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#KilosecondToSecond"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#LinkClarkeToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#Liter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#LiterToMeterCubed"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MegagramToKilogram"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#Megahertz"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MegameterToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MegasecondToSecond"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MeterCubed"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MeterSquared"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MicrogramToKilogram"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#Microliter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MicrometerSquared"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MicrometerToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MicronToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MicrosecondToSecond"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MileSquared"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MileToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MillibarToBar"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MilligramToKilogram"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#Millihertz"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#Milliliter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MillimeterSquared"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MillimeterToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MillisecondToSecond"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#MinuteToSecond"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#NanogramToKilogram"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#NanometerToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#NanosecondToSecond"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#NauticalMileToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#NominalDayToSecond"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#NominalHourToSecond"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#NominalLeapYearToSecond"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#NominalMinuteToSecond"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#NominalWeekToSecond"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#NominalYearToSecond"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#Percent"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CompositeUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#Pint"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#PintToLiter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#PoundToKilogram"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#Quart"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#QuartToLiter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#ReciprocalMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#TonToKilogram"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#TonneToKilogram"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#YardIndianToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#YardSquared"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl#YardToMeter"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://code.ecoinformatics.org/code/semtools/trunk/dev/oboe/oboe-sbc.owl#ElectrolyticConductivity_SeaWater"/>
+        <Class IRI="https://code.ecoinformatics.org/code/semtools/trunk/dev/oboe/oboe-sbc.owl#Flow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://code.ecoinformatics.org/code/semtools/trunk/dev/oboe/oboe-sbc.owl#ElectrolyticConductivity_StreamWater"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://code.ecoinformatics.org/code/semtools/trunk/dev/oboe/oboe-sbc.owl#Flow"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://code.ecoinformatics.org/code/semtools/trunk/dev/oboe/oboe-sbc.owl#MacrocystisPyrifera"/>
+        <Class IRI="https://code.ecoinformatics.org/code/semtools/trunk/dev/oboe/oboe-sbc.owl#Kelp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://code.ecoinformatics.org/code/semtools/trunk/dev/oboe/oboe-sbc.owl#PercentNitrogenInSampleMeasurement"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://code.ecoinformatics.org/code/semtools/trunk/dev/oboe/oboe-sbc.owl#SBC_ConcentrationOfAmmonium_FreshWater"/>
+        <Class IRI="https://code.ecoinformatics.org/code/semtools/trunk/dev/oboe/oboe-sbc.owl#ConcentrationOfAmmonium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://code.ecoinformatics.org/code/semtools/trunk/dev/oboe/oboe-sbc.owl#SBC_ConcentrationOfAmmonium_SalineWater"/>
+        <Class IRI="https://code.ecoinformatics.org/code/semtools/trunk/dev/oboe/oboe-sbc.owl#ConcentrationOfAmmonium"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

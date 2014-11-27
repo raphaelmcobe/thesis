@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000054"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000054"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000103"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000094"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000096"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000097"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000097"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000103"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000097"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000133"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000098"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000105"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000102"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000103"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000104"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000104"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000134"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000105"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000133"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000106"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000106"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000105"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000113"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000113"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000113"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000103"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000114"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000114"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000115"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000115"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000105"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000126"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000091"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000126"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000126"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000127"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000091"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000127"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000128"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000128"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000128"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000129"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000129"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000129"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000137"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000137"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000137"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000138"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000138"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000139"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000090"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000139"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000139"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000140"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000090"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000140"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000141"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000141"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000141"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000142"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000142"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000145"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000145"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000134"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000146"/>
+        <Class IRI="http://biomodels.net/teddy/TEDDY_0000083"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

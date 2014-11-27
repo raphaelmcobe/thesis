@@ -1,0 +1,104 @@
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ConnectedSpatiotemporalRegion_subClassOf_SpatiotemporalRegion         1         155                 2              433.00         14             360.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ConnectedTemporalRegion_subClassOf_TemporalRegion                     2         155                 2              431.00         13             360.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Continuant_subClassOf_Entity                                          3         155                 2              421.00         11             352.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DependentContinuant_subClassOf_Continuant                             4         155                 2              426.00         13             354.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FiatObjectPart_subClassOf_MaterialEntity                              5         155                 2              437.00         17             367.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FiatProcessPart_subClassOf_ProcessualEntity                           6         155                 2              429.00         13             357.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GenericallyDependentContinuant_subClassOf_DependentContinuant         7         155                 2              435.00         15             365.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+IndependentContinuant_subClassOf_Continuant                           8         155                 2              433.00         13             361.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MaterialEntity_subClassOf_IndependentContinuant                       9         155                 2              427.00         13             357.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Object_subClassOf_MaterialEntity                                      10        155                 2              442.00         18             367.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ObjectAggregate_subClassOf_MaterialEntity                             11        155                 2              445.00         18             372.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ObjectBoundary_subClassOf_IndependentContinuant                       12        155                 2              438.00         16             367.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Occurrent_subClassOf_Entity                                           13        155                 2              419.00         10             348.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OneDimensionalRegion_subClassOf_SpatialRegion                         14        155                 2              433.00         14             361.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Process_subClassOf_ProcessualEntity                                   15        155                 2              426.00         13             356.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProcessAggregate_subClassOf_ProcessualEntity                          16        155                 2              443.00         20             370.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProcessBoundary_subClassOf_ProcessualEntity                           17        155                 2              428.00         13             358.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProcessualContext_subClassOf_ProcessualEntity                         18        155                 2              431.00         14             360.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProcessualEntity_subClassOf_Occurrent                                 19        155                 2              434.00         14             364.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Quality_subClassOf_SpecificallyDependentContinuant                    20        155                 2              424.00         15             356.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RealizableEntity_subClassOf_SpecificallyDependentContinuant           21        155                 2              428.00         15             357.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ScatteredSpatiotemporalRegion_subClassOf_SpatiotemporalRegion         22        155                 2              429.00         16             359.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ScatteredTemporalRegion_subClassOf_TemporalRegion                     23        155                 2              427.00         15             354.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Site_subClassOf_IndependentContinuant                                 24        155                 2              433.00         16             361.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SpatialRegion_subClassOf_Continuant                                   25        155                 2              429.00         13             359.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SpatiotemporalInstant_subClassOf_ConnectedSpatiotemporalRegion        26        155                 2              421.00         13             353.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SpatiotemporalInterval_subClassOf_ConnectedSpatiotemporalRegion       27        155                 2              427.00         15             355.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SpatiotemporalRegion_subClassOf_Occurrent                             28        155                 2              434.00         14             361.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SpecificallyDependentContinuant_subClassOf_DependentContinuant        29        155                 2              436.00         15             365.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TemporalInstant_subClassOf_ConnectedTemporalRegion                    30        155                 2              430.00         16             358.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TemporalInterval_subClassOf_ConnectedTemporalRegion                   31        155                 2              430.00         16             360.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TemporalRegion_subClassOf_Occurrent                                   32        155                 2              430.00         15             359.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ThreeDimensionalRegion_subClassOf_SpatialRegion                       33        155                 2              429.00         14             359.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TwoDimensionalRegion_subClassOf_SpatialRegion                         34        155                 2              437.00         16             363.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ZeroDimensionalRegion_subClassOf_SpatialRegion                        35        155                 2              433.00         15             361.00              23             
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     

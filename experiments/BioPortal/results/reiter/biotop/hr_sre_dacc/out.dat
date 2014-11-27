@@ -1,0 +1,714 @@
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AcquiredAbnormalStructure_subClassOf_IllFormedBiologicalStructure     1         636                 1              370.00         5              301.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AcquiredPathologicalCondition_subClassOf_PathologicalRegion           2         636                 1              481.00         7              401.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AcquiredPathologicalState_subClassOf_PathologicalState                3         636                 1              481.00         6              402.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Action_subClassOf_ProcessualEntity                                    4         636                 1              371.00         6              306.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AdultOrganism_subClassOf_OrganismByDevelopmentalStagePartition        5         636                 1              380.00         5              311.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AdultRegion_subClassOf_DevelopmentalRegion                            6         636                 1              256.00         5              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Affecting_subClassOf_Action                                           7         636                 1              349.00         7              284.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AgeQuality_subClassOf_Quality                                         8         636                 1              255.00         4              201.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Alga_subClassOf_Eukaryote                                             9         636                 1              370.00         4              298.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AminoAcidMoleculeOrResidue_subClassOf_AminoAcidOrPeptideMoleculeOrStructure10        636                 1              414.00         8              338.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AminoAcidMoleculeOrResidue_subClassOf_Monomer                         11        636                 1              407.00         8              334.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AminoAcidOrPeptideMoleculeOrStructure_subClassOf_OrganicMolecularEntityPartition12        636                 1              361.00         7              292.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AminoAcidSequence_subClassOf_BioMolecularSequenceStructure            13        636                 1              415.00         7              340.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AminoAcidSequence_subClassOf_PeptideStructure                         14        636                 1              409.00         7              337.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AminoAcidSequenceInformation_subClassOf_BioMolecularSequenceInformation15        636                 1              397.00         4              322.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AmountOfBodySubstance_subClassOf_AmountOfSubstance                    16        636                 1              381.00         8              313.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AmountOfSubstance_subClassOf_CollectiveMaterialEntity                 17        636                 1              374.00         7              307.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Amphibian_subClassOf_AnimalExcludingHuman                             18        636                 1              913.00         49             836.00              44             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Amphibian_subClassOf_Vertebrate                                       19        636                 1              398.00         6              328.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Analyzing_subClassOf_HumanAction                                      20        636                 1              412.00         6              340.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AnimalCell_subClassOf_CellByTaxonPartition                            21        636                 1              472.00         5              398.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AnimalExcludingHuman_subClassOf_AnimalIncludingHuman                  22        636                 1              388.00         6              315.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AnimalIncludingHuman_subClassOf_Eukaryote                             23        636                 1              391.00         6              320.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AnimalLanguage_subClassOf_LanguagePartition                           24        636                 1              257.00         4              197.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AnimalPopulation_subClassOf_EukaryotePopulation                       25        636                 1              544.00         15             469.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AntibioticRole_subClassOf_DrugRole                                    26        636                 1              254.00         4              198.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ArchaebacterialCell_subClassOf_Prokaryote                             27        636                 1              379.00         7              308.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ArtefactRole_subClassOf_Role                                          28        636                 1              253.00         4              197.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Arthropod_subClassOf_Invertebrate                                     29        636                 1              400.00         8              330.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ArthropodPopulation_subClassOf_AnimalPopulation                       30        636                 1              720.00         32             646.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Atom_subClassOf_MaterialEntityBySizePartition                         31        636                 1              347.00         7              281.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BacteriaPopulation_subClassOf_Population                              32        636                 1              467.00         6              388.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BacterialCell_subClassOf_CellByTaxonPartition                         33        636                 1              502.00         6              424.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BacterialCell_subClassOf_Prokaryote                                   34        636                 1              507.00         8              430.00              23             
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BacterialColony_subClassOf_BiologicalColony                           36        636                 1              459.00         4              384.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BakersYeastCell_subClassOf_YeastCell                                  37        636                 1              469.00         5              393.00              23             
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Behavior_subClassOf_Action                                            39        636                 1              345.00         6              281.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BioMolecularProcess_subClassOf_BiologicalProcessualEntity             40        636                 1              470.00         4              392.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BioMolecularSequenceInformation_subClassOf_InformationEntity          41        636                 1              403.00         7              329.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BioMolecularSequenceStructure_subClassOf_OrganicMolecularEntityPartition42        636                 1              1049.00        58             969.00              54             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BiologicalAction_subClassOf_Action                                    43        636                 1              397.00         7              328.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BiologicalBoundary_subClassOf_TwoDimensionalBoundary                  44        636                 1              850.00         44             780.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BiologicalColony_subClassOf_PluralityOfOrganisms                      45        636                 1              393.00         7              325.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BiologicalFunction_subClassOf_Function                                46        636                 1              374.00         6              306.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BiologicalProcessualEntity_subClassOf_ProcessualEntity                47        636                 1              481.00         6              402.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BiologicalSpace_subClassOf_ImmaterialThreeDimensionalPhysicalEntity   48        636                 1              367.00         6              299.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BiologicalSystemRole_subClassOf_Role                                  49        636                 1              251.00         4              196.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BiomedicalMaterialRole_subClassOf_TherapeuticRole                     50        636                 1              253.00         4              197.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Biomolecule_subClassOf_MonoMolecularEntity                            51        636                 1              380.00         8              312.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Bird_subClassOf_AnimalExcludingHuman                                  52        636                 1              895.00         46             821.00              44             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Bird_subClassOf_Vertebrate                                            53        636                 1              395.00         5              325.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Body_subClassOf_StructuredBiologicalEntity                            54        636                 2              478.00         20             399.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BodyLiquid_subClassOf_PortionOfHeterogenousLiquid                     55        636                 1              410.00         8              338.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BodySystem_subClassOf_OrganismPart                                    56        636                 1              466.00         5              389.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CandidaAlbicansCell_subClassOf_YeastCell                              57        636                 1              492.00         7              413.00              23             
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CanonicalProcessualEntity_subClassOf_ProcessualEntity                 59        636                 2              435.00         11             365.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CanonicalRegion_subClassOf_CanonicityRegion                           60        636                 1              254.00         4              199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CanonicalState_subClassOf_State                                       61        636                 1              360.00         6              297.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Canonicity_subClassOf_Quality                                         62        636                 1              362.00         5              296.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CanonicityRegion_subClassOf_QualityRegion                             63        636                 1              255.00         5              199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CarbohydrateMoleculeOrResidue_subClassOf_OrganicMolecularEntityPartition64        636                 1              359.00         7              289.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CarbohydrateMonomer_subClassOf_CarbohydrateMoleculeOrResidue          65        636                 1              379.00         8              310.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CarbohydrateMonomer_subClassOf_Monomer                                66        636                 1              385.00         9              315.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CarbohydrateSequenceInformation_subClassOf_BioMolecularSequenceInformation67        636                 1              402.00         7              325.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CatalyticRole_subClassOf_ChemicalRole                                 68        636                 1              253.00         4              197.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CategorizationSystem_subClassOf_IntellectualProduct                   69        636                 1              420.00         6              343.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Causing_subClassOf_Affecting                                          70        636                 1              351.00         7              283.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Cell_subClassOf_StructuredBiologicalCompoundByGranularityPartition    71        636                 1              460.00         5              387.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CellByLocusPartition_subClassOf_Cell                                  72        636                 1              449.00         9              374.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CellByTaxonPartition_subClassOf_Cell                                  73        636                 1              443.00         8              369.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CellByTypePartition_subClassOf_Cell                                   74        636                 1              446.00         8              370.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CellInVivo_subClassOf_CellByLocusPartition                            75        636                 1              455.00         6              377.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CellMembrane_subClassOf_CellularComponent                             76        636                 1              478.00         8              400.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CellNucleus_subClassOf_CellularComponent                              77        636                 1              451.00         9              375.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CellularComponent_subClassOf_StructuredBiologicalCompoundByGranularityPartition78        636                 1              461.00         5              386.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ChainOfCarbohydrateMonomers_subClassOf_CarbohydrateMoleculeOrResidue  79        636                 1              419.00         8              346.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ChainOfNucleotideMonomers_subClassOf_NucleicAcidStructure             80        636                 1              407.00         8              334.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ChemicalRole_subClassOf_Role                                          81        636                 1              255.00         4              198.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ChildRole_subClassOf_FamilyRole                                       82        636                 1              256.00         5              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ChlamydiaCell_subClassOf_Prokaryote                                   83        636                 1              368.00         4              296.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Chromosome_subClassOf_MoleculeComplex                                 84        636                 1              387.00         9              318.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ClassGammaProteobacteriaRegion_subClassOf_PhylumProteobacteriaRegion  85        636                 1              258.00         5              201.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ClassInsectaRegion_subClassOf_PhylumArthropodaRegion                  86        636                 1              257.00         5              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ClassMammaliaRegion_subClassOf_SubphylumVertebrataRegion              87        636                 1              263.00         5              203.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ClassSaccharomycetesRegion_subClassOf_SubphylumSaccharomycotinaRegion 88        636                 1              259.00         5              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CollectiveMaterialEntity_subClassOf_MaterialEntity                    89        636                 1              380.00         7              312.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Complicating_subClassOf_Affecting                                     90        636                 1              343.00         4              275.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CompoundOfCollectiveMaterialEntities_subClassOf_MaterialEntity        91        636                 1              356.00         5              289.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CongenitalAbnormalStructure_subClassOf_IllFormedBiologicalStructure   92        636                 1              377.00         5              307.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CongenitalPathologicalCondition_subClassOf_PathologicalRegion         93        636                 1              474.00         6              398.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CongenitalPathologicalState_subClassOf_PathologicalState              94        636                 1              477.00         5              400.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Cytoplasm_subClassOf_CellularComponent                                95        636                 1              462.00         7              385.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DNAChain_subClassOf_BioMolecularSequenceStructure                     96        636                 1              411.00         8              338.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DNAChain_subClassOf_ChainOfNucleotideMonomers                         97        636                 1              408.00         8              336.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DevelopmentalQuality_subClassOf_Quality                               98        636                 1              255.00         5              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DevelopmentalRegion_subClassOf_QualityRegion                          99        636                 1              253.00         4              197.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DigitalEntity_subClassOf_InformationEntity                            100       636                 1              255.00         5              199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Disrupting_subClassOf_Affecting                                       101       636                 1              349.00         6              281.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DrugRole_subClassOf_TherapeuticRole                                   102       636                 1              255.00         4              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Dysfunction_subClassOf_Function                                       103       636                 1              350.00         6              282.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+EducatorRole_subClassOf_OccupationalRole                              104       636                 1              254.00         4              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Eicosanoid_subClassOf_LipidMoleculeOrResidue                          105       636                 1              371.00         6              300.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Electron_subClassOf_SubatomicParticleByCharge                         106       636                 1              345.00         4              275.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+EmbryonicOrganism_subClassOf_EmbryonicStructure                       107       636                 2              825.00         45             743.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+EmbryonicOrganism_subClassOf_OrganismByDevelopmentalStagePartition    108       636                 1              385.00         6              317.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+EmbryonicRegion_subClassOf_DevelopmentalRegion                        109       636                 1              256.00         5              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+EmbryonicStructure_subClassOf_StructuredBiologicalEntity              110       636                 1              386.00         7              315.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+EntireCarbohydrateMonomer_subClassOf_CarbohydrateMonomer              111       636                 1              376.00         6              305.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+EntireCarbohydrateMonomer_subClassOf_EntireMolecularEntity            112       636                 2              1118.00        93             1033.00             54             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+EntireMolecularEntity_subClassOf_MolecularEntityByEntiretyPartition   113       636                 1              363.00         6              296.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+EntireNucleicAcidMolecule_subClassOf_EntireMolecularEntity            114       636                 1              916.00         52             837.00              44             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+EntireNucleicAcidMolecule_subClassOf_NucleicAcidStructure             115       636                 1              390.00         9              321.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+EntireProteinMolecule_subClassOf_EntireMolecularEntity                116       636                 1              1022.00        49             940.00              44             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+EntireProteinMolecule_subClassOf_PeptideStructure                     117       636                 1              407.00         8              333.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+EnzymeRole_subClassOf_CatalyticRole                                   118       636                 1              404.00         7              331.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+EpithelialCell_subClassOf_CellByTypePartition                         119       636                 1              437.00         4              362.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+EscherichiaColiCell_subClassOf_BacterialCell                          120       636                 1              478.00         9              401.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+EscherichiaColiPopulation_subClassOf_BacteriaPopulation               121       636                 1              659.00         18             581.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Eukaryote_subClassOf_OrganismByTaxonPartition                         122       636                 1              371.00         4              300.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+EukaryotePopulation_subClassOf_Population                             123       636                 1              391.00         4              319.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ExaminationResultRole_subClassOf_FindingRole                          124       636                 1              255.00         5              199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FamilyDrosophilidaeRegion_subClassOf_OrderDipteraRegion               125       636                 1              257.00         5              197.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FamilyEnterobacteriaceaeaRegion_subClassOf_OrderEnterobacterialesRegion126       636                 1              255.00         4              197.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FamilyHominidaeRegion_subClassOf_OrderPrimatesRegion                  127       636                 1              255.00         4              197.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FamilyOfIndividualOrganisms_subClassOf_PluralityOfOrganisms           128       636                 1              394.00         7              324.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FamilyRole_subClassOf_Role                                            129       636                 1              256.00         5              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FamilySaccharomycetaceaeRegion_subClassOf_OrderSaccharomycetalesRegion130       636                 1              258.00         4              198.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FattyAcidMoleculeOrResidue_subClassOf_OrganicMolecularEntityPartition 131       636                 1              368.00         6              298.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FindingRole_subClassOf_HealthRelatedRole                              132       636                 1              253.00         4              197.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Fish_subClassOf_AnimalExcludingHuman                                  133       636                 1              895.00         45             816.00              44             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Fish_subClassOf_Vertebrate                                            134       636                 1              397.00         5              326.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FoodRole_subClassOf_HealthRelatedRole                                 135       636                 1              251.00         4              195.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FruitFly_subClassOf_Insect                                            136       636                 1              393.00         5              321.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FruitFlyPopulation_subClassOf_InsectPopulation                        137       636                 1              563.00         15             489.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Function_subClassOf_Disposition                                       138       636                 1              255.00         5              199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Fungus_subClassOf_Eukaryote                                           139       636                 1              380.00         6              311.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FungusPopulation_subClassOf_EukaryotePopulation                       140       636                 1              536.00         15             459.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Gene_subClassOf_NucleicAcidRegion                                     141       636                 1              411.00         6              337.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GeneInformation_subClassOf_NucleotideSequenceInformation              142       636                 1              401.00         6              326.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GeneRegion_subClassOf_NucleicAcidRegion                               143       636                 1              425.00         6              351.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Genome_subClassOf_CellularComponent                                   144       636                 1              453.00         9              376.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GenomeInformation_subClassOf_NucleotideSequenceInformation            145       636                 1              405.00         6              332.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GenusCandidaRegion_subClassOf_FamilySaccharomycetaceaeRegion          146       636                 1              261.00         5              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GenusDrosophilaRegion_subClassOf_SubfamilyDrosophilinaeRegion         147       636                 1              257.00         5              198.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GenusEscherichiaRegion_subClassOf_FamilyEnterobacteriaceaeaRegion     148       636                 1              258.00         4              199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GenusHomoRegion_subClassOf_FamilyHominidaeRegion                      149       636                 1              258.00         5              202.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GenusSaccharomycesRegion_subClassOf_FamilySaccharomycetaceaeRegion    150       636                 1              259.00         4              198.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GeographicEntity_subClassOf_TwoDimensionalPhysicalEntity              151       636                 1              257.00         5              199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Government_subClassOf_LegalEntity                                     152       636                 1              254.00         4              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GreatApe_subClassOf_Mammal                                            153       636                 1              399.00         9              327.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GreatApePopulation_subClassOf_MammalPopulation                        154       636                 1              556.00         17             480.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GroupInteraction_subClassOf_Interacting                               155       636                 2              480.00         15             402.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GrowingProcess_subClassOf_TissueProcess                               156       636                 1              473.00         6              396.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+HealthProfessionalRole_subClassOf_OccupationalRole                    157       636                 1              253.00         4              197.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+HealthRelatedRole_subClassOf_Role                                     158       636                 1              255.00         5              201.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+HeterocyclicBaseMoleculeOrResidue_subClassOf_OrganicMolecularEntityPartition159       636                 1              373.00         6              302.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+HormoneRole_subClassOf_SignallingRole                                 160       636                 1              358.00         5              288.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Human_subClassOf_Primate                                              161       636                 1              397.00         8              326.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+HumanAction_subClassOf_OrganismAction                                 162       636                 2              1502.00        77             1415.00             75             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+HumanEpithelialCell_subClassOf_EpithelialCell                         163       636                 1              450.00         7              374.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+HumanLanguage_subClassOf_LanguagePartition                            164       636                 1              255.00         5              199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+HumanPopulation_subClassOf_PrimatePopulation                          165       636                 1              551.00         15             477.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+IllFormedBiologicalStructure_subClassOf_StructuredBiologicalCompoundByCanonicity166       636                 1              382.00         6              312.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ImmaterialPhysicalEntityPartition_subClassOf_ImmaterialPhysicalEntity 167       636                 1              251.00         4              197.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ImmaterialThreeDimensionalPhysicalEntity_subClassOf_ImmaterialPhysicalEntityPartition168       636                 1              345.00         6              280.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ImmunologicRole_subClassOf_BiologicalSystemRole                       169       636                 1              253.00         5              197.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Indicating_subClassOf_Affecting                                       170       636                 1              350.00         7              282.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+IndicatorRole_subClassOf_ChemicalRole                                 171       636                 1              254.00         5              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+IndividualBehavior_subClassOf_Behavior                                172       636                 1              394.00         4              323.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+IndividualBehavior_subClassOf_OrganismAction                          173       636                 1              459.00         9              389.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+InformationEntity_subClassOf_ImmaterialNonphysicalEntity              174       636                 1              255.00         5              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+InorganicMolecularEntity_subClassOf_MolecularEntityByOrganicInorganicPartition175       636                 1              355.00         6              286.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Insect_subClassOf_Arthropod                                           176       636                 1              394.00         6              322.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+InsectPopulation_subClassOf_ArthropodPopulation                       177       636                 1              551.00         14             477.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+IntellectualProduct_subClassOf_ImmaterialNonphysicalEntity            178       636                 1              444.00         5              366.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Interacting_subClassOf_Affecting                                      179       636                 1              411.00         6              340.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+IntraCellularProcess_subClassOf_BiologicalProcessualEntity            180       636                 1              477.00         7              400.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Invertebrate_subClassOf_AnimalExcludingHuman                          181       636                 1              884.00         46             806.00              44             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+JuvenileOrganism_subClassOf_OrganismByDevelopmentalStagePartition     182       636                 1              386.00         7              317.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+JuvenileRegion_subClassOf_DevelopmentalRegion                         183       636                 1              257.00         5              201.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+KingdomAnimaliaRegion_subClassOf_TaxonRegion                          184       636                 1              256.00         5              201.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+KingdomArchaeaRegion_subClassOf_TaxonRegion                           185       636                 1              252.00         5              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+KingdomBacteriaRegion_subClassOf_TaxonRegion                          186       636                 1              254.00         4              198.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+KingdomChromistaRegion_subClassOf_TaxonRegion                         187       636                 1              253.00         5              197.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+KingdomFungiRegion_subClassOf_TaxonRegion                             188       636                 1              257.00         5              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+KingdomPlantaeRegion_subClassOf_TaxonRegion                           189       636                 1              253.00         5              197.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+KingdomProtozoaRegion_subClassOf_TaxonRegion                          190       636                 1              251.00         4              194.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+KingdomVirusesRegion_subClassOf_TaxonRegion                           191       636                 1              252.00         4              196.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Language_subClassOf_ImmaterialNonphysicalEntity                       192       636                 1              254.00         5              198.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+LanguagePartition_subClassOf_Language                                 193       636                 1              254.00         4              198.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+LegalEntity_subClassOf_ImmaterialNonphysicalEntity                    194       636                 1              254.00         5              198.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+LipidMoleculeOrResidue_subClassOf_OrganicMolecularEntityPartition     195       636                 1              370.00         5              301.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MachineAction_subClassOf_Action                                       196       636                 1              388.00         6              322.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MachineLanguage_subClassOf_LanguagePartition                          197       636                 1              255.00         5              199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Mammal_subClassOf_Vertebrate                                          198       636                 1              391.00         6              321.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MammalPopulation_subClassOf_VertebratePopulation                      199       636                 1              555.00         16             478.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ManagingCare_subClassOf_Affecting                                     200       636                 1              422.00         5              341.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MaterialEntityBySizePartition_subClassOf_MaterialEntity               201       636                 1              367.00         7              301.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Measure_subClassOf_ImmaterialNonphysicalEntity                        202       636                 1              254.00         4              197.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MeasuringAction_subClassOf_Action                                     203       636                 1              350.00         6              286.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Mind_subClassOf_ImmaterialNonphysicalEntity                           204       636                 1              254.00         5              199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ModifiedCell_subClassOf_CellByLocusPartition                          205       636                 1              490.00         5              414.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MolecularEntityByEntiretyPartition_subClassOf_MonoMolecularEntity     206       636                 1              369.00         9              301.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MolecularEntityByGranularityPartition_subClassOf_MonoMolecularEntity  207       636                 1              368.00         9              299.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MolecularEntityByOrganicInorganicPartition_subClassOf_MonoMolecularEntity208       636                 1              366.00         8              298.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MolecularFunction_subClassOf_Function                                 209       636                 1              351.00         4              284.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MolecularResidue_subClassOf_MolecularEntityByEntiretyPartition        210       636                 1              365.00         6              296.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MoleculeComplex_subClassOf_PolyMolecularCompositeEntity               211       636                 1              370.00         7              303.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MonoMolecularEntity_subClassOf_MaterialEntityBySizePartition          212       636                 1              358.00         5              290.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Monomer_subClassOf_MolecularEntityByGranularityPartition              213       636                 1              351.00         4              284.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MulticellularOrganism_subClassOf_Body                                 214       636                 1              531.00         9              456.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MulticellularOrganism_subClassOf_Organism                             215       636                 1              451.00         6              374.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NeoplasticProcess_subClassOf_GrowingProcess                           216       636                 1              482.00         6              403.00              23             
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NeuroreactiveRole_subClassOf_SignallingRole                           218       636                 1              358.00         6              290.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Neutron_subClassOf_SubatomicParticleByCharge                          219       636                 1              349.00         7              281.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NonSteroidLipid_subClassOf_LipidMoleculeOrResidue                     220       636                 1              365.00         5              294.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NoncanonicalProcessualEntity_subClassOf_ProcessualEntity              221       636                 1              356.00         5              288.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NoncanonicalRegion_subClassOf_CanonicityRegion                        222       636                 1              251.00         4              196.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NoncanonicalState_subClassOf_State                                    223       636                 1              388.00         9              325.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NucleicAcidNucleotideOrNucleosideMoleculeOrResidue_subClassOf_OrganicMolecularEntityPartition224       636                 1              360.00         6              292.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NucleicAcidRegion_subClassOf_NucleicAcidStructure                     225       636                 1              381.00         9              312.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NucleicAcidStructure_subClassOf_NucleicAcidNucleotideOrNucleosideMoleculeOrResidue226       636                 1              387.00         8              313.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NucleosideMolecule_subClassOf_NucleicAcidNucleotideOrNucleosideMoleculeOrResidue227       636                 1              374.00         6              304.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NucleotideMolecule_subClassOf_NucleicAcidNucleotideOrNucleosideMoleculeOrResidue228       636                 1              372.00         6              302.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NucleotideSequenceInformation_subClassOf_BioMolecularSequenceInformation229       636                 2              458.00         12             380.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NurseRole_subClassOf_HealthProfessionalRole                           230       636                 1              254.00         4              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OccupationalRole_subClassOf_Role                                      231       636                 1              256.00         5              201.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OligoOrPolymer_subClassOf_MolecularEntityByGranularityPartition       232       636                 1              368.00         8              300.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OneDimensionalBoundary_subClassOf_PhysicalBoundaryPartition           233       636                 1              350.00         6              286.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OneDimensionalPhysicalEntity_subClassOf_ImmaterialPhysicalEntityPartition234       636                 1              254.00         4              198.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OrderDipteraRegion_subClassOf_ClassInsectaRegion                      235       636                 1              257.00         5              199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OrderEnterobacterialesRegion_subClassOf_ClassGammaProteobacteriaRegion236       636                 1              256.00         4              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OrderPrimatesRegion_subClassOf_ClassMammaliaRegion                    237       636                 1              254.00         4              198.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OrderSaccharomycetalesRegion_subClassOf_ClassSaccharomycetesRegion    238       636                 1              258.00         5              196.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Organ_subClassOf_OrganismPart                                         239       636                 1              463.00         5              386.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OrganPart_subClassOf_OrganismPart                                     240       636                 1              466.00         8              388.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OrganSystem_subClassOf_BodySystem                                     241       636                 1              466.00         7              388.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OrganSystemPart_subClassOf_BodySystem                                 242       636                 1              466.00         6              386.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OrganicMolecularEntity_subClassOf_MolecularEntityByOrganicInorganicPartition243       636                 1              359.00         7              291.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OrganicMolecularEntityPartition_subClassOf_OrganicMolecularEntity     244       636                 1              359.00         4              289.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Organism_subClassOf_StructuredBiologicalEntity                        245       636                 2              477.00         20             401.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OrganismAction_subClassOf_BiologicalAction                            246       636                 3              902.00         49             816.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OrganismByDevelopmentalStagePartition_subClassOf_Body                 247       636                 1              413.00         8              345.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OrganismByDevelopmentalStagePartition_subClassOf_Organism             248       636                 1              371.00         5              299.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OrganismByTaxonPartition_subClassOf_Body                              249       636                 1              415.00         8              345.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OrganismByTaxonPartition_subClassOf_Organism                          250       636                 1              370.00         6              301.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OrganismInteraction_subClassOf_Interacting                            251       636                 2              476.00         12             400.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OrganismInteraction_subClassOf_OrganismAction                         252       636                 0              320.00         1              275.00              13             
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Organization_subClassOf_LegalEntity                                   254       636                 1              255.00         5              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ParentRole_subClassOf_FamilyRole                                      255       636                 1              253.00         4              198.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PathologicalRegion_subClassOf_NoncanonicalRegion                      256       636                 1              476.00         4              398.00              23             
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PeptideFunction_subClassOf_MolecularFunction                          258       636                 1              395.00         4              324.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PeptideStructure_subClassOf_AminoAcidOrPeptideMoleculeOrStructure     259       636                 1              409.00         5              335.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Phosphate_subClassOf_InorganicMolecularEntity                         260       636                 1              361.00         6              292.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PhylumArthropodaRegion_subClassOf_KingdomAnimaliaRegion               261       636                 1              254.00         4              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PhylumAscomycotaRegion_subClassOf_KingdomFungiRegion                  262       636                 1              258.00         5              199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PhylumChordataRegion_subClassOf_KingdomAnimaliaRegion                 263       636                 1              253.00         5              198.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PhylumProteobacteriaRegion_subClassOf_KingdomBacteriaRegion           264       636                 1              255.00         5              201.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PhysicalBoundary_subClassOf_ImmaterialPhysicalEntity                  265       636                 1              381.00         8              318.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PhysicalBoundaryPartition_subClassOf_PhysicalBoundary                 266       636                 1              343.00         6              279.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PhysicalForce_subClassOf_Quality                                      267       636                 1              253.00         5              199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PhysicalLength_subClassOf_Quality                                     268       636                 1              254.00         4              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PhysicalMass_subClassOf_Quality                                       269       636                 1              395.00         8              331.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PhysicalState_subClassOf_Quality                                      270       636                 1              386.00         7              317.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PhysicalVolume_subClassOf_Quality                                     271       636                 1              256.00         5              201.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PhysicianRole_subClassOf_HealthProfessionalRole                       272       636                 1              253.00         4              199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Plan_subClassOf_InformationEntity                                     273       636                 1              251.00         4              194.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Plant_subClassOf_Eukaryote                                            274       636                 1              376.00         5              307.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PlantCell_subClassOf_CellByTaxonPartition                             275       636                 1              478.00         7              402.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PlantPopulation_subClassOf_EukaryotePopulation                        276       636                 1              531.00         16             460.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PluralityOfOrganisms_subClassOf_CollectiveMaterialEntity              277       636                 1              398.00         7              326.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PoisonRole_subClassOf_HealthRelatedRole                               278       636                 1              255.00         5              201.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PolyMolecularCompositeEntity_subClassOf_MaterialEntityBySizePartition 279       636                 1              366.00         6              298.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Population_subClassOf_PluralityOfOrganisms                            280       636                 1              393.00         7              322.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PortionOfHeterogenousLiquid_subClassOf_CompoundOfCollectiveMaterialEntities281       636                 1              352.00         6              283.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PortionOfHeterogenousSolid_subClassOf_CompoundOfCollectiveMaterialEntities282       636                 1              352.00         6              284.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PortionOfHomogenousMatter_subClassOf_CollectiveMaterialEntity         283       636                 1              384.00         8              315.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PreventionAction_subClassOf_Action                                    284       636                 1              353.00         6              288.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PreventiveRole_subClassOf_HealthRelatedRole                           285       636                 1              255.00         5              201.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Primate_subClassOf_GreatApe                                           286       636                 1              392.00         5              321.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PrimatePopulation_subClassOf_GreatApePopulation                       287       636                 1              555.00         16             483.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Producing_subClassOf_Affecting                                        288       636                 1              340.00         4              275.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Prokaryote_subClassOf_OrganismByTaxonPartition                        289       636                 1              376.00         7              302.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProteinComplex_subClassOf_MoleculeComplex                             290       636                 1              418.00         9              347.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProteinDomain_subClassOf_PeptideStructure                             291       636                 1              418.00         8              344.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProteinSubstructure_subClassOf_PeptideStructure                       292       636                 1              419.00         8              346.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProteinSubunit_subClassOf_EntireProteinMolecule                       293       636                 1              404.00         5              328.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Protist_subClassOf_Eukaryote                                          294       636                 1              376.00         7              302.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProtistPopulation_subClassOf_EukaryotePopulation                      295       636                 1              511.00         13             436.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Proton_subClassOf_SubatomicParticleByCharge                           296       636                 1              350.00         7              280.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RNAChain_subClassOf_BioMolecularSequenceStructure                     297       636                 1              410.00         6              337.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RNAChain_subClassOf_ChainOfNucleotideMonomers                         298       636                 1              409.00         6              335.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ReagentRole_subClassOf_ChemicalRole                                   299       636                 1              255.00         5              199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ReceptorRole_subClassOf_SignallingRole                                300       636                 1              356.00         5              288.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RegulationOrLaw_subClassOf_IntellectualProduct                        301       636                 1              420.00         6              343.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RegulatoryBody_subClassOf_Organization                                302       636                 1              256.00         4              196.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Reptile_subClassOf_AnimalExcludingHuman                               303       636                 1              885.00         45             810.00              44             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Reptile_subClassOf_Vertebrate                                         304       636                 1              392.00         5              322.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ResearcherRole_subClassOf_OccupationalRole                            305       636                 1              253.00         5              198.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RickettsiaCell_subClassOf_Prokaryote                                  306       636                 1              375.00         7              304.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SiblingRole_subClassOf_FamilyRole                                     307       636                 1              253.00         4              197.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SignOrSymptomRole_subClassOf_FindingRole                              308       636                 1              254.00         4              198.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SignallingRole_subClassOf_BiologicalSystemRole                        309       636                 1              361.00         6              295.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SocialAction_subClassOf_Action                                        310       636                 1              422.00         5              349.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SocialBehavior_subClassOf_Behavior                                    311       636                 1              409.00         7              336.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SocialBehavior_subClassOf_OrganismAction                              312       636                 1              635.00         27             559.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SpatialReferenceRole_subClassOf_Role                                  313       636                 1              253.00         4              199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SpeciesCandidaAlbicansRegion_subClassOf_GenusCandidaRegion            314       636                 1              263.00         5              201.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SpeciesDrosophilaMelanogasterRegion_subClassOf_GenusDrosophilaRegion  315       636                 1              261.00         5              199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SpeciesEscherichiaColiRegion_subClassOf_GenusEscherichiaRegion        316       636                 1              260.00         5              201.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SpeciesHomoSapiensRegion_subClassOf_GenusHomoRegion                   317       636                 1              257.00         4              198.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SpeciesSaccharomycesCerevisiaeRegion_subClassOf_GenusSaccharomycesRegion318       636                 1              259.00         4              197.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Steroid_subClassOf_LipidMoleculeOrResidue                             319       636                 1              370.00         6              299.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+StructuredBiologicalCompoundByCanonicity_subClassOf_StructuredBiologicalEntity320       636                 1              369.00         7              301.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+StructuredBiologicalCompoundByGranularityPartition_subClassOf_StructuredBiologicalEntity321       636                 1              368.00         6              298.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+StructuredBiologicalEntity_subClassOf_PolyMolecularCompositeEntity    322       636                 1              370.00         6              303.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+StructuredNonbiologicalCompound_subClassOf_PolyMolecularCompositeEntity323       636                 1              365.00         9              297.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SubatomicParticle_subClassOf_MaterialEntityBySizePartition            324       636                 1              342.00         4              274.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SubatomicParticleByCharge_subClassOf_SubatomicParticle                325       636                 1              350.00         6              280.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SubfamilyDrosophilinaeRegion_subClassOf_FamilyDrosophilidaeRegion     326       636                 1              255.00         4              195.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SubjectOfCareRole_subClassOf_HealthRelatedRole                        327       636                 1              255.00         5              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SubmolecularGroup_subClassOf_MolecularEntityByGranularityPartition    328       636                 1              369.00         7              300.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SubphylumSaccharomycotinaRegion_subClassOf_PhylumAscomycotaRegion     329       636                 1              257.00         4              201.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SubphylumVertebrataRegion_subClassOf_PhylumChordataRegion             330       636                 1              251.00         4              195.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SubstanceInteraction_subClassOf_Interacting                           331       636                 2              486.00         16             408.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Syncytium_subClassOf_StructuredBiologicalCompoundByGranularityPartition332       636                 1              468.00         6              393.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TaxonQuality_subClassOf_Quality                                       333       636                 1              255.00         5              201.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TaxonRegion_subClassOf_QualityRegion                                  334       636                 1              256.00         5              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TherapeuticRole_subClassOf_HealthRelatedRole                          335       636                 1              256.00         5              200.00              13             
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TissueProcess_subClassOf_BiologicalProcessualEntity                   337       636                 1              469.00         4              391.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Treating_subClassOf_Affecting                                         338       636                 2              606.00         20             522.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TreatingCondition_subClassOf_Treating                                 339       636                 1              450.00         8              375.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TreatingOrganism_subClassOf_Treating                                  340       636                 1              443.00         6              366.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TwoDimensionalBiologicalEntity_subClassOf_TwoDimensionalPhysicalEntity341       636                 1              374.00         6              308.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TwoDimensionalBoundary_subClassOf_PhysicalBoundaryPartition           342       636                 1              348.00         6              285.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TwoDimensionalPhysicalEntity_subClassOf_ImmaterialPhysicalEntityPartition343       636                 1              254.00         4              200.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+UnicellularOrganism_subClassOf_Body                                   344       636                 1              535.00         8              460.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+UnicellularOrganism_subClassOf_Cell                                   345       636                 1              535.00         10             458.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+UnicellularOrganism_subClassOf_Organism                               346       636                 1              452.00         7              374.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+UsingAction_subClassOf_Action                                         347       636                 1              349.00         6              283.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Vertebrate_subClassOf_AnimalIncludingHuman                            348       636                 1              404.00         9              331.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+VertebratePopulation_subClassOf_AnimalPopulation                      349       636                 1              563.00         17             486.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Virus_subClassOf_OrganismByTaxonPartition                             350       636                 1              375.00         7              303.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+VirusPopulation_subClassOf_Population                                 351       636                 1              390.00         4              320.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+VitaminRole_subClassOf_BiologicalSystemRole                           352       636                 1              253.00         5              198.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+WaterMolecule_subClassOf_InorganicMolecularEntity                     353       636                 1              361.00         6              292.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+WellFormedBiologicalStructure_subClassOf_StructuredBiologicalCompoundByCanonicity354       636                 1              377.00         6              308.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+YeastCell_subClassOf_Fungus                                           355       636                 1              506.00         8              432.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+YeastCell_subClassOf_StructuredBiologicalCompoundByGranularityPartition356       636                 1              1118.00        30             1035.00             34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+YeastPopulation_subClassOf_FungusPopulation                           357       636                 1              697.00         16             618.00              23             

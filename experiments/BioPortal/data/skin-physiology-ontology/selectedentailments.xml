@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#AreolarConnectiveTissue"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#Collective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#CellCycle"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#CellularProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#CellDivision"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#StageOfCellcycle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#CeruminousGland"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#MerocrineGland"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#EndothelialCell"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#EpithelialCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Endothelium"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Epithelium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Endothelium"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#Collective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Epidermis"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#Collective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Epidermis"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#PhysicalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#FreeNerveEnding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Noiceptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#FreeNerveEnding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Thermoreceptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Gland"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#AnatomicalStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#HairFollicleReceptor"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Mechanoreceptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Hypodermis"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#AmountOfMatter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Keratinocyte"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Cell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#LangerhansCell"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Leukocyte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#MammaryGland"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#MerocrineGland"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#MastCell"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#MerocrineGland"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Mechanoreceptor"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#SensoryReceptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#MerkelDisc"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Mechanoreceptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Noiceptor"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#SensoryReceptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#PacinianCorpuscle"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Mechanoreceptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#PortionOfBlood"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#PortionOfBodySubstance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#RuffiniEnding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Mechanoreceptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#SebaceousGland"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#HolocrineGland"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Sebum"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#Collective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Sudoriferous_gland"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#MerocrineGland"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Thermoreceptor"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#SensoryReceptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Transcytosis"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#CellularProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#AcinarCellOfSebaceousGland"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#HolocrineGland"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#Collective"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#AmountOfMatter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#CollectiveOfErythrocytes"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#Collective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#EpithelialCell"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Cell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#HolocrineGland"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Gland"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#MeissnerCorpuscle"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Mechanoreceptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#MerocrineGland"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#Gland"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#PortionOfGroundSubstance"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#PortionOfBodySubstance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#SecretionByExocytosis"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#SecretionProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#SecretionByLysis"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/MultiscaleSkinPhysiologyOntology.owl#SecretionProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#SensoryReceptor"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#CardinalOrganPart"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,2 @@
+Peptide_11 type Peptide
+Protein_17 type Protein

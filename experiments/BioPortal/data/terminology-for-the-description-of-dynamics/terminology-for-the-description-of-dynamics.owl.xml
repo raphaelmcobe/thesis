@@ -1,0 +1,2492 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://biomodels.net/teddy/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://biomodels.net/teddy/">
+    <Prefix name="ont" IRI="http://owl.cs.manchester.ac.uk/ontology#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000094"/>
+        <Class IRI="TEDDY_0000103"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000096"/>
+        <Class IRI="TEDDY_0000102"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000097"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000103"/>
+            <Class IRI="TEDDY_0000133"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000104"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000086"/>
+            <Class IRI="TEDDY_0000134"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000105"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000133"/>
+            <ObjectComplementOf>
+                <Class IRI="TEDDY_0000103"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000106"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000050"/>
+            <Class IRI="TEDDY_0000105"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000113"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000086"/>
+            <Class IRI="TEDDY_0000103"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000114"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000051"/>
+            <Class IRI="TEDDY_0000097"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000115"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000086"/>
+            <Class IRI="TEDDY_0000105"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000126"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000091"/>
+            <Class IRI="TEDDY_0000097"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000127"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000091"/>
+            <Class IRI="TEDDY_0000096"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000128"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000051"/>
+            <Class IRI="TEDDY_0000096"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000129"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000086"/>
+            <Class IRI="TEDDY_0000096"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000137"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000087"/>
+            <Class IRI="TEDDY_0000097"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000138"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000087"/>
+            <Class IRI="TEDDY_0000096"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000139"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000090"/>
+            <Class IRI="TEDDY_0000097"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000140"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000090"/>
+            <Class IRI="TEDDY_0000096"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000141"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000093"/>
+            <Class IRI="TEDDY_0000097"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000142"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000093"/>
+            <Class IRI="TEDDY_0000096"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000145"/>
+        <ObjectIntersectionOf>
+            <Class IRI="TEDDY_0000051"/>
+            <Class IRI="TEDDY_0000134"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000146"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0013"/>
+            <Class IRI="TEDDY_0000085"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000000"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000001"/>
+        <Class IRI="TEDDY_obsolete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000002"/>
+        <Class IRI="TEDDY_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000003"/>
+        <Class IRI="TEDDY_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000004"/>
+        <Class IRI="TEDDY_0000144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000005"/>
+        <Class IRI="TEDDY_0000144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000006"/>
+        <Class IRI="TEDDY_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000007"/>
+        <Class IRI="TEDDY_0000004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000008"/>
+        <Class IRI="TEDDY_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000009"/>
+        <Class IRI="TEDDY_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000010"/>
+        <Class IRI="TEDDY_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000011"/>
+        <Class IRI="TEDDY_obsolete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000012"/>
+        <Class IRI="TEDDY_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000013"/>
+        <Class IRI="TEDDY_0000018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000014"/>
+        <Class IRI="TEDDY_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000015"/>
+        <Class IRI="TEDDY_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000016"/>
+        <Class IRI="TEDDY_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000017"/>
+        <Class IRI="TEDDY_0000018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000018"/>
+        <Class IRI="TEDDY_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000019"/>
+        <Class IRI="TEDDY_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000019"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="TR_0004"/>
+            <Class IRI="TEDDY_0000013"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000020"/>
+        <Class IRI="TEDDY_0000009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000020"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="TR_0004"/>
+            <Class IRI="TEDDY_0000013"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000021"/>
+        <Class IRI="TEDDY_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000022"/>
+        <Class IRI="TEDDY_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000023"/>
+        <Class IRI="TEDDY_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000024"/>
+        <Class IRI="TEDDY_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000025"/>
+        <Class IRI="TEDDY_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000026"/>
+        <Class IRI="TEDDY_0000025"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000027"/>
+        <Class IRI="TEDDY_0000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000028"/>
+        <Class IRI="TEDDY_0000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000029"/>
+        <Class IRI="TEDDY_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000030"/>
+        <Class IRI="TEDDY_0000025"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000031"/>
+        <Class IRI="TEDDY_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000032"/>
+        <Class IRI="TEDDY_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000032"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0005"/>
+            <Class IRI="TEDDY_0000016"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000032"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0005"/>
+            <Class IRI="TEDDY_0000021"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000033"/>
+        <Class IRI="TEDDY_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000034"/>
+        <Class IRI="TEDDY_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000035"/>
+        <Class IRI="TEDDY_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000036"/>
+        <Class IRI="TEDDY_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000037"/>
+        <Class IRI="TEDDY_0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000038"/>
+        <Class IRI="TEDDY_0000037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000039"/>
+        <Class IRI="TEDDY_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000040"/>
+        <Class IRI="TEDDY_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000041"/>
+        <Class IRI="TEDDY_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000042"/>
+        <Class IRI="TEDDY_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000043"/>
+        <Class IRI="TEDDY_0000037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000044"/>
+        <Class IRI="TEDDY_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000045"/>
+        <Class IRI="TEDDY_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000046"/>
+        <Class IRI="TEDDY_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000047"/>
+        <Class IRI="TEDDY_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000048"/>
+        <Class IRI="TEDDY_obsolete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000049"/>
+        <Class IRI="TEDDY_obsolete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000050"/>
+        <Class IRI="TEDDY_0000083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000051"/>
+        <Class IRI="TEDDY_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000051"/>
+        <Class IRI="TEDDY_0000085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000051"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="TR_0012"/>
+                <Class IRI="TEDDY_0000050"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000052"/>
+        <Class IRI="TEDDY_obsolete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000053"/>
+        <Class IRI="TEDDY_0000132"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000053"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="TR_0006"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000053"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="TR_0008"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000054"/>
+        <Class IRI="TEDDY_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000054"/>
+        <Class IRI="TEDDY_0000103"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000054"/>
+        <Class IRI="TEDDY_0000143"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000055"/>
+        <Class IRI="TEDDY_0000132"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000056"/>
+        <Class IRI="TEDDY_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000057"/>
+        <Class IRI="TEDDY_obsolete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000058"/>
+        <Class IRI="TEDDY_0000009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000059"/>
+        <Class IRI="TEDDY_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000060"/>
+        <Class IRI="TEDDY_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000061"/>
+        <Class IRI="TEDDY_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000062"/>
+        <Class IRI="TEDDY_obsolete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000063"/>
+        <Class IRI="TEDDY_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000064"/>
+        <Class IRI="TEDDY_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000065"/>
+        <Class IRI="TEDDY_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000066"/>
+        <Class IRI="TEDDY_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000067"/>
+        <Class IRI="TEDDY_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000068"/>
+        <Class IRI="TEDDY_obsolete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000069"/>
+        <Class IRI="TEDDY_0000053"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000069"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0006"/>
+            <Class IRI="TEDDY_0000113"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000070"/>
+        <Class IRI="TEDDY_0000053"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000071"/>
+        <Class IRI="TEDDY_0000123"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000071"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0006"/>
+            <Class IRI="TEDDY_0000129"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000072"/>
+        <Class IRI="TEDDY_0000069"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000072"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0006"/>
+            <Class IRI="TEDDY_0000126"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000072"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0008"/>
+            <Class IRI="TEDDY_0000127"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000073"/>
+        <Class IRI="TEDDY_0000072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000073"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0006"/>
+            <Class IRI="TEDDY_0000128"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000074"/>
+        <Class IRI="TEDDY_0000072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000074"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0008"/>
+            <Class IRI="TEDDY_0000114"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000075"/>
+        <Class IRI="TEDDY_0000069"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000076"/>
+        <Class IRI="TEDDY_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000077"/>
+        <Class IRI="TEDDY_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000078"/>
+        <Class IRI="TEDDY_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000079"/>
+        <Class IRI="TEDDY_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000080"/>
+        <Class IRI="TEDDY_obsolete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000081"/>
+        <Class IRI="TEDDY_obsolete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000082"/>
+        <Class IRI="TEDDY_obsolete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000083"/>
+        <Class IRI="TEDDY_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000084"/>
+        <Class IRI="TEDDY_obsolete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000085"/>
+        <Class IRI="TEDDY_0000083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000086"/>
+        <Class IRI="TEDDY_0000083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000087"/>
+        <Class IRI="TEDDY_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000088"/>
+        <Class IRI="TEDDY_0000115"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000088"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0012"/>
+            <Class IRI="TEDDY_0000106"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000089"/>
+        <Class IRI="TEDDY_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000090"/>
+        <Class IRI="TEDDY_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000091"/>
+        <Class IRI="TEDDY_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000092"/>
+        <Class IRI="TEDDY_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000092"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0012"/>
+            <Class IRI="TEDDY_0000092"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000093"/>
+        <Class IRI="TEDDY_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000094"/>
+        <Class IRI="TEDDY_0000085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000095"/>
+        <Class IRI="TEDDY_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000095"/>
+        <Class IRI="TEDDY_0000133"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000096"/>
+        <Class IRI="TEDDY_0000085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000096"/>
+        <ObjectComplementOf>
+            <ObjectUnionOf>
+                <Class IRI="TEDDY_0000103"/>
+                <Class IRI="TEDDY_0000133"/>
+            </ObjectUnionOf>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000097"/>
+        <Class IRI="TEDDY_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000097"/>
+        <Class IRI="TEDDY_0000103"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000097"/>
+        <Class IRI="TEDDY_0000133"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000098"/>
+        <Class IRI="TEDDY_0000105"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000098"/>
+        <Class IRI="TEDDY_0000133"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000098"/>
+        <ObjectComplementOf>
+            <Class IRI="TEDDY_0000103"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000099"/>
+        <Class IRI="TEDDY_0000143"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000099"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="TR_0013"/>
+            <Class IRI="TEDDY_0000089"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000099"/>
+        <ObjectMaxCardinality cardinality="2">
+            <ObjectProperty IRI="TR_0013"/>
+            <Class IRI="TEDDY_0000099"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000100"/>
+        <Class IRI="TEDDY_0000099"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000100"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="TR_0013"/>
+            <Class IRI="TEDDY_0000089"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000101"/>
+        <Class IRI="TEDDY_0000099"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000101"/>
+        <ObjectExactCardinality cardinality="2">
+            <ObjectProperty IRI="TR_0013"/>
+            <Class IRI="TEDDY_0000089"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000102"/>
+        <Class IRI="TEDDY_0000085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000103"/>
+        <Class IRI="TEDDY_0000085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000104"/>
+        <Class IRI="TEDDY_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000104"/>
+        <Class IRI="TEDDY_0000134"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000105"/>
+        <Class IRI="TEDDY_0000133"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000106"/>
+        <Class IRI="TEDDY_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000106"/>
+        <Class IRI="TEDDY_0000105"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000106"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0012"/>
+            <Class IRI="TEDDY_0000106"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000107"/>
+        <Class IRI="TEDDY_obsolete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000108"/>
+        <Class IRI="TEDDY_0000132"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000109"/>
+        <Class IRI="TEDDY_0000108"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000109"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0005"/>
+            <Class IRI="TEDDY_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000110"/>
+        <Class IRI="TEDDY_0000108"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000110"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0005"/>
+            <Class IRI="TEDDY_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000110"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="TR_0005"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000111"/>
+        <Class IRI="TEDDY_0000108"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000111"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0005"/>
+            <Class IRI="TEDDY_0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000111"/>
+        <ObjectMinCardinality cardinality="3">
+            <ObjectProperty IRI="TR_0005"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000112"/>
+        <Class IRI="TEDDY_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000113"/>
+        <Class IRI="TEDDY_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000113"/>
+        <Class IRI="TEDDY_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000113"/>
+        <Class IRI="TEDDY_0000103"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000114"/>
+        <Class IRI="TEDDY_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000114"/>
+        <Class IRI="TEDDY_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000115"/>
+        <Class IRI="TEDDY_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000115"/>
+        <Class IRI="TEDDY_0000105"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000116"/>
+        <Class IRI="TEDDY_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000116"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="TR_0009"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000117"/>
+        <Class IRI="TEDDY_0000116"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000118"/>
+        <Class IRI="TEDDY_0000116"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000119"/>
+        <Class IRI="TEDDY_0000053"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000120"/>
+        <Class IRI="TEDDY_0000072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000120"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0010"/>
+            <Class IRI="TEDDY_0000088"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000121"/>
+        <Class IRI="TEDDY_0000123"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000121"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0006"/>
+            <Class IRI="TEDDY_0000128"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000121"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0008"/>
+            <Class IRI="TEDDY_0000113"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000121"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0008"/>
+            <Class IRI="TEDDY_0000129"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000122"/>
+        <Class IRI="TEDDY_0000123"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000123"/>
+        <Class IRI="TEDDY_0000069"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000124"/>
+        <Class IRI="TEDDY_0000122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000124"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0006"/>
+            <Class IRI="TEDDY_0000129"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000125"/>
+        <Class IRI="TEDDY_0000122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000125"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TR_0008"/>
+            <Class IRI="TEDDY_0000113"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000126"/>
+        <Class IRI="TEDDY_0000091"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000126"/>
+        <Class IRI="TEDDY_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000126"/>
+        <Class IRI="TEDDY_0000113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000127"/>
+        <Class IRI="TEDDY_0000091"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000127"/>
+        <Class IRI="TEDDY_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000128"/>
+        <Class IRI="TEDDY_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000128"/>
+        <Class IRI="TEDDY_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000128"/>
+        <Class IRI="TEDDY_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000129"/>
+        <Class IRI="TEDDY_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000129"/>
+        <Class IRI="TEDDY_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000129"/>
+        <Class IRI="TEDDY_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000130"/>
+        <Class IRI="TEDDY_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000131"/>
+        <Class IRI="TEDDY_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000132"/>
+        <Class IRI="TEDDY_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000133"/>
+        <Class IRI="TEDDY_0000083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000134"/>
+        <Class IRI="TEDDY_0000085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000135"/>
+        <Class IRI="TEDDY_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000135"/>
+        <ObjectComplementOf>
+            <Class IRI="TEDDY_0000136"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000136"/>
+        <Class IRI="TEDDY_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000136"/>
+        <ObjectComplementOf>
+            <Class IRI="TEDDY_0000135"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000137"/>
+        <Class IRI="TEDDY_0000087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000137"/>
+        <Class IRI="TEDDY_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000137"/>
+        <Class IRI="TEDDY_0000113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000138"/>
+        <Class IRI="TEDDY_0000087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000138"/>
+        <Class IRI="TEDDY_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000139"/>
+        <Class IRI="TEDDY_0000090"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000139"/>
+        <Class IRI="TEDDY_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000139"/>
+        <Class IRI="TEDDY_0000113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000140"/>
+        <Class IRI="TEDDY_0000090"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000140"/>
+        <Class IRI="TEDDY_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000141"/>
+        <Class IRI="TEDDY_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000141"/>
+        <Class IRI="TEDDY_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000141"/>
+        <Class IRI="TEDDY_0000113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000142"/>
+        <Class IRI="TEDDY_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000142"/>
+        <Class IRI="TEDDY_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000143"/>
+        <Class IRI="TEDDY_0000083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000144"/>
+        <Class IRI="TEDDY_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000145"/>
+        <Class IRI="TEDDY_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000145"/>
+        <Class IRI="TEDDY_0000134"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_0000146"/>
+        <Class IRI="TEDDY_0000083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="TEDDY_obsolete"/>
+        <Class IRI="TEDDY_0000000"/>
+    </SubClassOf>
+    <EquivalentObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0005"/>
+        <ObjectInverseOf>
+            <ObjectProperty IRI="TR_0007"/>
+        </ObjectInverseOf>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0007"/>
+        <ObjectInverseOf>
+            <ObjectProperty IRI="TR_0005"/>
+        </ObjectInverseOf>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0012"/>
+        <ObjectInverseOf>
+            <ObjectProperty IRI="TR_0012"/>
+        </ObjectInverseOf>
+    </EquivalentObjectProperties>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0004"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0005"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0006"/>
+        <ObjectProperty IRI="TR_0005"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0006"/>
+        <ObjectInverseOf>
+            <ObjectProperty IRI="TR_0007"/>
+        </ObjectInverseOf>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0007"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0008"/>
+        <ObjectProperty IRI="TR_0005"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0008"/>
+        <ObjectInverseOf>
+            <ObjectProperty IRI="TR_0007"/>
+        </ObjectInverseOf>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0010"/>
+        <ObjectProperty IRI="TR_0005"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0010"/>
+        <ObjectInverseOf>
+            <ObjectProperty IRI="TR_0007"/>
+        </ObjectInverseOf>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0012"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0013"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectInverseOf>
+            <ObjectProperty IRI="TR_0004"/>
+        </ObjectInverseOf>
+        <ObjectProperty IRI="TR_0004"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0005"/>
+        <ObjectProperty IRI="TR_0007"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectInverseOf>
+            <ObjectProperty IRI="TR_0005"/>
+        </ObjectInverseOf>
+        <ObjectProperty IRI="TR_0005"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectInverseOf>
+            <ObjectProperty IRI="TR_0006"/>
+        </ObjectInverseOf>
+        <ObjectProperty IRI="TR_0006"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectInverseOf>
+            <ObjectProperty IRI="TR_0007"/>
+        </ObjectInverseOf>
+        <ObjectProperty IRI="TR_0007"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0008"/>
+        <ObjectInverseOf>
+            <ObjectProperty IRI="TR_0008"/>
+        </ObjectInverseOf>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectInverseOf>
+            <ObjectProperty IRI="TR_0010"/>
+        </ObjectInverseOf>
+        <ObjectProperty IRI="TR_0010"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0012"/>
+        <ObjectProperty IRI="TR_0012"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectInverseOf>
+            <ObjectProperty IRI="TR_0012"/>
+        </ObjectInverseOf>
+        <ObjectProperty IRI="TR_0012"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectInverseOf>
+            <ObjectProperty IRI="TR_0013"/>
+        </ObjectInverseOf>
+        <ObjectProperty IRI="TR_0013"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0004"/>
+    </FunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0012"/>
+    </SymmetricObjectProperty>
+    <IrreflexiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0012"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0013"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0004"/>
+        <Class IRI="TEDDY_0000083"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0005"/>
+        <Class IRI="TEDDY_0000000"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0007"/>
+        <Class IRI="TEDDY_0000000"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0012"/>
+        <Class IRI="TEDDY_0000083"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0013"/>
+        <Class IRI="TEDDY_0000083"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0004"/>
+        <Class IRI="TEDDY_0000002"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0005"/>
+        <Class IRI="TEDDY_0000000"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0007"/>
+        <Class IRI="TEDDY_0000000"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0012"/>
+        <Class IRI="TEDDY_0000083"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="TR_0013"/>
+        <Class IRI="TEDDY_0000083"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="Definition"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="DisplayName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="Reference"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="Synonym"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="TR_0009"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="Definition"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="DisplayName"/>
+    </FunctionalDataProperty>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="Definition"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="DisplayName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="Reference"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="Synonym"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="TR_0009"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

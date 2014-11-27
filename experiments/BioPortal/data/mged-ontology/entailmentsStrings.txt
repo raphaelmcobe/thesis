@@ -1,0 +1,2 @@
+GrowthCondition subClassOf Age
+Image subClassOf PhysicalBioAssay

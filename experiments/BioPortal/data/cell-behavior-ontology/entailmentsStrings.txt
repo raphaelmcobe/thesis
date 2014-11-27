@@ -1,0 +1,7 @@
+Haptotaxis type Mechanism
+Chemotaxis type Mechanism
+Filopodia type Method
+Flagella type Method
+Focal_Adhesion type Method
+Lamellipodia type Method
+Random type Mechanism

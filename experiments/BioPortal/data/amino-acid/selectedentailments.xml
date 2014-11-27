@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#A"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AliphaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SideChainStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AliphaticAminoAcid"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AliphaticAminoAcid"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aromatic"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SideChainStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AromaticAminoAcid"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AromaticAminoAcid"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#C"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AliphaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#D"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#NegativeChargedAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#E"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#NegativeChargedAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#F"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AromaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#G"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AliphaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#H"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AromaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#H"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#PositiveChargedAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophilic"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#I"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#LargeAliphaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#K"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#LargeAliphaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#K"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#PositiveChargedAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#L"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#LargeAliphaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Large"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#LargeAliphaticAminoAcid"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AliphaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#M"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#LargeAliphaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#N"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AliphaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Negative"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Charge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#NegativeChargedAminoAcid"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AliphaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Charge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Non-Polar"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polarity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#P"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AliphaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polarity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Positive"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Charge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#PositiveChargedAminoAcid"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#PositiveChargedAminoAcid"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Q"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#LargeAliphaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#R"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#LargeAliphaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#R"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#PositiveChargedAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#S"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#TinyPolarAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Small"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#T"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#TinyPolarAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Tiny"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#TinyPolarAminoAcid"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AliphaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#V"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AliphaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#W"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AromaticAminoAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Y"/>
+        <Class IRI="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AromaticAminoAcid"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

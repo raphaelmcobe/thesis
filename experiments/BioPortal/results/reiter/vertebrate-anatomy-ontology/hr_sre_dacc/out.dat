@@ -1,0 +1,12 @@
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+VAO_0000000_subClassOf_VAO_0000128                                    1         305                 1              264.00         5              210.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+VAO_0000007_subClassOf_VAO_0000145                                    2         305                 1              498.00         38             437.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+VAO_0000014_subClassOf_VAO_0000146                                    3         305                 1              365.00         20             305.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+VAO_0000145_subClassOf_VAO_0000139                                    4         305                 1              281.00         7              225.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+VAO_0000146_subClassOf_VAO_0000000                                    5         305                 1              389.00         24             333.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+VAO_0000146_subClassOf_VAO_0000139                                    6         305                 1              282.00         7              225.00              23             

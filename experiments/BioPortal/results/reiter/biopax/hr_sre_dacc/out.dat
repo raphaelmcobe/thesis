@@ -1,0 +1,8 @@
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Catalysis_subClassOf_Control                                          1         381                 2              300.00         13             240.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Degradation_subClassOf_Conversion                                     2         381                 2              302.00         16             243.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GeneticInteraction_subClassOf_Interaction                             3         381                 2              311.00         16             253.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+UnificationXref_subClassOf_Xref                                       4         381                 3              362.00         31             303.00              23             

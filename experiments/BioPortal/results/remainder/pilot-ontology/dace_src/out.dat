@@ -1,0 +1,2 @@
+#Axiom String                                                         i         No. Axioms          size           time           exp_time       cont_time      RC             ont_mean_size       RC_mean_time        RC_total_time       mem            sanity    
+Experiments_subClassOf_Summary                                        1         85                  83             730.00         366.00         364.00         28             80.04               7.71                216.00              43             

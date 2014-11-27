@@ -1,0 +1,2317 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe.owl">
+    <Prefix name="ont" IRI="http://owl.cs.manchester.ac.uk/ontology#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+        <ObjectUnionOf>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Name"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#PhysicalCharacteristic"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Relationship"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Type"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+        <ObjectUnionOf>
+            <Class IRI="#Name"/>
+            <Class IRI="#PhysicalCharacteristic"/>
+            <Class IRI="#Relationship"/>
+            <Class IRI="#Type"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CharacteristicQualifier"/>
+        <ObjectUnionOf>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#BaseCharacteristicQualifier"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CompositeCharacteristicQualifier"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Unit"/>
+        <ObjectUnionOf>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#BaseUnit"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CompositeUnit"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#CharacteristicQualifier"/>
+        <ObjectUnionOf>
+            <Class IRI="#BaseCharacteristicQualifier"/>
+            <Class IRI="#CompositeCharacteristicQualifier"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Unit"/>
+        <ObjectUnionOf>
+            <Class IRI="#BaseUnit"/>
+            <Class IRI="#CompositeUnit"/>
+            <Class IRI="#DerivedUnit"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#BaseCharacteristicQualifier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CharacteristicQualifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#BaseUnit"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Boolean"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#PrimitiveValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CompositeCharacteristicQualifier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CharacteristicQualifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CompositeCharacteristicQualifier"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasBaseQualifier"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#BaseCharacteristicQualifier"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CompositeCharacteristicQualifier"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasNextQualifier"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CharacteristicQualifier"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CompositeUnit"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CompositeUnit"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasUnit"/>
+            <ObjectUnionOf>
+                <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#BaseUnit"/>
+                <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+            </ObjectUnionOf>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Context"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Context"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasContextObservation"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Context"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ofCharacteristic"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Relationship"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Decimal"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#PrimitiveValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+        <ObjectComplementOf>
+            <DataHasValue>
+                <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasPower"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </DataHasValue>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+        <ObjectComplementOf>
+            <DataHasValue>
+                <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasPower"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasUnit"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#BaseUnit"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasUnit"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#BaseUnit"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasPower"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasValue"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Entity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#measurementFor"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ofCharacteristic"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#usesProtocol"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Protocol"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#usesStandard"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Standard"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Name"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ofEntity"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Entity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#PhysicalCharacteristic"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#PrimitiveValue"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Relationship"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#standardFor"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#String"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#PrimitiveValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Type"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Unit"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Standard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Unit"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#standardFor"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasValue"/>
+                    <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Decimal"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Unit"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#standardFor"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ofCharacteristic"/>
+                    <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#PhysicalCharacteristic"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasSourceUnit"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Unit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasTargetUnit"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Unit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#BaseCharacteristicQualifier"/>
+        <Class IRI="#CharacteristicQualifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#BaseUnit"/>
+        <Class IRI="#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Boolean"/>
+        <Class IRI="#PrimitiveValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#CompositeCharacteristicQualifier"/>
+        <Class IRI="#CharacteristicQualifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#CompositeCharacteristicQualifier"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasBaseQualifier"/>
+            <Class IRI="#BaseCharacteristicQualifier"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#CompositeCharacteristicQualifier"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasNextQualifier"/>
+            <Class IRI="#CharacteristicQualifier"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#CompositeUnit"/>
+        <Class IRI="#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#CompositeUnit"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#hasUnit"/>
+            <ObjectUnionOf>
+                <Class IRI="#BaseUnit"/>
+                <Class IRI="#DerivedUnit"/>
+            </ObjectUnionOf>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Decimal"/>
+        <Class IRI="#PrimitiveValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#DerivedUnit"/>
+        <Class IRI="#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#DerivedUnit"/>
+        <ObjectComplementOf>
+            <DataHasValue>
+                <DataProperty IRI="#hasPower"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </DataHasValue>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#DerivedUnit"/>
+        <ObjectComplementOf>
+            <DataHasValue>
+                <DataProperty IRI="#hasPower"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataHasValue>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#DerivedUnit"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasUnit"/>
+            <Class IRI="#BaseUnit"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#DerivedUnit"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasUnit"/>
+            <Class IRI="#BaseUnit"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#DerivedUnit"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasPower"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Name"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#PhysicalCharacteristic"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#PrimitiveValue"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#PrimitiveValue"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasCode"/>
+            <Datatype abbreviatedIRI="xsd:anyType"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Relationship"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#String"/>
+        <Class IRI="#PrimitiveValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Type"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Unit"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Standard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Unit"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#standardFor"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasValue"/>
+                    <Class IRI="#Decimal"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Unit"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#standardFor"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ofCharacteristic"/>
+                    <Class IRI="#PhysicalCharacteristic"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#UnitConversion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSourceUnit"/>
+            <Class IRI="#Unit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#UnitConversion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTargetUnit"/>
+            <Class IRI="#Unit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#UnitConversion"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasMultiplier"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#UnitConversion"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasOffset"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#BaseUnit"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CompositeUnit"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Boolean"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Decimal"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Boolean"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#String"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CharacteristicQualifier"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Entity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ObservationCollection"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Protocol"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Standard"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+        <Class IRI="#CharacteristicQualifier"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CharacteristicQualifier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Entity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CharacteristicQualifier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CharacteristicQualifier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CharacteristicQualifier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ObservationCollection"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CharacteristicQualifier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Protocol"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CharacteristicQualifier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Standard"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CharacteristicQualifier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Decimal"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#String"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Entity"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Entity"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Entity"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ObservationCollection"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Entity"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Protocol"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Entity"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Standard"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Entity"/>
+        <Class IRI="#CharacteristicQualifier"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ObservationCollection"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Protocol"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Standard"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+        <Class IRI="#CharacteristicQualifier"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Name"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#PhysicalCharacteristic"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Name"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Relationship"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Name"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ObservationCollection"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Protocol"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Standard"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+        <Class IRI="#CharacteristicQualifier"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ObservationCollection"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Protocol"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ObservationCollection"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Standard"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ObservationCollection"/>
+        <Class IRI="#CharacteristicQualifier"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#PhysicalCharacteristic"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Relationship"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#PhysicalCharacteristic"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Protocol"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Standard"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Protocol"/>
+        <Class IRI="#CharacteristicQualifier"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Relationship"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Standard"/>
+        <Class IRI="#CharacteristicQualifier"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#BaseUnit"/>
+        <Class IRI="#CompositeUnit"/>
+        <Class IRI="#DerivedUnit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Boolean"/>
+        <Class IRI="#Decimal"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Boolean"/>
+        <Class IRI="#String"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#CharacteristicQualifier"/>
+        <Class IRI="#UnitConversion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Decimal"/>
+        <Class IRI="#String"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Name"/>
+        <Class IRI="#PhysicalCharacteristic"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Name"/>
+        <Class IRI="#Relationship"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Name"/>
+        <Class IRI="#Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#PhysicalCharacteristic"/>
+        <Class IRI="#Relationship"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#PhysicalCharacteristic"/>
+        <Class IRI="#Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Relationship"/>
+        <Class IRI="#Type"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasObservationContext"/>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMeasurement"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#observationContextFor"/>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#measurementFor"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#contextFor"/>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasContext"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#measurementFor"/>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMeasurement"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#memberOf"/>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMember"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#observationContextFor"/>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasObservationContext"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#valueFor"/>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasValue"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#measuredBy"/>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ofCharacteristic"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#observedBy"/>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ofEntity"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#protocolFor"/>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#usesProtocol"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#standardFor"/>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#usesStandard"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasBaseQualifier"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasContextObservation"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasNextQualifier"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasQualifier"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasSourceUnit"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasTargetUnit"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasValue"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#measurementFor"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#observationContextFor"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ofCharacteristic"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ofEntity"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#usesProtocol"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#usesStandard"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#hasBaseQualifier"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#hasNextQualifier"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#hasQualifier"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#hasSourceUnit"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#hasTargetUnit"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#contextObservationFor"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMeasurement"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasObservationContext"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#measuredBy"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#observedBy"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#protocolFor"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#standardFor"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#valueFor"/>
+    </InverseFunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#contextFor"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasContext"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#contextFor"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#contextObservationFor"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasBaseQualifier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CompositeCharacteristicQualifier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasContext"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasContextObservation"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Context"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMeasurement"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMember"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ObservationCollection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasNextQualifier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CompositeCharacteristicQualifier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasObservationContext"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasQualifier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#PhysicalCharacteristic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasSourceUnit"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasTargetUnit"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasUnit"/>
+        <ObjectUnionOf>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CompositeUnit"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasValue"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#measuredBy"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#measurementFor"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#memberOf"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#observationContextFor"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Context"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#observedBy"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ofCharacteristic"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ofEntity"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#protocolFor"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Protocol"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#standardFor"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Standard"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#usesProtocol"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#usesStandard"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#valueFor"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#hasBaseQualifier"/>
+        <Class IRI="#CompositeCharacteristicQualifier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#hasNextQualifier"/>
+        <Class IRI="#CompositeCharacteristicQualifier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#hasQualifier"/>
+        <Class IRI="#PhysicalCharacteristic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#hasSourceUnit"/>
+        <Class IRI="#UnitConversion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#hasTargetUnit"/>
+        <Class IRI="#UnitConversion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#hasUnit"/>
+        <ObjectUnionOf>
+            <Class IRI="#CompositeUnit"/>
+            <Class IRI="#DerivedUnit"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#contextFor"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#contextObservationFor"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Context"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasBaseQualifier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#BaseCharacteristicQualifier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasContext"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasContextObservation"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMeasurement"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMember"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasNextQualifier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CharacteristicQualifier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasObservationContext"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Context"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasQualifier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#CharacteristicQualifier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasSourceUnit"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Unit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasTargetUnit"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Unit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasUnit"/>
+        <ObjectUnionOf>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#BaseUnit"/>
+            <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasValue"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#measuredBy"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#measurementFor"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#memberOf"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ObservationCollection"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#observationContextFor"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#observedBy"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Observation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ofCharacteristic"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ofEntity"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#protocolFor"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#standardFor"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#usesProtocol"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Protocol"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#usesStandard"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Standard"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#valueFor"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#hasBaseQualifier"/>
+        <Class IRI="#BaseCharacteristicQualifier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#hasNextQualifier"/>
+        <Class IRI="#CharacteristicQualifier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#hasQualifier"/>
+        <Class IRI="#CharacteristicQualifier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#hasSourceUnit"/>
+        <Class IRI="#Unit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#hasTargetUnit"/>
+        <Class IRI="#Unit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#hasUnit"/>
+        <ObjectUnionOf>
+            <Class IRI="#BaseUnit"/>
+            <Class IRI="#DerivedUnit"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <!-- <SubObjectPropertyOf>
+            <Annotation>
+                <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+                <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+            </Annotation>
+            <ObjectPropertyChain>
+                <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#contextObservationFor"/>
+                <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#observationContextFor"/>
+            </ObjectPropertyChain>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#contextFor"/>
+        </SubObjectPropertyOf>
+        <SubObjectPropertyOf>
+            <Annotation>
+                <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+                <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+            </Annotation>
+            <ObjectPropertyChain>
+                <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasObservationContext"/>
+                <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasContextObservation"/>
+            </ObjectPropertyChain>
+            <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasContext"/>
+         </SubObjectPropertyOf> -->
+    <FunctionalDataProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasCode"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMultiplier"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasOffset"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasPower"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasPrecision"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#usesMethod"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#hasCode"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#hasMultiplier"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#hasOffset"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#hasPower"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasCode"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#PrimitiveValue"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMultiplier"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasOffset"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#UnitConversion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasPower"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#DerivedUnit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasPrecision"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#usesMethod"/>
+        <Class IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#hasCode"/>
+        <Class IRI="#PrimitiveValue"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#hasMultiplier"/>
+        <Class IRI="#UnitConversion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#hasOffset"/>
+        <Class IRI="#UnitConversion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#hasPower"/>
+        <Class IRI="#DerivedUnit"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasCode"/>
+        <Datatype abbreviatedIRI="xsd:anyType"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMultiplier"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasOffset"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasPower"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasPrecision"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl</IRI>
+        </Annotation>
+        <DataProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#usesMethod"/>
+        <Datatype abbreviatedIRI="xsd:anyType"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#hasCode"/>
+        <Datatype abbreviatedIRI="xsd:anyType"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#hasMultiplier"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#hasOffset"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <DataProperty IRI="#hasPower"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasContextObservation"/>
+                <Variable IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#c"/>
+                <Variable IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#o"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasValue"/>
+                <Variable IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#c"/>
+                <Variable IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#e"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ofEntity"/>
+                <Variable IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#o"/>
+                <Variable IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#e"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasContextObservation"/>
+                <Variable IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#c"/>
+                <Variable IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#o"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#ofEntity"/>
+                <Variable IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#o"/>
+                <Variable IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#e"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasValue"/>
+                <Variable IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#c"/>
+                <Variable IRI="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#e"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

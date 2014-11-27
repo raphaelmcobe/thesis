@@ -1,0 +1,3885 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/obo/DC-CL_DC-CL"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://purl.obolibrary.org/obo/DC-CL_DC-CL">
+    <Prefix name="ont" IRI="http://owl.cs.manchester.ac.uk/ontology#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000001"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001013"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000100"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001014"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001002"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001003"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001012"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001024"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001027"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000003"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001013"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001002"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001003"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001024"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001027"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000004"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000101"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001015"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001292"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001865"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001002"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001003"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001013"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001024"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001027"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000006"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000001"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000007"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000001"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001310"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000008"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000004"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000009"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000004"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001310"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000010"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000011"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000003"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001026"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000090"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001004"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001012"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000003"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001004"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001012"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000090"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001026"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000003"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000090"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001026"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001004"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001012"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000014"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000011"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000015"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000011"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001310"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000016"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001310"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000017"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000018"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001310"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000019"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000003"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001012"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001026"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000090"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000020"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000003"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000061"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001012"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001300"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001905"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000002025"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000021"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000003"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001293"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000022"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000019"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000023"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000019"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001310"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000024"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000020"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000025"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000020"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001310"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000026"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000021"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001447"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000002025"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000027"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000021"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001026"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000090"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000028"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000026"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000029"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000026"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001310"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000030"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000027"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_low_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000031"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000027"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_high_plasma_membrane_amount_relative_to_leukocyte"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001310"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000032"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/CL_0000048"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001003"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001015"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001898"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001002"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001004"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001027"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000033"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001012"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000002062"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000034"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/CL_0000048"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001003"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000002065"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000089"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000100"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000104"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000105"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000106"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001004"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001014"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001027"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001083"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001375"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001839"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000035"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/CL_0000048"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001003"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001786"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001002"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001012"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001024"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001027"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001083"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001456"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001483"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001892"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001945"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000036"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/CL_0000048"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001375"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000002065"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000089"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000100"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000104"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000106"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001004"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001014"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001027"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001083"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001839"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000038"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/CL_0000048"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001003"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001015"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001945"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001002"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001004"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001027"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001836"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001898"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000039"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001003"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001002"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001004"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001015"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001027"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001836"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000040"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001003"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001836"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001002"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001004"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001015"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001027"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000041"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000102"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000002001"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000002065"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000042"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001003"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001015"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001865"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001027"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000043"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/CL_0000048"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000105"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000002065"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000089"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000100"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000104"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000106"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001003"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001004"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001014"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001027"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001083"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001839"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_lacks_plasma_membrane_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/PRO_000001843"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1100000"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000038"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000039"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000040"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1110000"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000039"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000042"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1111000"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000033"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000041"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1111100"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000034"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000036"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000048"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000738"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_disposition"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000127"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000133"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000134"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000065"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000066"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000070"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000109"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000004"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_disposition"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000127"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000004"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000133"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000004"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000134"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000004"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000065"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000004"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000004"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000004"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000107"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000004"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000109"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000006"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_arises_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000041"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000006"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_disposition"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000125"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000006"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000135"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000007"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_transformation_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000006"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000008"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_arises_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1100000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000008"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_disposition"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000125"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000008"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000135"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000009"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_transformation_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000008"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000010"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_arises_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000041"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000010"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000135"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000011"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000133"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000011"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000134"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000011"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000065"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000011"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000066"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000011"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000067"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000011"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000068"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000011"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000011"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000070"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000011"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000011"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000011"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000109"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_disposition"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000128"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000133"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000134"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000065"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000066"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000067"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000068"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000070"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000109"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_disposition"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000124"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_disposition"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000129"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000133"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000065"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000066"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000067"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000068"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000070"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000014"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_arises_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000041"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000014"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000135"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000015"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_disposition"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000128"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000015"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_transformation_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000014"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000016"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_transformation_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000010"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000017"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_arises_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000041"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000018"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_transformation_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000017"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000019"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000133"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000019"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000134"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000019"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000065"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000019"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000066"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000019"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000067"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000019"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000068"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000019"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000070"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000019"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000019"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000020"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_disposition"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000126"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000020"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000133"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000020"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000134"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000020"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000065"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000020"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000066"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000020"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000067"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000020"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000068"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000020"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000020"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000070"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000020"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000107"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000022"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_arises_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000041"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000023"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_transformation_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000022"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000024"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_arises_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1110000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000024"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000135"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000024"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000136"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000025"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_transformation_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000024"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000026"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_disposition"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000126"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000026"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000133"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000026"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000134"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000026"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000065"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000026"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000066"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000026"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000068"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000026"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000026"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000107"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000026"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000109"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000027"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_disposition"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000126"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000027"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000133"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000027"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000134"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000027"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000065"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000027"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000066"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000027"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000067"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000027"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000068"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000027"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000027"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000070"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000027"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000027"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000107"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000027"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_plasma_membrane_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000108"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000028"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000135"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000028"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000136"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000029"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_transformation_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000028"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000030"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_arises_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1111000"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000031"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_transformation_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000030"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000032"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_arises_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000035"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000033"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_arises_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000034"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000033"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_has_disposition"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000125"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000034"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_arises_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000043"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000036"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_arises_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000043"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000038"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_arises_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000035"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_arises_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000032"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000040"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_arises_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000032"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000041"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_arises_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1111100"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_arises_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000038"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000055"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000061"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000065"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000066"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000067"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000068"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000069"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000070"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000071"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000074"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000075"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000081"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000085"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000086"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000089"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000090"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000089"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000091"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000089"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000098"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000099"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000100"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000101"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000102"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000103"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000104"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000105"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000106"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000107"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000108"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000109"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000118"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000118"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000118"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000124"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000125"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000126"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000127"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000128"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000129"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000133"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0100000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000134"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0100000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000135"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0100000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000136"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0100000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1100000"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1110000"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1111000"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_1111100"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_5034"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_5034"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000004"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_5034"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000020"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_5034"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000026"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_70323"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_FMA_70323-MA_0000152-MIAA_0000153-XAO_0000217-ZFA_0001119"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_70323"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000020"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_70596"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_FBbt_00004993-FBbt_00005401-FMA_70596-MA_0000153-MIAA_0000154-WBbt_0005733-XAO_0000028-ZFA_0000105"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_70596"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000026"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_7196"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_FMA_7196-MA_0000141-MIAA_0000085-XAO_0000328-ZFA_0000436"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_7196"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000003"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_7196"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000004"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_9607"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_FMA_9607-MA_0000142-MIAA_0000080-XAO_0000163-ZFA_0001078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_9607"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000001"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_9607"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000020"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_9608"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_FMA_9608-MA_0000134-MIAA_0000084-XAO_0000123-ZFA_0000669"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_9608"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000032"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_9608"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000033"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_9608"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000035"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_9608"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000038"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_9608"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000039"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_9608"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000040"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_9608"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000042"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000134"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_FMA_9608-MA_0000134-MIAA_0000084-XAO_0000123-ZFA_0000669"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000134"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000034"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000134"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000036"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000134"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000041"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000134"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000043"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000137"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_FMA_15054-MA_0000137"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000137"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000011"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000137"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000137"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000139"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000139"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000001"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000139"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000139"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000139"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000019"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000139"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000027"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000141"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_FMA_7196-MA_0000141-MIAA_0000085-XAO_0000328-ZFA_0000436"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000141"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000001"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000141"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000141"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000142"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_FMA_9607-MA_0000142-MIAA_0000080-XAO_0000163-ZFA_0001078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000142"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000011"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000142"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000012"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000142"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000013"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000152"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_FMA_70323-MA_0000152-MIAA_0000153-XAO_0000217-ZFA_0001119"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000152"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000019"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000153"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_FBbt_00004993-FBbt_00005401-FMA_70596-MA_0000153-MIAA_0000154-WBbt_0005733-XAO_0000028-ZFA_0000105"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/MA_0000153"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/DC-CL_is_location_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000027"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001002"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001003"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001004"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001012"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001013"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001014"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000082"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DC_CL_0000082"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001024"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001026"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001027"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001083"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001292"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001293"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001300"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001310"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001375"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001412"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001438"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001447"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001456"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001483"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001786"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001836"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001839"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001843"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001865"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001892"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001898"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001905"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000001945"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000002001"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000002025"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000002062"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/PRO_000002065"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_63887"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000029"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_67498"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000030"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_FBbt_00004993-FBbt_00005401-FMA_70596-MA_0000153-MIAA_0000154-WBbt_0005733-XAO_0000028-ZFA_0000105"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_FMA_15054-MA_0000137"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_FMA_70323-MA_0000152-MIAA_0000153-XAO_0000217-ZFA_0001119"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_FMA_7196-MA_0000141-MIAA_0000085-XAO_0000328-ZFA_0000436"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_67498"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_FMA_9607-MA_0000142-MIAA_0000080-XAO_0000163-ZFA_0001078"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FMA_67498"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_FMA_9608-MA_0000134-MIAA_0000084-XAO_0000123-ZFA_0000669"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000043"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

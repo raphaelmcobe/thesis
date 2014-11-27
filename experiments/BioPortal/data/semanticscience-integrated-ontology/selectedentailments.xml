@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000002"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000003"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000004"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000005"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000271"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000017"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000021"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000022"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000025"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000026"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000027"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000052"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000089"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000069"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000122"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000342"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000123"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000342"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000124"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000125"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000257"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000052"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000258"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000052"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000260"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000269"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000268"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000270"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000268"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000342"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000275"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000354"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000391"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000437"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000507"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000440"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000437"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000440"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000441"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000441"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000507"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000456"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000455"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000457"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000455"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000459"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000458"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000460"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000458"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000465"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000612"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000469"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000185"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000473"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000469"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000474"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000469"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000512"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000511"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000516"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000511"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000539"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000511"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000612"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000637"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_000659"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_010036"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_010508"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_010362"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_010423"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_010363"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_011125"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_010423"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_011125"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_010432"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_011125"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_010455"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_011125"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_010457"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_010456"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_010458"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_010456"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_010462"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_011126"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_010463"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_011126"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_010509"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000637"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_010782"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_010780"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://semanticscience.org/resource/SIO_010783"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_010780"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

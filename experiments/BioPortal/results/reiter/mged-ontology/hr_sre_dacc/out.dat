@@ -1,0 +1,4 @@
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GrowthCondition_subClassOf_Age                                        1         2545                1              3039.00        19             2926.00             271            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Image_subClassOf_PhysicalBioAssay                                     2         2545                1              3086.00        12             2976.00             271            

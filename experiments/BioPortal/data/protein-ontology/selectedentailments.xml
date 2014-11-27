@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#ATOMSequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#ActiveBindingSites"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#AtomicBind"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#Atoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#Bind"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#CISPeptide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#Chains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#Family"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#GeneticDefects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#HelixStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#HydrogenBond"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#Hydrophobicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#ModifiedResidue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#Molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#PathologicalFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#PhysiologicalFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#Reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#ResidueLink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#Residues"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#SaltBridge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#SiteGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#SourceCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#Strands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#TurnStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class IRI="http://www.proteinontology.info/po.owl#UnitCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class abbreviatedIRI="rdf:Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.proteinontology.info/po.owl#DisulphideBond"/>
+        <Class abbreviatedIRI="rdfs:Class"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

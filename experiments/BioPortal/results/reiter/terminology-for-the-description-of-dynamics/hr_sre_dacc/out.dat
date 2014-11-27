@@ -1,0 +1,102 @@
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000054_subClassOf_TEDDY_0000094                                1         266                 2              277.00         13             224.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000054_subClassOf_TEDDY_0000103                                2         266                 2              271.00         11             219.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000094_subClassOf_TEDDY_0000085                                3         266                 2              283.00         14             231.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000096_subClassOf_TEDDY_0000085                                4         266                 2              279.00         12             225.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000097_subClassOf_TEDDY_0000094                                5         266                 3              319.00         22             262.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000097_subClassOf_TEDDY_0000103                                6         266                 3              302.00         17             246.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000097_subClassOf_TEDDY_0000133                                7         266                 2              291.00         14             235.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000098_subClassOf_TEDDY_0000105                                8         266                 2              312.00         17             251.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000102_subClassOf_TEDDY_0000085                                9         266                 2              284.00         14             230.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000103_subClassOf_TEDDY_0000085                                10        266                 2              283.00         14             226.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000104_subClassOf_TEDDY_0000086                                11        266                 2              274.00         11             219.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000104_subClassOf_TEDDY_0000134                                12        266                 2              274.00         10             219.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000105_subClassOf_TEDDY_0000133                                13        266                 2              273.00         8              219.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000106_subClassOf_TEDDY_0000050                                14        266                 2              299.00         12             240.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000106_subClassOf_TEDDY_0000105                                15        266                 2              306.00         15             252.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000113_subClassOf_TEDDY_0000086                                16        266                 2              282.00         11             225.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000113_subClassOf_TEDDY_0000094                                17        266                 3              313.00         22             256.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000113_subClassOf_TEDDY_0000103                                18        266                 3              307.00         17             249.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000114_subClassOf_TEDDY_0000051                                19        266                 2              295.00         10             235.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000114_subClassOf_TEDDY_0000097                                20        266                 2              313.00         15             258.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000115_subClassOf_TEDDY_0000086                                21        266                 2              290.00         10             233.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000115_subClassOf_TEDDY_0000105                                22        266                 2              303.00         14             246.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000126_subClassOf_TEDDY_0000091                                23        266                 2              304.00         13             247.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000126_subClassOf_TEDDY_0000097                                24        266                 2              301.00         12             246.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000126_subClassOf_TEDDY_0000113                                25        266                 7              688.00         125            614.00              33             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000127_subClassOf_TEDDY_0000091                                26        266                 2              286.00         11             230.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000127_subClassOf_TEDDY_0000129                                27        266                 2              336.00         23             282.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000128_subClassOf_TEDDY_0000051                                28        266                 2              277.00         11             223.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000128_subClassOf_TEDDY_0000096                                29        266                 3              299.00         18             246.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000128_subClassOf_TEDDY_0000102                                30        266                 3              322.00         23             262.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000129_subClassOf_TEDDY_0000086                                31        266                 2              278.00         11             226.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000129_subClassOf_TEDDY_0000096                                32        266                 3              313.00         22             257.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000129_subClassOf_TEDDY_0000102                                33        266                 3              312.00         21             255.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000137_subClassOf_TEDDY_0000087                                34        266                 2              312.00         16             253.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000137_subClassOf_TEDDY_0000097                                35        266                 2              302.00         13             247.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000137_subClassOf_TEDDY_0000113                                36        266                 7              676.00         119            599.00              33             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000138_subClassOf_TEDDY_0000087                                37        266                 2              285.00         12             232.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000138_subClassOf_TEDDY_0000129                                38        266                 2              328.00         20             271.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000139_subClassOf_TEDDY_0000090                                39        266                 2              305.00         15             250.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000139_subClassOf_TEDDY_0000097                                40        266                 2              307.00         13             251.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000139_subClassOf_TEDDY_0000113                                41        266                 7              675.00         122            598.00              33             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000140_subClassOf_TEDDY_0000090                                42        266                 2              286.00         12             232.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000140_subClassOf_TEDDY_0000129                                43        266                 2              332.00         23             276.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000141_subClassOf_TEDDY_0000093                                44        266                 2              308.00         14             252.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000141_subClassOf_TEDDY_0000097                                45        266                 2              306.00         14             251.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000141_subClassOf_TEDDY_0000113                                46        266                 7              704.00         132            629.00              33             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000142_subClassOf_TEDDY_0000093                                47        266                 2              287.00         11             231.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000142_subClassOf_TEDDY_0000129                                48        266                 2              338.00         23             278.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000145_subClassOf_TEDDY_0000051                                49        266                 2              274.00         10             222.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000145_subClassOf_TEDDY_0000134                                50        266                 2              280.00         12             225.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TEDDY_0000146_subClassOf_TEDDY_0000083                                51        266                 2              296.00         15             243.00              23             

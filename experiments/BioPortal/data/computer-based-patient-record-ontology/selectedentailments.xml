@@ -1,0 +1,1410 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://bioontology.org/wiki/index.php/DallasWorkshop#abnormal-homeostasis"/>
+        <Class IRI="http://purl.org/cpr/0.85#medical-problem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://bioontology.org/wiki/index.php/DallasWorkshop#bodily-feature"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://bioontology.org/wiki/index.php/DallasWorkshop#laboratory-test-finding"/>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://bioontology.org/wiki/index.php/DallasWorkshop#abnormal-homeostasis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://bioontology.org/wiki/index.php/DallasWorkshop#clinical-phenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://bioontology.org/wiki/index.php/DallasWorkshop#laboratory-test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://bioontology.org/wiki/index.php/DallasWorkshop#laboratory-test-finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://bioontology.org/wiki/index.php/DallasWorkshop#normal-homeostasis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#anamnesis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#anatomical-space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#anatomical-structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#anatomical-surface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-administration-act"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-examination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#diagnostic-image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#diagnostic-procedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#extra-organismal-continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#immaterial-pathological-continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#laboratory-test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#longitudinal-patient-medical-history"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#material-pathological-entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#medical-device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#medical-history-screening-act"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#organismal-process-aggregate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#pathological-disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#pathological-process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#pathological-role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#patient-record"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#patient-role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#perceiver-role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#physical-therapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#physician"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#physician-role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#physiological-disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#physiological-role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#psychological-therapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#recorded-clinical-situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#sign-finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#substance-administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#symptom-finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://purl.org/cpr/0.85#therapeutic-procedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#FiatObjectPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectBoundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#OneDimensionalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Site"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ThreeDimensionalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#TwoDimensionalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ZeroDimensionalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#FiatProcessPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessBoundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualContext"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ScatteredSpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ScatteredTemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInstant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalInstant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#abstract-quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#abstract-region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#achievement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#amount-of-matter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#arbitrary-sum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#dependent-place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#proposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quality-space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#relevant-part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#spatial-location_q"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#spatio-temporal-region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#temporal-location_q"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#time-interval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#agentive-figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#agentive-social-object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#cognitive-event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#cognitive-state"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#collective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#communication-event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#constitutive-description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#gestalt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#information-encoding-system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#information-object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#life-cycle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#logical-role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#material-artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#non-agentive-figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#objective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#path"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#physical-phenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#physical-realization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#project"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#rational-physical-object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#reconstructed-flux"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#social-relationship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#symmetric-role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.w3.org/2006/time#DateTimeInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.w3.org/2006/time#DayOfWeek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.w3.org/2006/time#January"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.w3.org/2006/time#TemporalUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-analysis-act"/>
+        <Class IRI="http://www.w3.org/2006/time#Year"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-artifact"/>
+        <Class IRI="http://purl.org/cpr/0.85#representational-artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://bioontology.org/wiki/index.php/DallasWorkshop#abnormal-homeostasis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://bioontology.org/wiki/index.php/DallasWorkshop#clinical-phenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://bioontology.org/wiki/index.php/DallasWorkshop#laboratory-test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://bioontology.org/wiki/index.php/DallasWorkshop#laboratory-test-finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://bioontology.org/wiki/index.php/DallasWorkshop#normal-homeostasis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#anamnesis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#anatomical-space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#anatomical-structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#anatomical-surface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-administration-act"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-examination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#diagnostic-image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#diagnostic-procedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#extra-organismal-continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#immaterial-pathological-continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#laboratory-test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#longitudinal-patient-medical-history"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#material-pathological-entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#medical-device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#medical-history-screening-act"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#organismal-process-aggregate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#pathological-disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#pathological-process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#pathological-role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#patient-record"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#patient-role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#perceiver-role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#physical-therapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#physician"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#physician-role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#physiological-disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#physiological-role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#psychological-therapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#recorded-clinical-situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#sign-finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#substance-administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#symptom-finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://purl.org/cpr/0.85#therapeutic-procedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#FiatObjectPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectBoundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#OneDimensionalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Site"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ThreeDimensionalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#TwoDimensionalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ZeroDimensionalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#FiatProcessPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessBoundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualContext"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ScatteredSpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ScatteredTemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInstant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalInstant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#abstract-quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#abstract-region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#achievement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#amount-of-matter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#arbitrary-sum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#dependent-place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#proposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quality-space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#relevant-part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#spatial-location_q"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#spatio-temporal-region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#temporal-location_q"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#time-interval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#agentive-figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#agentive-social-object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#cognitive-event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#cognitive-state"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#collective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#communication-event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#constitutive-description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#gestalt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#information-encoding-system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#information-object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#life-cycle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#logical-role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#material-artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#non-agentive-figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#objective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#path"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#physical-phenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#physical-realization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#project"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#rational-physical-object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#reconstructed-flux"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#social-relationship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#symmetric-role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.w3.org/2006/time#DateTimeInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.w3.org/2006/time#DayOfWeek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.w3.org/2006/time#January"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.w3.org/2006/time#TemporalUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-diagnosis"/>
+        <Class IRI="http://www.w3.org/2006/time#Year"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#dependent-organismal-continuant"/>
+        <Class IRI="http://purl.org/cpr/0.85#organismal-continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#diagnostic-procedure"/>
+        <Class IRI="http://purl.org/cpr/0.85#procedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#extra-organismal-continuant"/>
+        <Class IRI="http://purl.org/cpr/0.85#independent-organismal-continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#immaterial-anatomical-continuant"/>
+        <Class IRI="http://purl.org/cpr/0.85#physical-anatomical-entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#independent-organismal-continuant"/>
+        <Class IRI="http://purl.org/cpr/0.85#organismal-continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#material-anatomical-entity"/>
+        <Class IRI="http://purl.org/cpr/0.85#physical-anatomical-entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#medical-problem"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#organismal-continuant"/>
+        <Class IRI="http://bioontology.org/wiki/index.php/DallasWorkshop#bodily-feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#organismal-continuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#organismal-process"/>
+        <Class IRI="http://bioontology.org/wiki/index.php/DallasWorkshop#bodily-feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#pathological-disposition"/>
+        <Class IRI="http://purl.org/cpr/0.85#medical-problem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#pathological-process"/>
+        <Class IRI="http://purl.org/cpr/0.85#medical-problem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#patient"/>
+        <Class IRI="http://purl.org/cpr/0.85#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#patient-record"/>
+        <Class IRI="http://purl.org/cpr/0.85#representational-artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#physical-anatomical-entity"/>
+        <Class IRI="http://purl.org/cpr/0.85#organismal-continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#physician"/>
+        <Class IRI="http://purl.org/cpr/0.85#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#procedure"/>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-act"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#recorded-clinical-situation"/>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#symptom"/>
+        <Class IRI="http://purl.org/cpr/0.85#medical-problem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#symptom-finding"/>
+        <Class IRI="http://purl.org/cpr/0.85#clinical-finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/cpr/0.85#therapeutic-procedure"/>
+        <Class IRI="http://purl.org/cpr/0.85#procedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#FiatObjectPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Object"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectBoundary"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#OneDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+        <Class IRI="http://bioontology.org/wiki/index.php/DallasWorkshop#bodily-feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#RealizableEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Site"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ThreeDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#TwoDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ZeroDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedSpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedTemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#FiatProcessPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Process"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessBoundary"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualContext"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ScatteredSpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ScatteredTemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInstant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedSpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInterval"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedSpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalInstant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedTemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalInterval"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedTemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#abstract-quality"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#endurant"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#spatio-temporal-particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#perdurant"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#spatio-temporal-particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#physical-quality"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quale"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quality"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#spatio-temporal-particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quality-space"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#spatio-temporal-particular"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#temporal-quality"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#activity"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#agent"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#agent-driven-role"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#agentive-figure"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#agentive-figure"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#rational-agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#agentive-physical-object"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#physical-object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#agentive-physical-object"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#agentive-social-object"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#agentive-social-object"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#rational-agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#collection"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#non-agentive-social-object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#collective"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#collection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#constitutive-description"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#course"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#description-role"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#figure"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#social-object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#flux"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#goal"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#desire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#life-cycle"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#course"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#method"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#modal-description"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#non-agentive-figure"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#non-agentive-figure"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#non-agentive-social-object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#parameter"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#path"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#course"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#phenomenon"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#accomplishment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#physical-realization"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#spatio-temporal-particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#rational-agent"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#rational-physical-object"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#agentive-physical-object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#rational-physical-object"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#rational-agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#reconstructed-flux"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#flux"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#situation"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#non-agentive-social-object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#social-description"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        <Class IRI="http://www.w3.org/2006/time#TemporalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/2006/time#Interval"/>
+        <Class IRI="http://www.w3.org/2006/time#TemporalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/2006/time#January"/>
+        <Class IRI="http://www.w3.org/2006/time#DateTimeDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/2006/time#Year"/>
+        <Class IRI="http://www.w3.org/2006/time#DurationDescription"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#DayOfWeek"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#Friday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#DayOfWeek"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#Monday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#DayOfWeek"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#Saturday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#DayOfWeek"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#Sunday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#DayOfWeek"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#Thursday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#DayOfWeek"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#Tuesday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#DayOfWeek"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#Wednesday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#TemporalUnit"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitDay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#TemporalUnit"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitHour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#TemporalUnit"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitMinute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#TemporalUnit"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitMonth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#TemporalUnit"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitSecond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#TemporalUnit"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitWeek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#TemporalUnit"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitYear"/>
+    </ClassAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

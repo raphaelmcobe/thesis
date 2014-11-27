@@ -1,0 +1,296 @@
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ConnectedSpatiotemporalRegion_subClassOf_SpatiotemporalRegion         1         2343                2              8610.00        14             8488.00             434            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ConnectedTemporalRegion_subClassOf_TemporalRegion                     2         2343                2              8684.00        13             8564.00             442            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Continuant_subClassOf_Entity                                          3         2343                2              8791.00        11             8663.00             435            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DependentContinuant_subClassOf_Continuant                             4         2343                2              8732.00        13             8619.00             458            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FiatObjectPart_subClassOf_MaterialEntity                              5         2343                2              9475.00        17             9364.00             69             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FiatProcessPart_subClassOf_ProcessualEntity                           6         2343                2              8844.00        13             8729.00             434            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GenericallyDependentContinuant_subClassOf_DependentContinuant         7         2343                2              9347.00        15             9232.00             39             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+IndependentContinuant_subClassOf_Continuant                           8         2343                2              9224.00        12             9112.00             69             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MaterialEntity_subClassOf_IndependentContinuant                       9         2343                2              8873.00        13             8758.00             442            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000005_subClassOf_NEMO_5003000                                  10        2343                2              8314.00        15             8199.00             360            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000006_subClassOf_NEMO_5003000                                  11        2343                2              7928.00        17             7812.00             317            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000007_subClassOf_NEMO_5003000                                  12        2343                2              8224.00        16             8110.00             392            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000008_subClassOf_NEMO_5003000                                  13        2343                2              8001.00        17             7887.00             337            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000009_subClassOf_NEMO_5003000                                  14        2343                2              8526.00        14             8409.00             382            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000010_subClassOf_NEMO_5003000                                  15        2343                2              8481.00        15             8365.00             380            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000011_subClassOf_NEMO_0000009                                  16        2343                2              8753.00        16             8624.00             424            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000012_subClassOf_NEMO_0000009                                  17        2343                2              9019.00        16             8903.00             448            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000013_subClassOf_NEMO_0000005                                  18        2343                2              8523.00        18             8408.00             405            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000014_subClassOf_NEMO_0000005                                  19        2343                2              8582.00        16             8469.00             430            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000015_subClassOf_NEMO_0000005                                  20        2343                2              8474.00        18             8363.00             350            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000016_subClassOf_NEMO_0000007                                  21        2343                2              8659.00        17             8549.00             461            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000017_subClassOf_NEMO_0000007                                  22        2343                2              8302.00        19             8190.00             411            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000018_subClassOf_NEMO_0000008                                  23        2343                2              8650.00        17             8537.00             415            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000019_subClassOf_NEMO_0000008                                  24        2343                2              8779.00        20             8667.00             415            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000020_subClassOf_NEMO_0000008                                  25        2343                2              8722.00        16             8608.00             425            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000021_subClassOf_NEMO_0000006                                  26        2343                2              9070.00        19             8956.00             38             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000022_subClassOf_NEMO_0000006                                  27        2343                2              8673.00        16             8562.00             438            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000023_subClassOf_NEMO_0000006                                  28        2343                2              9479.00        20             9364.00             29             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000024_subClassOf_NEMO_0000010                                  29        2343                2              8587.00        15             8475.00             442            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000025_subClassOf_NEMO_0000010                                  30        2343                2              8537.00        15             8414.00             394            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000094_subClassOf_NEMO_0000093                                  31        2343                1              6730.00        9              6629.00             64             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000095_subClassOf_NEMO_0000093                                  32        2343                1              6135.00        9              6038.00             -15            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000096_subClassOf_NEMO_0000093                                  33        2343                1              6188.00        5              6088.00             485            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000097_subClassOf_NEMO_0000093                                  34        2343                1              6715.00        5              6618.00             64             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000099_subClassOf_NEMO_0000093                                  35        2343                1              6788.00        6              6688.00             59             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000100_subClassOf_NEMO_0000093                                  36        2343                1              6246.00        5              6149.00             485            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000101_subClassOf_NEMO_0000093                                  37        2343                1              6196.00        6              6096.00             485            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000279_subClassOf_NEMO_0000007                                  38        2343                2              8366.00        17             8255.00             390            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000352_subClassOf_NEMO_0000093                                  39        2343                1              6725.00        5              6625.00             64             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0000358_subClassOf_NEMO_0000093                                  40        2343                1              6561.00        5              6461.00             64             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0035000_subClassOf_NEMO_3948000                                  41        2343                1              9112.00        8              9013.00             80             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0406000_subClassOf_NEMO_9718000                                  42        2343                2              9755.00        16             9634.00             90             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0816000_subClassOf_NEMO_0000093                                  43        2343                1              6253.00        6              6154.00             485            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0890000_subClassOf_NEMO_0000093                                  44        2343                1              6364.00        5              6264.00             485            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_0895000_subClassOf_NEMO_9466000                                  45        2343                6              78365.00       223            77997.00            285            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_1345000_subClassOf_NEMO_8529000                                  46        2343                2              8873.00        17             8761.00             458            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_1400000_subClassOf_NEMO_0000093                                  47        2343                1              6711.00        6              6611.00             59             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_1801000_subClassOf_NEMO_0000093                                  48        2343                1              6893.00        8              6792.00             64             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_1857000_subClassOf_NEMO_0000096                                  49        2343                1              8300.00        7              8198.00             448            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_2608000_subClassOf_NEMO_0000093                                  50        2343                1              6713.00        9              6615.00             59             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_2618000_subClassOf_NEMO_9466000                                  51        2343                2              10249.00       16             10133.00            231            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_2935000_subClassOf_NEMO_0895000                                  52        2343                2              11025.00       15             10911.00            334            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_2935000_subClassOf_NEMO_4521000                                  53        2343                1              6664.00        7              6565.00             64             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_2935000_subClassOf_NEMO_4965000                                  54        2343                1              6821.00        7              6718.00             64             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_2935000_subClassOf_NEMO_7890000                                  55        2343                1              6303.00        6              6204.00             -15            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_2935000_subClassOf_NEMO_8515000                                  56        2343                1              6215.00        7              6113.00             -20            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_3114000_subClassOf_NEMO_0895000                                  57        2343                2              10375.00       17             10264.00            212            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_3114000_subClassOf_NEMO_4521000                                  58        2343                1              6187.00        7              6087.00             -20            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_3114000_subClassOf_NEMO_4965000                                  59        2343                1              6269.00        7              6170.00             -15            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_3114000_subClassOf_NEMO_7890000                                  60        2343                1              6114.00        6              6013.00             -15            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_3114000_subClassOf_NEMO_8515000                                  61        2343                1              6648.00        7              6550.00             59             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_3296000_subClassOf_NEMO_3948000                                  62        2343                1              9147.00        8              9049.00             69             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_3296000_subClassOf_NEMO_5608000                                  63        2343                1              8128.00        8              8032.00             442            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_3521000_subClassOf_NEMO_0000093                                  64        2343                1              6169.00        5              6071.00             485            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_3553000_subClassOf_NEMO_0000093                                  65        2343                1              6718.00        9              6620.00             64             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_3580000_subClassOf_NEMO_0000093                                  66        2343                1              6186.00        9              6087.00             -21            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_3725000_subClassOf_NEMO_0000093                                  67        2343                1              6286.00        5              6186.00             485            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_3948000_subClassOf_NEMO_0000093                                  68        2343                1              6012.00        8              5914.00             -21            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_4044000_subClassOf_NEMO_3948000                                  69        2343                1              8166.00        8              8068.00             448            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_4135000_subClassOf_NEMO_9958000                                  70        2343                2              8663.00        17             8549.00             365            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_4446000_subClassOf_NEMO_0000093                                  71        2343                1              6289.00        8              6189.00             -21            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_4521000_subClassOf_NEMO_9466000                                  72        2343                8              113405.00      298            113055.00           597            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_4551000_subClassOf_NEMO_0000093                                  73        2343                1              5990.00        9              5892.00             -15            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_4650000_subClassOf_NEMO_5231000                                  74        2343                2              8916.00        18             8791.00             450            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_4811000_subClassOf_NEMO_3948000                                  75        2343                1              8324.00        7              8224.00             442            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_4846000_subClassOf_NEMO_9958000                                  76        2343                2              9069.00        17             8956.00             473            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_4965000_subClassOf_NEMO_9466000                                  77        2343                8              114005.00      315            113683.00           -7             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_5120000_subClassOf_NEMO_0000093                                  78        2343                1              6358.00        6              6256.00             -15            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_5231000_subClassOf_NEMO_9466000                                  79        2343                2              10092.00       17             9980.00             170            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_5608000_subClassOf_NEMO_0000093                                  80        2343                1              6249.00        6              6153.00             485            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_5672000_subClassOf_NEMO_5231000                                  81        2343                2              9402.00        20             9284.00             69             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_5705000_subClassOf_NEMO_9958000                                  82        2343                2              8508.00        18             8392.00             415            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_5828000_subClassOf_NEMO_0000093                                  83        2343                1              6230.00        9              6130.00             -16            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_5832000_subClassOf_NEMO_0000093                                  84        2343                1              6757.00        9              6656.00             59             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_5860000_subClassOf_NEMO_0000093                                  85        2343                1              6308.00        5              6206.00             485            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_6465000_subClassOf_NEMO_0000093                                  86        2343                1              6193.00        6              6093.00             -15            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_6713000_subClassOf_NEMO_0000093                                  87        2343                1              6278.00        9              6178.00             -15            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_6790000_subClassOf_NEMO_0000093                                  88        2343                1              6021.00        5              5921.00             -15            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_7346000_subClassOf_NEMO_0895000                                  89        2343                2              10379.00       15             10264.00            202            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_7346000_subClassOf_NEMO_4521000                                  90        2343                1              6711.00        7              6611.00             59             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_7346000_subClassOf_NEMO_4965000                                  91        2343                1              6341.00        7              6242.00             -15            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_7346000_subClassOf_NEMO_7890000                                  92        2343                1              6225.00        6              6125.00             -15            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_7346000_subClassOf_NEMO_8515000                                  93        2343                1              6231.00        9              6128.00             -15            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_7445000_subClassOf_NEMO_0000093                                  94        2343                1              6564.00        9              6461.00             59             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_7480000_subClassOf_NEMO_0000093                                  95        2343                1              6096.00        5              5995.00             485            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_7546000_subClassOf_NEMO_0000093                                  96        2343                1              6179.00        9              6080.00             -15            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_7622000_subClassOf_NEMO_0000093                                  97        2343                1              6688.00        6              6587.00             59             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_7636000_subClassOf_NEMO_0000093                                  98        2343                1              6155.00        5              6054.00             -21            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_7759000_subClassOf_NEMO_9718000                                  99        2343                2              10937.00       19             10822.00            273            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_7890000_subClassOf_NEMO_9466000                                  100       2343                8              122270.00      316            121926.00           623            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_7925000_subClassOf_NEMO_0000093                                  101       2343                1              6346.00        9              6246.00             -15            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_8239000_subClassOf_NEMO_0000093                                  102       2343                1              6141.00        9              6042.00             -15            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_8443000_subClassOf_NEMO_2618000                                  103       2343                2              9846.00        20             9733.00             100            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_8515000_subClassOf_NEMO_9466000                                  104       2343                8              116773.00      306            116425.00           448            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_8528000_subClassOf_NEMO_3948000                                  105       2343                1              8299.00        7              8201.00             442            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_8529000_subClassOf_NEMO_9466000                                  106       2343                2              10225.00       14             10111.00            181            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_8547000_subClassOf_NEMO_9718000                                  107       2343                2              10038.00       20             9926.00             150            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_8640000_subClassOf_NEMO_8529000                                  108       2343                2              9446.00        18             9328.00             39             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_9213000_subClassOf_NEMO_0000093                                  109       2343                1              6305.00        9              6203.00             -21            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_9570000_subClassOf_NEMO_2618000                                  110       2343                2              9280.00        19             9153.00             9              
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_9718000_subClassOf_NEMO_9466000                                  111       2343                2              10401.00       17             10288.00            211            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_9901000_subClassOf_NEMO_5231000                                  112       2343                2              8588.00        17             8465.00             450            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NEMO_9958000_subClassOf_NEMO_9466000                                  113       2343                2              9676.00        17             9565.00             89             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Object_subClassOf_MaterialEntity                                      114       2343                2              8836.00        19             8706.00             439            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ObjectAggregate_subClassOf_MaterialEntity                             115       2343                2              8780.00        20             8658.00             434            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ObjectBoundary_subClassOf_IndependentContinuant                       116       2343                2              8800.00        15             8688.00             478            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Occurrent_subClassOf_Entity                                           117       2343                2              9688.00        10             9576.00             69             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OneDimensionalRegion_subClassOf_SpatialRegion                         118       2343                2              8774.00        14             8652.00             444            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Process_subClassOf_ProcessualEntity                                   119       2343                2              8889.00        13             8775.00             444            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProcessAggregate_subClassOf_ProcessualEntity                          120       2343                2              9310.00        19             9195.00             59             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProcessBoundary_subClassOf_ProcessualEntity                           121       2343                2              8921.00        14             8809.00             434            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProcessualContext_subClassOf_ProcessualEntity                         122       2343                2              8800.00        14             8673.00             434            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProcessualEntity_subClassOf_Occurrent                                 123       2343                2              9459.00        14             9342.00             60             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Quality_subClassOf_SpecificallyDependentContinuant                    124       2343                2              8800.00        16             8687.00             453            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RealizableEntity_subClassOf_SpecificallyDependentContinuant           125       2343                2              8378.00        15             8265.00             425            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ScatteredSpatiotemporalRegion_subClassOf_SpatiotemporalRegion         126       2343                2              9368.00        16             9255.00             59             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ScatteredTemporalRegion_subClassOf_TemporalRegion                     127       2343                2              8647.00        13             8522.00             440            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Site_subClassOf_IndependentContinuant                                 128       2343                2              8604.00        17             8491.00             434            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SpatialRegion_subClassOf_Continuant                                   129       2343                2              8558.00        13             8446.00             458            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SpatiotemporalInstant_subClassOf_ConnectedSpatiotemporalRegion        130       2343                2              8858.00        13             8726.00             440            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SpatiotemporalInterval_subClassOf_ConnectedSpatiotemporalRegion       131       2343                2              8730.00        15             8603.00             434            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SpatiotemporalRegion_subClassOf_Occurrent                             132       2343                2              8752.00        12             8630.00             448            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SpecificallyDependentContinuant_subClassOf_DependentContinuant        133       2343                2              8759.00        15             8647.00             458            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TemporalInstant_subClassOf_ConnectedTemporalRegion                    134       2343                2              8748.00        14             8636.00             448            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TemporalInterval_subClassOf_ConnectedTemporalRegion                   135       2343                2              8839.00        14             8718.00             440            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TemporalRegion_subClassOf_Occurrent                                   136       2343                2              8578.00        15             8467.00             439            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ThreeDimensionalRegion_subClassOf_SpatialRegion                       137       2343                2              8846.00        14             8732.00             458            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TwoDimensionalRegion_subClassOf_SpatialRegion                         138       2343                2              9222.00        16             9108.00             49             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ZeroDimensionalRegion_subClassOf_SpatialRegion                        139       2343                2              9471.00        15             9358.00             70             
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     

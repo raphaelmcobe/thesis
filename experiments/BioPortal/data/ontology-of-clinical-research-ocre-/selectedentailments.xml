@@ -1,0 +1,414 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#DepVar_nominalGT2_indVar_dichotomous"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#DepVar_nominalGT2_indVar_nominalGT2"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#DepVar_nominalGT2_indVar_ordinal"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#DepVar_nominalGT2_indVar_quantitative"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#DepVar_ordinal_indVar_dichotomous"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200060"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#DepVar_ordinal_indVar_nominalGT2"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200060"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#DepVar_ordinal_indVar_ordinal"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200060"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#DepVar_ordinal_indVar_quantitative"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200060"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#DepVar_quantitative_indVar_nominalGT2"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200098"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#DepVar_quantitative_indVar_ordinal"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200098"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#DepVar_quantitative_indVar_quantitative"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200098"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#DepVar_survival_data_indVar_dichotomous"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200106"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#DepVar_survival_data_indVar_ordinal"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200106"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE200107"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200098"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400009"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400011"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400012"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400033"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400037"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400048"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400050"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400051"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400052"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400058"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400060"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400063"/>
+        <Class IRI="http://purl.org/net/OCRe/study_protocol.owl#OCRE300012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400069"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400071"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400072"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200014"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200016"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200017"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200049"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200018"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200079"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200022"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200079"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200026"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200032"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200036"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200045"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200079"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200046"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200054"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200059"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200079"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200060"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200069"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200073"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200079"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200082"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200089"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200049"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200092"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200092"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200053"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200097"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200097"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200053"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200098"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200099"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200106"/>
+        <Class IRI="http://purl.org/net/OCRe/statistics.owl#OCRE200092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#Aggregated-human_study"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#Human_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#Human_study"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#Organismal_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#Individual-human_study"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#Human_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#Non-human_organism_study"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#Organismal_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#Non-organismal_study"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100007"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100008"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100045"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100009"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100058"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100015"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100018"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100019"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100049"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100020"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100024"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100027"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100039"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100044"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100047"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100052"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100055"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100062"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100022"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100065"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100077"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100078"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100086"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100082"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100088"/>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#OCRE100059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/net/OCRe/study_design.owl#Organismal_study"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#OCRE400029"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000225"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000103"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000120"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000121"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000124"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Subset"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000224"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000225"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000226"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000225"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000227"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000225"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000228"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000225"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000229"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000225"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000230"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000409"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000410"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000409"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000420"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000409"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000421"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000423"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000428"/>
+    </ClassAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

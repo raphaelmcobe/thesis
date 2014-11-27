@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_251"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_263"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Continuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#DependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Disposition"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#RealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#FiatObjectPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Function"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#RealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Object"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ObjectAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ObjectBoundary"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#OneDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Quality"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#DependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#RealizableEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#DependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#RealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Site"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#SpatialRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ThreeDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#TwoDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ZeroDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedSpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedTemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#FiatProcessPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Occurrent"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Process"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessBoundary"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualContext"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ScatteredSpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ScatteredTemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalInstant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedSpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalInterval"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedSpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalInstant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedTemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalInterval"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedTemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Occurrent"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

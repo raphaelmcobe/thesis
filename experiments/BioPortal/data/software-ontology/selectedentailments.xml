@@ -1,0 +1,1346 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000005"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000007"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000008"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000021"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000022"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000025"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000027"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000032"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000035"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000041"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000048"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000050"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000053"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000059"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000066"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000068"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000070"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000071"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000072"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000427"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000075"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000077"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000078"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000079"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000080"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000085"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000086"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000087"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000090"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000092"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000098"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000099"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000103"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000104"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000105"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000109"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000120"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000125"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000126"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000130"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000132"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000133"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000134"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000138"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000147"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000154"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000158"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000159"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000161"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000163"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000164"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000168"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000170"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000171"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000188"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000189"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000190"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000191"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000192"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000193"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000196"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000197"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000201"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000202"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000203"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000205"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000206"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000207"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000208"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000209"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000213"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000214"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000222"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000224"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000225"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000226"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000230"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000231"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000245"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000246"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000247"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000248"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000252"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000254"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000258"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000259"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000269"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000271"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000279"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000280"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000283"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000285"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000288"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000289"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000292"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000293"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000294"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000295"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000307"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000308"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000309"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000311"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000312"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000314"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000316"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000317"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000319"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000322"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000333"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000335"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000338"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000346"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000347"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000348"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000349"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000350"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000352"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000353"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000354"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000355"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000356"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000358"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000359"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000360"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000361"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000362"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000367"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000368"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000369"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000370"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000373"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000377"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000382"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000383"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000384"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000385"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000387"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000388"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000390"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000405"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000405"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000115"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000416"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000421"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000422"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000424"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000432"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000435"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000438"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000442"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000446"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000450"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000452"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000453"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000454"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000456"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000457"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000458"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000459"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000460"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000461"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000463"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000465"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000466"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000468"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000470"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000471"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000472"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000473"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000474"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000479"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000480"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000481"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000482"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000483"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000485"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000486"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000487"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000488"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000489"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000491"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000494"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000495"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000496"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000499"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000501"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000504"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000505"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000506"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000507"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000510"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000512"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000514"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000520"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000521"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000522"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000523"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000525"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000526"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000527"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000528"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000529"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000530"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000532"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000533"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000534"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000536"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000537"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000538"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000539"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000540"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000541"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000542"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000543"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000544"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000545"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000547"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000549"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000550"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000551"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000555"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000556"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000557"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000558"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000561"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000563"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000564"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000565"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000567"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000572"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000574"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000577"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000578"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000579"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000581"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000582"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000583"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000590"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000591"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000593"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000594"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000599"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000601"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000603"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000604"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000605"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000606"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000607"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000608"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000609"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000610"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000611"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000612"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000613"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000616"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000617"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000619"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000621"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000622"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000623"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000625"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000630"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000632"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000635"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000636"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000637"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000638"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000639"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000641"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000642"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000645"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000646"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000647"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000649"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000650"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000651"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000653"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000654"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000656"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000657"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000658"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000659"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000660"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000662"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000665"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000666"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000667"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000669"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000671"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000672"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000675"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000676"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000677"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000678"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000679"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000683"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000685"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000686"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000688"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000689"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000690"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000691"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000692"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000693"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000694"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000696"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000697"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000698"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000699"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000700"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000701"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000703"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000704"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000705"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000706"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000707"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000710"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000711"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000712"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000714"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000716"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000717"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000718"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000719"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000720"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000721"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000723"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000725"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000726"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000727"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000728"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000729"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000730"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000731"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/swo/SWO_0000111"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

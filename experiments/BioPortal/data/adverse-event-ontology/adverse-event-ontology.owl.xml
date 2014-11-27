@@ -1,0 +1,4481 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/obo/aeo.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://purl.obolibrary.org/obo/aeo.owl">
+    <Prefix name="ont" IRI="http://owl.cs.manchester.ac.uk/ontology#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000366"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <Class IRI="http://purl.obolibrary.org/obo/VO_0000300"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1#Entity"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectBoundary"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Site"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#FiatObjectPart"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Object"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectAggregate"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#OneDimensionalRegion"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ThreeDimensionalRegion"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#TwoDimensionalRegion"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ZeroDimensionalRegion"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/snap#RealizableEntity"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedSpatiotemporalRegion"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInstant"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInterval"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedTemporalRegion"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalInstant"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalInterval"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalRegion"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalRegion"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/span#FiatProcessPart"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/span#Process"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessAggregate"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessBoundary"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualContext"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalRegion"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedSpatiotemporalRegion"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/span#ScatteredSpatiotemporalRegion"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalRegion"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedTemporalRegion"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.1/span#ScatteredTemporalRegion"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000002"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000003"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000004"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000005"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000006"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000007"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000008"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000009"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000010"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000292"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000293"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000293"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000569"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000294"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000487"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000295"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000296"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000402"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000297"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000298"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000299"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000300"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000301"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000302"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000303"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000543"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000304"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000305"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000306"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000435"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000307"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000308"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000309"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000310"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000571"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000311"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000312"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000443"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000313"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000373"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000314"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000328"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000315"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000588"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000316"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000588"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000317"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000582"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000317_oral"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000317"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000319"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000378"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000319_like_illness"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000378"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000321"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000332"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000322"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000650"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000322"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0000300"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000323"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000543"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000323"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0000300"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000324"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000373"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000324"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0000300"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000325"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000362"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000325"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0000300"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000326"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000555"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000326"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0000300"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000327"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000442"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000328"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000622"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000329"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000393"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000330"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000331"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000476"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000332"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000570"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000333"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000435"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000334"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000582"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000335"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000378"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000336"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000564"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000337"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000418"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000338"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000443"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000339"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000340"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000465"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000341"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000493"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000342"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000343"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000439"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000344"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000345"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000362"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000346"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000362"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000347"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000378"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000348"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000378"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000349"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000574"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000350"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000564"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000351"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000378"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000352"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000353"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000335"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000354"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000378"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000355"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000590"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000356"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000522"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000357"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000582"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000358"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000378"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000359"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000466"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000360"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000392"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000361"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000624"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000362"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000543"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000363"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000364"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000365"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000582"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000366"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000367"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000584"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000367"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0000300"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000368"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000368"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0000300"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000369"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000369"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0000300"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000370"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000370"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0000300"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000371"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000427"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000371"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0000300"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000372"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000543"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000372"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0000300"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000373"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000543"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000582"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000375"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000376"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000362"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000377"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000378"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000379"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000588"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000380"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000588"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000381"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000493"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000382"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000435"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000383"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000384"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000362"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000385"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000442"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000386"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000362"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000387"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000364"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000388"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000582"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000389"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000390"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000582"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000391"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000392"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000582"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000393"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000394"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000582"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000395"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000396"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000574"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000397"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000398"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000571"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000399"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000490"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000400"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000582"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000401"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000543"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000402"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000403"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000381"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000404"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000405"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000406"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000407"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000408"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000409"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000410"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000411"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000378"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000412"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000413"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000414"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000415"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000416"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000427"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000416"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000439"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000417"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000418"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000570"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000419"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000543"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000420"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000421"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000435"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000422"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000409"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000423"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000543"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000424"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000466"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000425"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000426"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000427"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000493"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000428"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000518"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000429"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000570"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000430"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000554"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000431"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000432"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000361"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000433"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000434"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000378"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000435"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000436"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000437"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000436"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000438"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000570"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000439"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000440"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000539"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000441"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000442"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000518"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000443"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000444"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000445"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000588"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000446"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000447"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000578"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000448"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000449"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000570"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000450"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000451"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000452"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000453"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000554"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000454"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000568"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000455"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000439"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000456"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000457"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000584"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000458"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000469"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000458"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0000300"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000459"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000460"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000388"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000461"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000493"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000462"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000564"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000463"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000464"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000436"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000465"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000466"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000363"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000467"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000468"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000436"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000469"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000476"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000470"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000471"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000582"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000472"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000473"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000474"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000475"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000596"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000476"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000477"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000476"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000478"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000570"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000479"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000377"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000480"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000487"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000481"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000476"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000482"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000483"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000484"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000426"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000485"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000651"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000486"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000487"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000423"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000488"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000363"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000489"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000543"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000490"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000364"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000491"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000582"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000492"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000435"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000493"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000494"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000570"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000495"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000622"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000496"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000455"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000497"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000493"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000498"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000622"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000499"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000511"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000500"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000582"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000501"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000583"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000502"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000564"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000503"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000521"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000504"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000505"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000439"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000506"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000625"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000507"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000493"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000508"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000427"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000509"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000364"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000510"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000443"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000511"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000439"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000512"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000582"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000513"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000582"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000514"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000515"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000516"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000392"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000517"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000546"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000518"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000519"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000520"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000582"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000521"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000435"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000522"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000523"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000524"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000443"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000525"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000435"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000526"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000527"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000539"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000528"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000362"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000529"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000530"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000403"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000531"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000532"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000439"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000533"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000534"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000493"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000535"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000439"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000536"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000537"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000436"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000538"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000378"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000539"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000541"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000542"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000543"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000544"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000545"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000546"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000546"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000555"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000547"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000583"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000548"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000555"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000549"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000543"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000550"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000588"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000551"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000381"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000552"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000553"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000553"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000493"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000554"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000439"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000555"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000556"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000546"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000557"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000476"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000558"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000570"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000559"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000465"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000560"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000443"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000561"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000560"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000562"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000436"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000563"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000564"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000564"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000378"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000565"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000493"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000566"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000511"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000567"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000564"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000568"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000584"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000569"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000570"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000570"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000571"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000378"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000572"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000571"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000573"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000465"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000574"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000575"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000574"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000576"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000443"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000576"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000555"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000577"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000578"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000578"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000443"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000579"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000570"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000579"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000582"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000583"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000555"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000584"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000476"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000585"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000435"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000586"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000571"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000587"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000571"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000588"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000589"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000443"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000590"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000553"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000591"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000592"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000521"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000592"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000593"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000442"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000594"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000620"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000595"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000620"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000596"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000593"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000597"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000439"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000597"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000598"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000465"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000599"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000588"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000600"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000554"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000601"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000554"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000602"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000603"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000603"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000439"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000604"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000622"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000605"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000439"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000606"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000423"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000607"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000465"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000608"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000439"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000609"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000439"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000610"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000435"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000611"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000612"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000613"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000614"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000614"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000435"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000615"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000379"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000616"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000603"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000617"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000555"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000618"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000476"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000619"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000622"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000620"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000555"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000621"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000553"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000622"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000623"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000624"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000624"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000555"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000625"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000570"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000626"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000578"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000627"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000550"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000628"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000427"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000629"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000630"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000427"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000631"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000632"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000631"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000633"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000631"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000634"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000631"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000635"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000631"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000636"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000631"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000637"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000631"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000638"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000639"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000361"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000640"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000361"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000641"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000361"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000642"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000361"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000643"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000644"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000645"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000644"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VO_0000300"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000645"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000543"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000646"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000377"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000647"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000378"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000648"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000647"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000649"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000650"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000493"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000651"/>
+        <Class IRI="http://purl.obolibrary.org/obo/AEO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VO_0000300"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Site"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Disposition"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#RealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#FiatObjectPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Function"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#RealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Object"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectBoundary"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#OneDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#RealizableEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#RealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Site"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ThreeDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#TwoDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ZeroDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedSpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedTemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#FiatProcessPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Process"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessBoundary"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualContext"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ScatteredSpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ScatteredTemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInstant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedSpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInterval"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedSpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalInstant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedTemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalInterval"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedTemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Disposition"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Function"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Disposition"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#FiatObjectPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Object"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#FiatObjectPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectAggregate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#FiatObjectPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectBoundary"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#FiatObjectPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Site"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Function"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectBoundary"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Site"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Object"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectAggregate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Object"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectBoundary"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Object"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Site"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectBoundary"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Site"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectBoundary"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Site"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#OneDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ThreeDimensionalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#OneDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#TwoDimensionalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#OneDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ZeroDimensionalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#RealizableEntity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ThreeDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#TwoDimensionalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ThreeDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ZeroDimensionalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#TwoDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ZeroDimensionalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedSpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ScatteredSpatiotemporalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedTemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ScatteredTemporalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#FiatProcessPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Process"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#FiatProcessPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessAggregate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#FiatProcessPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessBoundary"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#FiatProcessPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualContext"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Process"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessAggregate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Process"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessBoundary"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Process"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualContext"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessBoundary"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualContext"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessBoundary"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualContext"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInstant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInterval"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.1</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalInstant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalInterval"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid24"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid26"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid27"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:http://purl.org/obo/owl/ro#genid9"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#agent_in"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_agent"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_improper_part"/>
+        <ObjectProperty IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_improper_part"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_integral_part"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#improper_part_of"/>
+        <ObjectProperty IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#improper_part_of"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#integral_part_of"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#proper_part_of"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#relationship"/>
+        <ObjectProperty IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#transformed_into"/>
+        <ObjectProperty IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_agent"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#agent_in"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#contained_in"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#contains"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#derived_into"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#improper_part_of"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_improper_part"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#integral_part_of"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_integral_part"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#proper_part_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#location_of"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#preceded_by"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#precedes"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#derived_into"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_improper_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_integral_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#improper_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#integral_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#location_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#preceded_by"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#precedes"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#proper_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.org/obo/owl/ro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#transformation_of"/>
+    </TransitiveObjectProperty>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

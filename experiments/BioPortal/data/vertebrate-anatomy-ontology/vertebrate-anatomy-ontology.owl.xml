@@ -1,0 +1,2809 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_vertebrate_anatomy"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_vertebrate_anatomy">
+    <Prefix name="ont" IRI="http://owl.cs.manchester.ac.uk/ontology#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000000"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000128"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_has_part"/>
+                <Class IRI="http://purl.obolibrary.org/obo/VAO_0000040"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000145"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000139"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+                <Class IRI="http://purl.obolibrary.org/obo/VAO_0000146"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000146"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000139"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+                <Class IRI="http://purl.obolibrary.org/obo/VAO_0000092"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000004"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000005"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000006"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000007"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000008"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000009"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000010"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000011"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000012"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000013"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000014"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000014"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/CARO_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/CARO_0000013"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000019"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/CARO_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/CARO_0000024"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000021"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000024"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000027"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000028"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000029"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000030"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000032"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000041"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000042"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000043"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000045"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000046"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000048"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000049"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000045"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000050"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000045"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000054"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000055"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000062"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000063"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000064"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000065"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000066"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000067"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000068"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000069"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000070"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000071"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000072"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000073"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000074"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000077"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0001000"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0001001"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0001000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000001"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000003"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000003"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_has_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000040"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000003"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000092"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000004"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000130"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000005"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000005"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000018"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000006"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000007"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000007"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000014"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000008"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000009"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000009"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000010"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000010"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000011"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_produces"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000013"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_produces"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000020"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000013"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000014"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000014"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000016"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000015"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000016"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000018"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000077"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000019"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000032"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000020"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000021"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000022"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000022"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000023"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000023"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_participates_in"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000136"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000024"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000025"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000027"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000028"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000025"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000028"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_has_location"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000029"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000029"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000030"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000025"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000030"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_has_location"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000034"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000032"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000034"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000035"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000035"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000027"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000036"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000037"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000037"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000027"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000038"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000038"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000008"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000038"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_overlies"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000025"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000039"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000010"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_produces"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000040"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000040"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000037"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000041"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000041"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000025"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000041"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000041"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000008"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000041"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_produces"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000043"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000043"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000025"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000043"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000008"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000044"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000044"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000008"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000044"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000009"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000044"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000011"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000045"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000046"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000008"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000011"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000046"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000046"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000047"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000047"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000047"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000035"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000047"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000037"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000048"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000027"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000049"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000049"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000056"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000050"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000051"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000052"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000052"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000053"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000053"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000032"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000054"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000054"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000032"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000055"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000052"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000056"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000056"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000027"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000058"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000058"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000040"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000058"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000044"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000058"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_produces"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000040"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000058"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_produces"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000059"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000059"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000060"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000060"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000046"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000060"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_transformation_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000045"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000060"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_capable_of_producing"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000020"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000060"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_produces"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000046"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000061"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000061"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000025"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000061"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000043"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000061"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_produces"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000062"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000062"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000063"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000063"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000035"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000063"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000025"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000064"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000064"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_transformation_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000038"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000064"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_overlies"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000025"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000064"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_produces"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000065"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000064"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_produces"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000066"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000065"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000065"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000066"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000066"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000068"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000068"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000025"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000068"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000068"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000041"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000068"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_produces"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000068"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_produces"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000069"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000069"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000070"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000070"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_has_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000071"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000072"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000073"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000074"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000052"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000075"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000076"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000076"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000027"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000076"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_has_location"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000075"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000077"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000078"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000078"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000077"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000079"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000080"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000081"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000049"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000082"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_has_location"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000083"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000083"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000084"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000084"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000025"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000084"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_transformation_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000061"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000085"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000085"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000040"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000085"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000078"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000085"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000058"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000085"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_produces"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000059"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000086"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000086"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000035"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000087"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000088"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000089"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000090"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000090"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000035"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000090"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_has_location"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000029"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000091"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000089"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000091"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000092"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000092"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000093"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000093"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000056"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000094"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000095"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000068"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000095"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_transformation_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000068"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000096"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000068"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000097"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000098"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000100"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000100"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_has_location"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000101"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000101"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000102"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000103"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000104"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000104"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000052"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000105"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000070"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000106"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000107"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000107"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000070"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000108"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000089"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000108"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000109"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000109"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000088"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000109"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000109"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000094"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000110"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000112"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000112"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000025"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000112"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000112"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_transformation_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000095"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000112"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_produces"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000113"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000113"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000114"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000114"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000115"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000115"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000047"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000115"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000020"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000115"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000046"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000116"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000060"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000117"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000060"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000117"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_integral_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000118"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000118"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000115"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000119"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000119"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000089"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000120"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000120"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000120"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000088"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000122"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000115"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000122"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_has_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000116"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000123"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000123"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_from"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000124"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000124"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_integral_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000118"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000124"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_transformation_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000117"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000124"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_produces"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000020"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000127"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000128"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000128"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000027"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000130"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000131"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000132"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000132"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000133"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000132"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000134"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000132"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000135"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000136"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000137"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000132"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000137"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_develops_in"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000050"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000138"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000135"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000138"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_participates_in"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000140"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000139"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000135"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000139"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_participates_in"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000143"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000140"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000141"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000136"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000142"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000136"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000143"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000140"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000144"/>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000145"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_has_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000047"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000146"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_has_part"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000040"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://purl.obolibrary.org/obo/VAO_0000149"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/VAO_0000049"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_has_integral_part"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_integral_part_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+    </SubObjectPropertyOf>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://purl.obolibrary.org/obo/CARO_caro</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/CARO_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_has_integral_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_has_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_integral_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_transformation_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/VERTEBRATE_ANATOMY_part_of"/>
+    </TransitiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_has_integral_part"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_has_part"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_integral_part_of"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBO_REL_part_of"/>
+    </ReflexiveObjectProperty>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

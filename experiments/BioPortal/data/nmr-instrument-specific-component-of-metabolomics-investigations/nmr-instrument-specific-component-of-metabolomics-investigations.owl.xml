@@ -1,0 +1,4875 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://msi-ontology.sourceforge.net/ontology/NMR.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://msi-ontology.sourceforge.net/ontology/NMR.owl">
+    <Prefix name="ont" IRI="http://owl.cs.manchester.ac.uk/ontology#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0#Entity"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Continuant"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/span#Occurrent"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Continuant"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#DependentContinuant"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#SpatialRegion"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#DependentContinuant"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Quality"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#RealizableEntity"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#FiatObjectPart"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Object"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ObjectAggregate"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ObjectBoundary"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Site"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#RealizableEntity"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Disposition"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Function"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#SpatialRegion"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#OneDimensionalRegion"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ThreeDimensionalRegion"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#TwoDimensionalRegion"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ZeroDimensionalRegion"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedSpatiotemporalRegion"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalInstant"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalInterval"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedTemporalRegion"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalInstant"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalInterval"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Occurrent"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualEntity"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalRegion"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalRegion"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualEntity"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/span#FiatProcessPart"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/span#Process"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessAggregate"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessBoundary"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualContext"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalRegion"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedSpatiotemporalRegion"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/span#ScatteredSpatiotemporalRegion"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalRegion"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedTemporalRegion"/>
+            <Class IRI="http://www.ifomis.org/bfo/1.0/span#ScatteredTemporalRegion"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400001"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_47"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400002"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_47"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400003"/>
+        <Class IRI="#MSI_400063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400004"/>
+        <Class IRI="#MSI_400003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400005"/>
+        <Class IRI="#MSI_400063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400006"/>
+        <Class IRI="#MSI_400005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400007"/>
+        <Class IRI="#MSI_400036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400008"/>
+        <Class IRI="#MSI_400183"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400009"/>
+        <Class IRI="#MSI_400183"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400010"/>
+        <Class IRI="#MSI_400183"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400011"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_47"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400013"/>
+        <Class IRI="#MSI_400011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400014"/>
+        <Class IRI="#MSI_400011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400015"/>
+        <Class IRI="#MSI_400011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400017"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400018"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400019"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400020"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400021"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400022"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400023"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400024"/>
+        <Class IRI="#MSI_400262"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400025"/>
+        <Class IRI="#MSI_400262"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400026"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400027"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400028"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400029"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400030"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400031"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400032"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400033"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400034"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400035"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400036"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_43"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400037"/>
+        <Class IRI="#MSI_400047"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400038"/>
+        <Class IRI="#MSI_400042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400039"/>
+        <Class IRI="#MSI_400038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400040"/>
+        <Class IRI="#MSI_400042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400041"/>
+        <Class IRI="#MSI_400040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400042"/>
+        <Class IRI="#MSI_400063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400043"/>
+        <Class IRI="#MSI_400042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400044"/>
+        <Class IRI="#MSI_400043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400045"/>
+        <Class IRI="#MSI_400043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400047"/>
+        <Class IRI="#MSI_400036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400048"/>
+        <Class IRI="#MSI_400042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400049"/>
+        <Class IRI="#MSI_400075"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400050"/>
+        <Class IRI="#MSI_400048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400051"/>
+        <Class IRI="#MSI_400048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400052"/>
+        <Class IRI="#MSI_400048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400053"/>
+        <Class IRI="#MSI_400048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400054"/>
+        <Class IRI="#MSI_400048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400055"/>
+        <Class IRI="#MSI_400048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400056"/>
+        <Class IRI="#MSI_400048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400057"/>
+        <Class IRI="#MSI_400048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400059"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_47"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400061"/>
+        <Class IRI="#MSI_400196"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400062"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400063"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#RealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400064"/>
+        <Class IRI="#MSI_400043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400065"/>
+        <Class IRI="#MSI_400063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400066"/>
+        <Class IRI="#MSI_400063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400068"/>
+        <Class IRI="#MSI_400063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400069"/>
+        <Class IRI="#MSI_400068"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400070"/>
+        <Class IRI="#MSI_400068"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400071"/>
+        <Class IRI="#MSI_400068"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400072"/>
+        <Class IRI="#MSI_400068"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400073"/>
+        <Class IRI="#MSI_400043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400074"/>
+        <Class IRI="#MSI_400043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400075"/>
+        <Class IRI="#MSI_400048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400076"/>
+        <Class IRI="#MSI_400075"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400077"/>
+        <Class IRI="#MSI_400075"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400079"/>
+        <Class IRI="#MSI_400043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400080"/>
+        <Class IRI="#MSI_400043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400081"/>
+        <Class IRI="#MSI_400043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400083"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400085"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_20"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400086"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_20"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400087"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_20"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400088"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_20"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400089"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_20"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400090"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_20"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400091"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_20"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400092"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_20"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400093"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_20"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400094"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_20"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400095"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_20"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400096"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_20"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400097"/>
+        <Class IRI="#MSI_400096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400098"/>
+        <Class IRI="#MSI_400096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400099"/>
+        <Class IRI="#MSI_400096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400100"/>
+        <Class IRI="#MSI_400096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400101"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_11"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400103"/>
+        <Class IRI="#MSI_400113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400104"/>
+        <Class IRI="#MSI_400101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400105"/>
+        <Class IRI="#MSI_400101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400106"/>
+        <Class IRI="#MSI_400101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400107"/>
+        <Class IRI="#MSI_400101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400108"/>
+        <Class IRI="#MSI_400066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400109"/>
+        <Class IRI="#MSI_400108"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400110"/>
+        <Class IRI="#MSI_400108"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400111"/>
+        <Class IRI="#MSI_400108"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400112"/>
+        <Class IRI="#MSI_400108"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400113"/>
+        <Class IRI="#MSI_400101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400114"/>
+        <Class IRI="#MSI_400113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400115"/>
+        <Class IRI="#MSI_400063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400116"/>
+        <Class IRI="#MSI_400182"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400117"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400118"/>
+        <Class IRI="#MSI_400267"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400119"/>
+        <Class IRI="#MSI_400267"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400120"/>
+        <Class IRI="#MSI_400117"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400121"/>
+        <Class IRI="#MSI_400267"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400122"/>
+        <Class IRI="#MSI_400267"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400123"/>
+        <Class IRI="#MSI_400267"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400124"/>
+        <Class IRI="#MSI_400117"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400125"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#RealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400126"/>
+        <Class IRI="#MSI_400181"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400127"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400128"/>
+        <Class IRI="#MSI_400127"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400129"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_20"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400130"/>
+        <Class IRI="#MSI_400129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400131"/>
+        <Class IRI="#MSI_400129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400132"/>
+        <Class IRI="#MSI_400011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400134"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_10"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400135"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_10"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400136"/>
+        <Class IRI="#MSI_400043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400137"/>
+        <Class IRI="#MSI_400136"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400138"/>
+        <Class IRI="#MSI_400136"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400139"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_20"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400140"/>
+        <Class IRI="#MSI_400066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400141"/>
+        <Class IRI="#MSI_400066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400142"/>
+        <Class IRI="#MSI_400066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400143"/>
+        <Class IRI="#MSI_400066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400144"/>
+        <Class IRI="#MSI_400066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400146"/>
+        <Class IRI="#MSI_400066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400147"/>
+        <Class IRI="#MSI_400143"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400148"/>
+        <Class IRI="#MSI_400066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400149"/>
+        <Class IRI="#MSI_400148"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400150"/>
+        <Class IRI="#MSI_400148"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400151"/>
+        <Class IRI="#MSI_400083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400152"/>
+        <Class IRI="#MSI_400083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400153"/>
+        <Class IRI="#MSI_400083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400154"/>
+        <Class IRI="#MSI_400083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400155"/>
+        <Class IRI="#MSI_400083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400156"/>
+        <Class IRI="#MSI_400083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400157"/>
+        <Class IRI="#MSI_400083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400158"/>
+        <Class IRI="#MSI_400083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400159"/>
+        <Class IRI="#MSI_400007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400160"/>
+        <Class IRI="#MSI_400007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400161"/>
+        <Class IRI="#MSI_400183"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400162"/>
+        <Class IRI="#MSI_400183"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400163"/>
+        <Class IRI="#MSI_400184"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400164"/>
+        <Class IRI="#MSI_400184"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400165"/>
+        <Class IRI="#MSI_400061"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400166"/>
+        <Class IRI="#MSI_400061"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400167"/>
+        <Class IRI="#MSI_400037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400168"/>
+        <Class IRI="#MSI_400037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400169"/>
+        <Class IRI="#MSI_400037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400170"/>
+        <Class IRI="#MSI_400037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400171"/>
+        <Class IRI="#MSI_400037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400172"/>
+        <Class IRI="#MSI_400037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400181"/>
+        <Class IRI="#MSI_400125"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400182"/>
+        <Class IRI="#MSI_400115"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400183"/>
+        <Class IRI="#MSI_400007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400184"/>
+        <Class IRI="#MSI_400062"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400185"/>
+        <Class IRI="#MSI_400011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400186"/>
+        <Class IRI="#MSI_400185"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400187"/>
+        <Class IRI="#MSI_400186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400188"/>
+        <Class IRI="#MSI_400186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400189"/>
+        <Class IRI="#MSI_400186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400190"/>
+        <Class IRI="#MSI_400186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400191"/>
+        <Class IRI="#MSI_400231"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400192"/>
+        <Class IRI="#MSI_400223"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400193"/>
+        <Class IRI="#MSI_400231"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400194"/>
+        <Class IRI="#MSI_400231"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400195"/>
+        <Class IRI="#MSI_400223"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400196"/>
+        <Class IRI="#MSI_400101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400197"/>
+        <Class IRI="#MSI_400198"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400198"/>
+        <Class IRI="#MSI_400059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400199"/>
+        <Class IRI="#MSI_400200"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400200"/>
+        <Class IRI="#MSI_400198"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400201"/>
+        <Class IRI="#MSI_400198"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400202"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_50"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400203"/>
+        <Class IRI="#MSI_400209"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400204"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_47"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400205"/>
+        <Class IRI="#MSI_400204"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400206"/>
+        <Class IRI="#MSI_400209"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400207"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_47"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400208"/>
+        <Class IRI="#MSI_400209"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400209"/>
+        <Class IRI="#MSI_400002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400210"/>
+        <Class IRI="#MSI_400209"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400211"/>
+        <Class IRI="#MSI_400212"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400212"/>
+        <Class IRI="#MSI_400011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400213"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_10"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400214"/>
+        <Class IRI="#MSI_400213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400215"/>
+        <Class IRI="#MSI_400214"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400216"/>
+        <Class IRI="#MSI_400214"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400217"/>
+        <Class IRI="#MSI_400214"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400218"/>
+        <Class IRI="#MSI_400214"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400219"/>
+        <Class IRI="#MSI_400214"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400220"/>
+        <Class IRI="#MSI_400214"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400221"/>
+        <Class IRI="#MSI_400214"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400223"/>
+        <Class IRI="#MSI_400231"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400224"/>
+        <Class IRI="#MSI_400223"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400225"/>
+        <Class IRI="#MSI_400231"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400226"/>
+        <Class IRI="#MSI_400059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400227"/>
+        <Class IRI="#MSI_400226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400228"/>
+        <Class IRI="#MSI_400226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400229"/>
+        <Class IRI="#MSI_400213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400230"/>
+        <Class IRI="#MSI_400229"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400231"/>
+        <Class IRI="#MSI_400014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400232"/>
+        <Class IRI="#MSI_400014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400233"/>
+        <Class IRI="#MSI_400232"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400234"/>
+        <Class IRI="#MSI_400059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400235"/>
+        <Class IRI="#MSI_400234"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400236"/>
+        <Class IRI="#MSI_400234"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400237"/>
+        <Class IRI="#MSI_400234"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400238"/>
+        <Class IRI="#MSI_400234"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400239"/>
+        <Class IRI="#MSI_400234"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400240"/>
+        <Class IRI="#MSI_400198"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400241"/>
+        <Class IRI="#MSI_400198"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400242"/>
+        <Class IRI="#MSI_400014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400243"/>
+        <Class IRI="#MSI_400014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400244"/>
+        <Class IRI="#MSI_400014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400246"/>
+        <Class IRI="#MSI_400015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400247"/>
+        <Class IRI="#MSI_400246"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400248"/>
+        <Class IRI="#MSI_400243"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400249"/>
+        <Class IRI="#MSI_400246"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400250"/>
+        <Class IRI="#MSI_400059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400251"/>
+        <Class IRI="#MSI_400250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400253"/>
+        <Class IRI="#MSI_400027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400254"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400255"/>
+        <Class IRI="#MSI_400254"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400256"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400257"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400258"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400259"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400260"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400262"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400264"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400265"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400266"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400267"/>
+        <Class IRI="#MSI_400117"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400268"/>
+        <Class IRI="#MSI_400117"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400270"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#MSI_400324"/>
+        <Class IRI="#MSI_400083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400276"/>
+        <Class IRI="#MSI_400200"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400277"/>
+        <Class IRI="#MSI_400200"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400278"/>
+        <Class IRI="#MSI_400200"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400279"/>
+        <Class IRI="#MSI_400200"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400280"/>
+        <Class IRI="#MSI_400014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400281"/>
+        <Class IRI="#MSI_400014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400283"/>
+        <Class IRI="#MSI_400059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400284"/>
+        <Class IRI="#MSI_400059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400285"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400286"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400287"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400288"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400289"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400290"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400291"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400292"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400294"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400295"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400296"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400297"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400298"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400299"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400300"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400301"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400302"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400303"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400304"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400305"/>
+        <Class IRI="#MSI_400006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400306"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400307"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400308"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400309"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400310"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400311"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400312"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400313"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400314"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400315"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400316"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400317"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400318"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400319"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400320"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400321"/>
+        <Class IRI="#NMR_400285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#NMR_400322"/>
+        <Class IRI="#MSI_400255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_1"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_10"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#RealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_11"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_6"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_12"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_6"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_121"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_251"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_122"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_251"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_123"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_251"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_124"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_251"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_125"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_251"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_126"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_263"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_127"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_133"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_128"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_133"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_129"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_133"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_13"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_6"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_130"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_137"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_131"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_133"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_263"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_136"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_137"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_138"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_137"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_139"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_137"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_14"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_6"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_141"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_142"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_143"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_144"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_54"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_147"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_18"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_148"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_18"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_15"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_150"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_83"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_151"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_83"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_154"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_137"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_155"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#DependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_156"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_157"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_70"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_158"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_14"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_159"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_168"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_16"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_168"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_169"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_17"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#DependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_170"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_171"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_172"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_171"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_173"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_171"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_174"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_173"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_175"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_69"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_176"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_54"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_177"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_69"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_178"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_34"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_18"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#DependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_181"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ObjectAggregate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_182"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_70"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_183"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_70"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_184"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_70"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_185"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_70"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_187"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#DependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_189"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_137"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_19"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_11"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_190"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_137"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_191"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_137"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_2"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_20"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_11"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_21"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_22"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_23"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_24"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_25"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_170"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_251"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_263"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_251"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://obi.sourceforge.net/ontology/OBI.owl#has_role"/>
+            <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_54"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_251"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://obi.sourceforge.net/ontology/OBI.owl#has_role_which_can_only_be_played_by_biomaterial_entity"/>
+            <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_254"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_252"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_258"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_253"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_70"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_254"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_54"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_254"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://obi.sourceforge.net/ontology/OBI.owl#is_role_that_can_only_be_played_by_biomaterial_entity"/>
+            <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_263"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_255"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_256"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_257"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_94"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_258"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_259"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_137"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_26"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_170"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_260"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_95"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_261"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_133"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_261"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://obi.sourceforge.net/ontology/OBI.owl#has_role"/>
+            <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_259"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_262"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_34"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_263"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_264"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ObjectAggregate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_265"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_264"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_27"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_170"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_28"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_14"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_29"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_14"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_3"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_30"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_14"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_31"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_14"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_32"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_15"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_33"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_15"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_34"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_36"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_37"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_36"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_38"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_37"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_39"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_37"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_4"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#DependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_40"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_37"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_41"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_37"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_42"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_43"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_44"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_45"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_44"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_46"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_44"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_47"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_48"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_47"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_49"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_47"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_5"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_50"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_51"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_50"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_52"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_50"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_53"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_34"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_54"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_55"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_56"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_57"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_58"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_34"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_59"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_6"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#RealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_60"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_61"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_59"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_62"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_63"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_64"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_65"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_66"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_67"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_68"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_69"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_69"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://obi.sourceforge.net/ontology/OBI.owl#part_of_process"/>
+            <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_73"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_7"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#RealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_70"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_69"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_72"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_69"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_73"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_73"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://obi.sourceforge.net/ontology/OBI.owl#part_of_process"/>
+            <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_66"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_76"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_77"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_78"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_79"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_8"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_5"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_80"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_77"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_81"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_82"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_83"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_147"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_84"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_78"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_85"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_78"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_86"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_6"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_87"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_88"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_82"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_89"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_9"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_5"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_94"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_69"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_95"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_69"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Continuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#DependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Disposition"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#RealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#FiatObjectPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Function"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#RealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Object"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ObjectAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ObjectBoundary"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#OneDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Quality"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#DependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#RealizableEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#DependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#RealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Site"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#SpatialRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ThreeDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#TwoDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ZeroDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedSpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedTemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#FiatProcessPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Occurrent"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Process"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessBoundary"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualContext"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ScatteredSpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ScatteredTemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalInstant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedSpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalInterval"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedSpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalInstant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedTemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalInterval"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedTemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Occurrent"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_121"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_122"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_121"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_123"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_121"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_124"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_121"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_125"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_122"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_123"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_122"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_124"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_122"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_125"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_123"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_124"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_123"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_125"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_124"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_125"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_130"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_138"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_130"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_139"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_130"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_259"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_138"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_139"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_138"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_259"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_139"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_259"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_36"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_42"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_36"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_43"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_36"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_44"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_36"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_47"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_36"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_50"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_36"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_53"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_36"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_54"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_42"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_43"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_42"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_44"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_42"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_47"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_42"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_50"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_42"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_53"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_42"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_54"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_43"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_44"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_43"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_47"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_43"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_50"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_43"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_53"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_43"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_54"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_44"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_47"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_44"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_50"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_44"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_53"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_44"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_54"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_47"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_50"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_47"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_53"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_47"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_54"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_50"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_53"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_50"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_54"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_53"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_54"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_70"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_94"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_70"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_95"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_94"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_95"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Continuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Occurrent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#DependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#DependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#SpatialRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Disposition"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Function"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Disposition"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#FiatObjectPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Object"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#FiatObjectPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ObjectAggregate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#FiatObjectPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ObjectBoundary"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#FiatObjectPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Site"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Function"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Role"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#IndependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#SpatialRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Object"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ObjectAggregate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Object"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ObjectBoundary"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Object"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Site"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ObjectAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ObjectBoundary"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ObjectAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Site"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ObjectBoundary"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Site"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#OneDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ThreeDimensionalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#OneDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#TwoDimensionalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#OneDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ZeroDimensionalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#Quality"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#RealizableEntity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ThreeDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#TwoDimensionalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ThreeDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ZeroDimensionalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#TwoDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/snap#ZeroDimensionalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedSpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ScatteredSpatiotemporalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ConnectedTemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ScatteredTemporalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#FiatProcessPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Process"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#FiatProcessPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessAggregate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#FiatProcessPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessBoundary"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#FiatProcessPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualContext"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Process"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessAggregate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Process"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessBoundary"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#Process"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualContext"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessBoundary"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualContext"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessBoundary"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualContext"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#ProcessualEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalInstant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalInterval"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#SpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.ifomis.org/bfo/1.0</IRI>
+        </Annotation>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalInstant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.0/span#TemporalInterval"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://obi.sourceforge.net/ontology/OBI.owl#has_role_which_can_only_be_played_by_biomaterial_entity"/>
+        <ObjectProperty IRI="http://obi.sourceforge.net/ontology/OBI.owl#has_role"/>
+    </SubObjectPropertyOf>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://obi.sourceforge.net/ontology/OBI.owl#process_part_of_process"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://obi.sourceforge.net/ontology/OBI.owl#has_role_which_can_only_be_played_by_biomaterial_entity"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_263"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://obi.sourceforge.net/ontology/OBI.owl#is_role_that_can_only_be_played_by_biomaterial_entity"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_169"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://protege.stanford.edu/plugins/owl/protege</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://protege.stanford.edu/plugins/owl/protege#FROM"/>
+        <Class IRI="http://protege.stanford.edu/plugins/owl/protege#DIRECTED-BINARY-RELATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://protege.stanford.edu/plugins/owl/protege</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://protege.stanford.edu/plugins/owl/protege#TO"/>
+        <Class IRI="http://protege.stanford.edu/plugins/owl/protege#DIRECTED-BINARY-RELATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://obi.sourceforge.net/ontology/OBI.owl#has_role_which_can_only_be_played_by_biomaterial_entity"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_169"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://obi.sourceforge.net/ontology/OBI.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://obi.sourceforge.net/ontology/OBI.owl#is_role_that_can_only_be_played_by_biomaterial_entity"/>
+        <Class IRI="http://obi.sourceforge.net/ontology/OBI.owl#OBI_263"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://protege.stanford.edu/plugins/owl/protege</IRI>
+        </Annotation>
+        <DataProperty IRI="http://protege.stanford.edu/plugins/owl/protege#PAL-DESCRIPTION"/>
+        <Class IRI="http://protege.stanford.edu/plugins/owl/protege#PAL-CONSTRAINT"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://protege.stanford.edu/plugins/owl/protege</IRI>
+        </Annotation>
+        <DataProperty IRI="http://protege.stanford.edu/plugins/owl/protege#PAL-NAME"/>
+        <Class IRI="http://protege.stanford.edu/plugins/owl/protege#PAL-CONSTRAINT"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://protege.stanford.edu/plugins/owl/protege</IRI>
+        </Annotation>
+        <DataProperty IRI="http://protege.stanford.edu/plugins/owl/protege#PAL-RANGE"/>
+        <Class IRI="http://protege.stanford.edu/plugins/owl/protege#PAL-CONSTRAINT"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://protege.stanford.edu/plugins/owl/protege</IRI>
+        </Annotation>
+        <DataProperty IRI="http://protege.stanford.edu/plugins/owl/protege#PAL-STATEMENT"/>
+        <Class IRI="http://protege.stanford.edu/plugins/owl/protege#PAL-CONSTRAINT"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://protege.stanford.edu/plugins/owl/protege</IRI>
+        </Annotation>
+        <DataProperty IRI="http://protege.stanford.edu/plugins/owl/protege#PAL-DESCRIPTION"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://protege.stanford.edu/plugins/owl/protege</IRI>
+        </Annotation>
+        <DataProperty IRI="http://protege.stanford.edu/plugins/owl/protege#PAL-NAME"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://protege.stanford.edu/plugins/owl/protege</IRI>
+        </Annotation>
+        <DataProperty IRI="http://protege.stanford.edu/plugins/owl/protege#PAL-RANGE"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://protege.stanford.edu/plugins/owl/protege</IRI>
+        </Annotation>
+        <DataProperty IRI="http://protege.stanford.edu/plugins/owl/protege#PAL-STATEMENT"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

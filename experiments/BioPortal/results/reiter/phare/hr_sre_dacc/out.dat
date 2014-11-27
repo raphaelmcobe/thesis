@@ -1,0 +1,68 @@
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Carboxylation_subClassOf_DrugTransformation                           1         403                 1              263.00         7              207.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ChemicalModification_subClassOf_DrugMetabolism                        2         403                 1              271.00         8              212.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Dealkylation_subClassOf_DrugTransformation                            3         403                 1              267.00         7              210.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Demethylation_subClassOf_DrugTransformation                           4         403                 1              268.00         8              212.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Derivative_subClassOf_DrugTransformation                              5         403                 1              266.00         7              210.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DrugActivity_subClassOf_DrugPharmacodynamics                          6         403                 1              264.00         7              207.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DrugAdverseReaction_subClassOf_DrugPharmacodynamics                   7         403                 1              268.00         8              212.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DrugDependence_subClassOf_DrugPharmacodynamics                        8         403                 1              269.00         8              214.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DrugDistribution_subClassOf_DrugPharmacokinetics                      9         403                 2              288.00         14             232.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DrugEffect_subClassOf_DrugPharmacogenomics                            10        403                 1              268.00         8              214.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DrugEfficacy_subClassOf_DrugPharmacodynamics                          11        403                 1              265.00         7              209.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DrugPharmacodynamics_subClassOf_Phenotype                             12        403                 1              269.00         8              213.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DrugRelatedAnalgesia_subClassOf_DrugPharmacodynamics                  13        403                 1              266.00         8              210.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DrugRelatedAnticoagulation_subClassOf_DrugPharmacodynamics            14        403                 1              266.00         7              211.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DrugRelatedComplication_subClassOf_DrugPharmacodynamics               15        403                 1              265.00         7              207.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DrugRelatedImmunosuppression_subClassOf_DrugPharmacodynamics          16        403                 1              265.00         7              210.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DrugRelatedStress_subClassOf_DrugPharmacodynamics                     17        403                 1              264.00         7              208.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DrugToxicity_subClassOf_DrugPharmacodynamics                          18        403                 1              265.00         7              211.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DrugTransformation_subClassOf_Phenotype                               19        403                 1              269.00         8              213.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DrugTransport_subClassOf_DrugPharmacokinetics                         20        403                 2              280.00         11             220.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Glucuronidation_subClassOf_DrugTransformation                         21        403                 1              268.00         8              211.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Hydroxylation_subClassOf_DrugTransformation                           22        403                 1              266.00         7              208.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Hypermethylation_subClassOf_DrugTransformation                        23        403                 1              264.00         7              209.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Methyl-transfer_subClassOf_DrugTransformation                         24        403                 1              266.00         7              210.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Methylation_subClassOf_DrugTransformation                             25        403                 1              269.00         8              214.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Myristoylation_subClassOf_DrugTransformation                          26        403                 1              266.00         7              210.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Oxidation_subClassOf_DrugTransformation                               27        403                 1              265.00         8              208.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Palmytoylation_subClassOf_DrugTransformation                          28        403                 1              268.00         8              212.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Phosphorylation_subClassOf_DrugTransformation                         29        403                 1              266.00         7              209.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Prenylation_subClassOf_DrugTransformation                             30        403                 1              269.00         8              211.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Sulfation_subClassOf_DrugTransformation                               31        403                 1              267.00         7              211.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Sulfoxydation_subClassOf_DrugTransformation                           32        403                 1              266.00         8              210.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Synthesis_subClassOf_DrugTransformation                               33        403                 1              269.00         8              212.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Ubiquitination_subClassOf_DrugTransformation                          34        403                 1              263.00         7              207.00              23             

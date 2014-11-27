@@ -1,0 +1,418 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#Activation"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#PositiveRegulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ActivationOfPolymeraseActivity"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ActivationOfProteinFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ActivationOfProcess"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#Activation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ActivationOfProcess"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ActivationOfProteinFunction"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#Activation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ActivationOfProteinFunction"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ActivationOfTranscriptionRegulatorActivity"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ActivationOfProteinFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#Behavior"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#OrganismalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfDNABindingDomainOfProteinToDNA"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfDNABindingDomainOfProteinToDNA"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingToMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfDNABindingDomainOfProteinToDNA"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#MolecularInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfMolecularEntity"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#MolecularBinding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfMolecularEntity"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#MolecularProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfProtein"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfProteinToDNA"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfProtein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfProteinToDNA"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingToMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfProteinToDNA"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#DNAProteinInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfProteinToProteinBindingSiteOfDNA"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfProteinToDNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfProteinToProteinBindingSiteOfProtein"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfProtein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfProteinToProteinBindingSiteOfProtein"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingToBindingSiteOfProtein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfProteinToProteinBindingSiteOfProtein"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#MolecularInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfTFToTFBindingSiteOfDNA"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfProteinToProteinBindingSiteOfDNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfTFToTFBindingSiteOfDNA"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfTranscriptionFactorToDNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfTFToTFBindingSiteOfProtein"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfProteinToProteinBindingSiteOfProtein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfTranscriptionActivatorToEnhancer"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfProteinToProteinBindingSiteOfDNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfTranscriptionFactorToDNA"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfProteinToDNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfTranscriptionFactorToOperator"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfTFToTFBindingSiteOfDNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfTranscriptionRepressorToSilencer"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfProteinToProteinBindingSiteOfDNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfTranslationInitiationComplexToRNA"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfTranslationInitiationComplexToRNA"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingToRNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingOfTranslationInitiationComplexToRNA"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#MolecularInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingToBindingSiteOfProtein"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingToMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingToMolecularEntity"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#MolecularBinding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingToProtein"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingToMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingToRNA"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingToMolecularEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#CellDeath"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#CellularProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#CellGrowth"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#CellularProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#CellularDevelopmentalProcess"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#CellularProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#CellularDevelopmentalProcess"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#DevelopmentalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#CellularProcess"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#PhysiologicalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#DNA"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#NucleicAcid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#DNAProteinInteraction"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#MolecularInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#Enzyme"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#GeneProduct"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#InformationBiopolymer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#Histone"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#Inhibition"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#NegativeRegulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#IntraCellularProcess"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#MolecularProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#IntraCellularTransport"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#IntraCellularProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#IntraCellularTransport"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#Transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#IntraOrganismalProcess"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#OrganismalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#Microorganism"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#Organism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#MolecularBinding"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#Binding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#MolecularInteraction"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#MolecularProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#MolecularInteraction"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#PhysicalInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#MolecularProcess"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#NegativeRegulation"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulatoryProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#NegativeRegulationOfGeneExpression"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#NegativeRegulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#NegativeRegulationOfGeneExpression"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfGeneExpression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#NegativeRegulationOfTranscription"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#NegativeRegulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#NegativeRegulationOfTranscription"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfTranscription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#NegativeRegulationOfTranscriptionOfGene"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#NegativeRegulationOfTranscription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#NegativeRegulationOfTranslation"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#NegativeRegulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#NegativeRegulationOfTranslation"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfTranslation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#OpenReadingFrame"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ProteinCodingDNARegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#PositiveRegulation"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulatoryProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#PositiveRegulationOfGeneExpression"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#PositiveRegulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#PositiveRegulationOfGeneExpression"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfGeneExpression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#PositiveRegulationOfTranscription"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#PositiveRegulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#PositiveRegulationOfTranscription"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfTranscription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#PositiveRegulationOfTranscriptionOfGene"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#PositiveRegulationOfTranscription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#PositiveRegulationOfTranslation"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#PositiveRegulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#PositiveRegulationOfTranslation"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfTranslation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ProteinBindingSiteOfProtein"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#BindingSiteOfProtein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ProteinCodingDNARegion"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#DNARegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ProteinCodingDNARegion"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ProteinCodingRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ProteinCodingGene"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ProteinCodingDNARegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ProteinCodingRegion"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#NucleicAcidRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ProteinMutation"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#Mutation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ProteinProteinInteraction"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#MolecularInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ProteinTargeting"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#IntraCellularTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#ProteinTransport"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#Transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RNACodingDNARegion"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#DNARegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RNACodingDNARegion"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RNACodingRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RNACodingRegion"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#NucleicAcidRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RNAPolymerase"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#Polymerase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RNAProteinInteraction"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#MolecularInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfFunction"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulatoryProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfGeneExpression"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfModificationOfMolecularEntity"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfPathway"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfPhysicalInteraction"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfProcess"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulatoryProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfTranscription"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfPathway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfTranslation"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#RegulationOfPathway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#SigmaFactor"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#TranscriptionRegulator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#TranscriptionActivator"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#PositiveTranscriptionRegulator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#TranscriptionCofactor"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#TranscriptionRegulator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#TranscriptionCorepressor"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#TranscriptionCofactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#TranscriptionCorepressor"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#TranscriptionRepressor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#TranscriptionFactor"/>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRO#TranscriptionRegulator"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

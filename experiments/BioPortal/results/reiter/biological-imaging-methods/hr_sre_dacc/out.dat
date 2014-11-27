@@ -1,0 +1,86 @@
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000013_subClassOf_FBbi_00000001                                1         536                 1              265.00         7              211.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000243_subClassOf_FBbi_00000345                                2         536                 2              295.00         10             238.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000244_subClassOf_FBbi_00000345                                3         536                 2              306.00         13             248.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000245_subClassOf_FBbi_00000345                                4         536                 2              302.00         12             242.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000246_subClassOf_FBbi_00000345                                5         536                 2              303.00         14             248.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000247_subClassOf_FBbi_00000345                                6         536                 2              299.00         12             243.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000248_subClassOf_FBbi_00000345                                7         536                 2              310.00         14             252.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000251_subClassOf_FBbi_00000246                                8         536                 1              392.00         21             330.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000252_subClassOf_FBbi_00000251                                9         536                 2              315.00         12             254.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000253_subClassOf_FBbi_00000251                                10        536                 2              309.00         11             248.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000255_subClassOf_FBbi_00000246                                11        536                 1              347.00         15             289.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000256_subClassOf_FBbi_00000343                                12        536                 2              292.00         11             232.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000257_subClassOf_FBbi_00000343                                13        536                 4              421.00         45             359.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000258_subClassOf_FBbi_00000256                                14        536                 2              312.00         15             254.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000258_subClassOf_FBbi_00000257                                15        536                 2              383.00         29             323.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000258_subClassOf_FBbi_00000373                                16        536                 2              319.00         15             258.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000334_subClassOf_FBbi_00000321                                17        536                 2              281.00         10             222.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000335_subClassOf_FBbi_00000333                                18        536                 2              276.00         9              216.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000336_subClassOf_FBbi_00000333                                19        536                 2              274.00         8              217.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000365_subClassOf_FBbi_00000246                                20        536                 2              301.00         11             240.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000366_subClassOf_FBbi_00000365                                21        536                 1              305.00         9              245.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000369_subClassOf_FBbi_00000246                                22        536                 2              295.00         10             237.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000370_subClassOf_FBbi_00000345                                23        536                 2              306.00         14             246.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000372_subClassOf_FBbi_00000256                                24        536                 2              338.00         21             274.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000372_subClassOf_FBbi_00000373                                25        536                 2              351.00         23             292.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000373_subClassOf_FBbi_00000343                                26        536                 6              495.00         74             429.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000380_subClassOf_FBbi_00000256                                27        536                 1              284.00         9              227.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000380_subClassOf_FBbi_00000257                                28        536                 1              331.00         19             269.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000380_subClassOf_FBbi_00000373                                29        536                 1              285.00         8              227.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000381_subClassOf_FBbi_00000256                                30        536                 1              271.00         5              213.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000381_subClassOf_FBbi_00000257                                31        536                 1              349.00         20             283.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000381_subClassOf_FBbi_00000373                                32        536                 1              290.00         10             233.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000382_subClassOf_FBbi_00000256                                33        536                 1              275.00         6              218.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000382_subClassOf_FBbi_00000257                                34        536                 1              351.00         21             291.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000382_subClassOf_FBbi_00000373                                35        536                 1              287.00         9              229.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000392_subClassOf_FBbi_00000251                                36        536                 2              300.00         9              242.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000393_subClassOf_FBbi_00000251                                37        536                 2              302.00         10             241.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000419_subClassOf_FBbi_00000001                                38        536                 2              287.00         15             230.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000581_subClassOf_FBbi_00000419                                39        536                 1              267.00         7              208.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000583_subClassOf_FBbi_00000419                                40        536                 1              271.00         8              213.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000585_subClassOf_FBbi_00000256                                41        536                 3              389.00         36             323.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000585_subClassOf_FBbi_00000257                                42        536                 1              306.00         13             246.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FBbi_00000585_subClassOf_FBbi_00000373                                43        536                 1              270.00         5              211.00              23             

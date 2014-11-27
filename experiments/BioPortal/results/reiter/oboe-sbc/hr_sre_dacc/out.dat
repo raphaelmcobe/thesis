@@ -1,0 +1,216 @@
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Acre_subClassOf_DerivedUnit                                           1         1090                2              599.00         32             516.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AcreToMeterSquared_subClassOf_UnitConversion                          2         1090                3              714.00         40             622.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AcreToSquareMeter_subClassOf_UnitConversion                           3         1090                3              665.00         39             573.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+AngstromToMeter_subClassOf_UnitConversion                             4         1090                3              707.00         47             615.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Are_subClassOf_DerivedUnit                                            5         1090                2              571.00         26             489.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BarToKilopascal_subClassOf_UnitConversion                             6         1090                3              687.00         40             598.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BaseCharacteristicQualifier_subClassOf_CharacteristicQualifier        7         1090                2              280.00         8              220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BaseUnit_subClassOf_Unit                                              8         1090                2              434.00         14             356.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Becquerel_subClassOf_DerivedUnit                                      9         1090                2              571.00         27             490.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Bushel_subClassOf_DerivedUnit                                         10        1090                2              540.00         30             460.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BushelToLiter_subClassOf_UnitConversion                               11        1090                3              666.00         36             579.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CelsiusToKelvin_subClassOf_UnitConversion                             12        1090                3              669.00         42             583.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CentigramToKilogram_subClassOf_UnitConversion                         13        1090                3              679.00         42             585.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CentimeterCubed_subClassOf_DerivedUnit                                14        1090                4              854.00         72             757.00              44             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CentimeterSquared_subClassOf_DerivedUnit                              15        1090                2              545.00         23             465.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CentimeterToMeter_subClassOf_UnitConversion                           16        1090                3              661.00         38             570.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CentisecondToSecond_subClassOf_UnitConversion                         17        1090                3              703.00         47             614.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CompositeCharacteristicQualifier_subClassOf_CharacteristicQualifier   18        1090                2              291.00         11             230.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CompositeUnit_subClassOf_Unit                                         19        1090                2              446.00         14             373.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DecibarToBar_subClassOf_UnitConversion                                20        1090                3              678.00         39             588.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DecigramToKilogram_subClassOf_UnitConversion                          21        1090                3              691.00         41             600.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DecimeterToMeter_subClassOf_UnitConversion                            22        1090                3              683.00         40             594.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DecisecondToSecond_subClassOf_UnitConversion                          23        1090                3              650.00         37             556.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DegreToRadian_subClassOf_UnitConversion                               24        1090                3              661.00         39             575.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DekagramToKilogram_subClassOf_UnitConversion                          25        1090                3              691.00         43             601.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DekameterToMeter_subClassOf_UnitConversion                            26        1090                3              706.00         44             618.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DekasecondToSecond_subClassOf_UnitConversion                          27        1090                3              693.00         43             602.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DerivedUnit_subClassOf_Unit                                           28        1090                2              452.00         15             375.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ElectrolyticConductivity_SeaWater_subClassOf_Flow                     29        1090                1              746.00         34             670.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ElectrolyticConductivity_StreamWater_subClassOf_Measurement           30        1090                2              429.00         17             356.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FahrenheitDegreeToKelvin_subClassOf_UnitConversion                    31        1090                3              691.00         42             601.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FathomToMeter_subClassOf_UnitConversion                               32        1090                3              679.00         37             587.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Flow_subClassOf_Measurement                                           33        1090                2              431.00         18             355.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FootGoldCoastToMeter_subClassOf_UnitConversion                        34        1090                3              651.00         37             566.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FootSquared_subClassOf_DerivedUnit                                    35        1090                2              585.00         30             503.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+FootToMeter_subClassOf_UnitConversion                                 36        1090                3              714.00         44             623.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Gallon_subClassOf_DerivedUnit                                         37        1090                2              575.00         27             496.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GallonToLiter_subClassOf_UnitConversion                               38        1090                3              700.00         38             611.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GradToRadian_subClassOf_UnitConversion                                39        1090                3              660.00         40             569.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GramToKilogram_subClassOf_UnitConversion                              40        1090                3              690.00         42             600.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Hectare_subClassOf_DerivedUnit                                        41        1090                2              541.00         23             461.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+HectogramToKilogram_subClassOf_UnitConversion                         42        1090                3              654.00         35             562.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+HectometerToMeter_subClassOf_UnitConversion                           43        1090                3              649.00         34             560.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+HectosecondToSecond_subClassOf_UnitConversion                         44        1090                3              670.00         39             583.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Hertz_subClassOf_DerivedUnit                                          45        1090                2              556.00         26             475.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+HourToSecond_subClassOf_UnitConversion                                46        1090                3              693.00         46             598.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+InchCubed_subClassOf_DerivedUnit                                      47        1090                2              526.00         28             447.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+InchToMeter_subClassOf_UnitConversion                                 48        1090                3              662.00         36             573.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Kilohertz_subClassOf_DerivedUnit                                      49        1090                2              551.00         25             472.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Kiloliter_subClassOf_DerivedUnit                                      50        1090                4              893.00         73             793.00              44             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+KilometerSquared_subClassOf_DerivedUnit                               51        1090                2              591.00         31             510.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+KilometerToMeter_subClassOf_UnitConversion                            52        1090                3              688.00         41             600.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+KilosecondToSecond_subClassOf_UnitConversion                          53        1090                3              652.00         37             559.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+LinkClarkeToMeter_subClassOf_UnitConversion                           54        1090                3              683.00         40             594.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Liter_subClassOf_DerivedUnit                                          55        1090                2              606.00         35             527.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+LiterToMeterCubed_subClassOf_UnitConversion                           56        1090                3              714.00         39             626.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MacrocystisPyrifera_subClassOf_Kelp                                   57        1090                1              274.00         9              216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MegagramToKilogram_subClassOf_UnitConversion                          58        1090                3              648.00         35             560.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Megahertz_subClassOf_DerivedUnit                                      59        1090                2              576.00         28             496.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MegameterToMeter_subClassOf_UnitConversion                            60        1090                3              684.00         42             595.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MegasecondToSecond_subClassOf_UnitConversion                          61        1090                3              685.00         43             598.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MeterCubed_subClassOf_DerivedUnit                                     62        1090                4              887.00         73             792.00              44             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MeterSquared_subClassOf_DerivedUnit                                   63        1090                2              505.00         19             426.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MicrogramToKilogram_subClassOf_UnitConversion                         64        1090                3              647.00         37             558.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Microliter_subClassOf_DerivedUnit                                     65        1090                2              520.00         21             437.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MicrometerSquared_subClassOf_DerivedUnit                              66        1090                2              548.00         29             467.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MicrometerToMeter_subClassOf_UnitConversion                           67        1090                3              648.00         38             556.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MicronToMeter_subClassOf_UnitConversion                               68        1090                3              663.00         39             573.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MicrosecondToSecond_subClassOf_UnitConversion                         69        1090                3              675.00         41             585.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MileSquared_subClassOf_DerivedUnit                                    70        1090                2              554.00         25             474.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MileToMeter_subClassOf_UnitConversion                                 71        1090                3              710.00         43             615.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MillibarToBar_subClassOf_UnitConversion                               72        1090                3              666.00         40             579.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MilligramToKilogram_subClassOf_UnitConversion                         73        1090                3              637.00         35             551.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Millihertz_subClassOf_DerivedUnit                                     74        1090                2              570.00         26             487.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Milliliter_subClassOf_DerivedUnit                                     75        1090                4              860.00         70             762.00              44             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MillimeterSquared_subClassOf_DerivedUnit                              76        1090                2              579.00         30             492.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MillimeterToMeter_subClassOf_UnitConversion                           77        1090                3              649.00         37             560.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MillisecondToSecond_subClassOf_UnitConversion                         78        1090                3              665.00         40             576.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MinuteToSecond_subClassOf_UnitConversion                              79        1090                3              663.00         39             577.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Name_subClassOf_Characteristic                                        80        1090                2              295.00         12             235.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NanogramToKilogram_subClassOf_UnitConversion                          81        1090                3              654.00         38             561.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NanometerToMeter_subClassOf_UnitConversion                            82        1090                3              649.00         37             563.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NanosecondToSecond_subClassOf_UnitConversion                          83        1090                3              672.00         38             581.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NauticalMileToMeter_subClassOf_UnitConversion                         84        1090                3              638.00         33             548.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NominalDayToSecond_subClassOf_UnitConversion                          85        1090                3              643.00         32             552.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NominalHourToSecond_subClassOf_UnitConversion                         86        1090                3              669.00         40             579.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NominalLeapYearToSecond_subClassOf_UnitConversion                     87        1090                3              658.00         40             569.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NominalMinuteToSecond_subClassOf_UnitConversion                       88        1090                3              654.00         39             567.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NominalWeekToSecond_subClassOf_UnitConversion                         89        1090                3              650.00         36             563.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NominalYearToSecond_subClassOf_UnitConversion                         90        1090                3              701.00         48             609.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Percent_subClassOf_CompositeUnit                                      91        1090                2              756.00         40             663.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PercentNitrogenInSampleMeasurement_subClassOf_Measurement             92        1090                2              423.00         18             351.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PhysicalCharacteristic_subClassOf_Characteristic                      93        1090                2              303.00         16             243.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Pint_subClassOf_DerivedUnit                                           94        1090                2              529.00         25             449.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PintToLiter_subClassOf_UnitConversion                                 95        1090                3              720.00         43             632.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PoundToKilogram_subClassOf_UnitConversion                             96        1090                3              695.00         44             607.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Quart_subClassOf_DerivedUnit                                          97        1090                2              552.00         25             470.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+QuartToLiter_subClassOf_UnitConversion                                98        1090                3              679.00         35             590.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ReciprocalMeter_subClassOf_DerivedUnit                                99        1090                2              566.00         24             484.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Relationship_subClassOf_Characteristic                                100       1090                2              299.00         15             237.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SBC_ConcentrationOfAmmonium_FreshWater_subClassOf_ConcentrationOfAmmonium101       1090                2              452.00         12             378.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SBC_ConcentrationOfAmmonium_SalineWater_subClassOf_ConcentrationOfAmmonium102       1090                2              459.00         15             381.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TonToKilogram_subClassOf_UnitConversion                               103       1090                3              677.00         43             587.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TonneToKilogram_subClassOf_UnitConversion                             104       1090                3              684.00         42             597.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Type_subClassOf_Characteristic                                        105       1090                2              300.00         15             238.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+YardIndianToMeter_subClassOf_UnitConversion                           106       1090                3              691.00         43             602.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+YardSquared_subClassOf_DerivedUnit                                    107       1090                2              585.00         30             499.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+YardToMeter_subClassOf_UnitConversion                                 108       1090                3              658.00         34             568.00              34             

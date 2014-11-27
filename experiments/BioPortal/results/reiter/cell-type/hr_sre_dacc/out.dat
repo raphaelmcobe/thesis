@@ -1,0 +1,36 @@
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0000050_subClassOf_CL_0000763                                      1         2301                2              383.00         28             305.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0000557_subClassOf_CL_0000763                                      2         2301                3              551.00         61             470.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0000557_subClassOf_CL_0001012                                      3         2301                1              301.00         8              228.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0000763_subClassOf_CL_0000988                                      4         2301                2              300.00         10             225.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0000766_subClassOf_CL_0000738                                      5         2301                2              311.00         12             238.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0000766_subClassOf_CL_0000763                                      6         2301                3              425.00         41             350.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0000995_subClassOf_CL_0002032                                      7         2301                2              421.00         34             343.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0001012_subClassOf_CL_0002032                                      8         2301                2              434.00         35             360.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0001019_subClassOf_CL_0000763                                      9         2301                8              1716.00        395            1594.00             116            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0001019_subClassOf_CL_0002031                                      10        2301                2              477.00         34             398.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0001021_subClassOf_CL_0000995                                      11        2301                1              304.00         9              231.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0001022_subClassOf_CL_0001019                                      12        2301                1              288.00         8              220.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0001023_subClassOf_CL_0001030                                      13        2301                1              296.00         6              225.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0001025_subClassOf_CL_0001030                                      14        2301                1              297.00         6              225.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0001026_subClassOf_CL_0000995                                      15        2301                1              302.00         9              229.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0001027_subClassOf_CL_0001012                                      16        2301                1              303.00         8              230.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0001029_subClassOf_CL_0001019                                      17        2301                1              312.00         7              239.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CL_0001030_subClassOf_CL_0002032                                      18        2301                2              439.00         36             364.00              23             

@@ -1,0 +1,10 @@
+Line subClassOf Spatial_boundary
+Material_boundary subClassOf Presential
+Material_object subClassOf Presential
+Left_time_boundary subClassOf Time_boundary
+Surface subClassOf Spatial_boundary
+Right_time_boundary subClassOf Time_boundary
+Processual_role subClassOf Role
+Chronoid subClassOf Temporal_region
+Point subClassOf Spatial_boundary
+Relational_role subClassOf Role

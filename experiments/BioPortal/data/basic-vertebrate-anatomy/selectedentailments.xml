@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Discrete_continuant_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Discrete_continuant_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/basic-vertebrate-gross-anatomy.owl#Lobe_of_lung"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/basic-vertebrate-gross-anatomy.owl#Lobe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/basic-vertebrate-gross-anatomy.owl#Paired_value"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/basic-vertebrate-gross-anatomy.owl#Paired_or_unpaired"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/basic-vertebrate-gross-anatomy.owl#Unpaired_value"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/basic-vertebrate-gross-anatomy.owl#Paired_or_unpaired"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Amount_of_biological_matter_or_energy"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Amount_of_biological_matter_or_energy"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Amount_of_matter_or_energy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biologic_discrete_nonmaterial_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_discrete_physical_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biologic_discrete_nonmaterial_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_non_material_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_cavity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biologic_discrete_nonmaterial_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_cavity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Cavity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_discrete_physical_continuant"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_discrete_physical_continuant"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_Physical_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_object"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_discrete_physical_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_object"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_physical_process"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_physical_process"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Occurrent_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_physical_process"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Non_biological_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Amount_of_matter_or_energy"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Amount_of_matter_or_energy"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Material_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_Physical_continuant"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Discrete_continuant_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_Physical_continuant"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_non_material_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_Physical_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_non_material_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Non_material_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Non_material_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Non_material_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Pattern"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Discrete_continuant_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_object"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_Physical_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_object"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Material_entity"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,610 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000005"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5003000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000006"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5003000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000007"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5003000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000008"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5003000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000009"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5003000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000010"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5003000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000011"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000012"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000013"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000014"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000015"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000016"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000017"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000018"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000019"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000020"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000021"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000022"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000023"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000024"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000025"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000094"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000095"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000096"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000097"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000099"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000100"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000101"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000279"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000352"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000358"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0035000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3948000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0406000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9718000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0816000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0890000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0895000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9466000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_1345000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_8529000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_1400000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_1801000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_1857000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_2608000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_2618000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9466000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_2935000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0895000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_2935000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_4521000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_2935000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_4965000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_2935000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7890000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_2935000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_8515000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3114000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0895000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3114000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_4521000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3114000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_4965000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3114000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7890000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3114000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_8515000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3296000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3948000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3296000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5608000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3521000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3553000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3580000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3725000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3948000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_4044000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3948000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_4135000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9958000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_4446000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_4521000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9466000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_4551000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_4650000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5231000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_4811000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3948000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_4846000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9958000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_4965000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9466000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5120000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5231000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9466000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5608000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5672000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5231000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5705000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9958000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5828000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5832000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5860000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_6465000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_6713000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_6790000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7346000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0895000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7346000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_4521000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7346000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_4965000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7346000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7890000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7346000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_8515000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7445000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7480000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7546000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7622000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7636000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7759000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9718000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7890000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9466000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7925000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_8239000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_8443000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_2618000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_8515000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9466000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_8528000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3948000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_8529000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9466000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_8547000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9718000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_8640000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_8529000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9213000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9570000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_2618000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9718000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9466000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9901000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5231000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9958000"/>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9466000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#FiatObjectPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Object"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ObjectBoundary"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#OneDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#RealizableEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Site"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ThreeDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#TwoDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#ZeroDimensionalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedSpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedTemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#FiatProcessPart"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Process"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessAggregate"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessBoundary"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualContext"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ScatteredSpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ScatteredTemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInstant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedSpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInterval"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedSpatiotemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalInstant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedTemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalInterval"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#ConnectedTemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#TemporalRegion"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000095"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_2094000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000099"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_2657000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5608000"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_2657000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_6713000"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_2657000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000094"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3536000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000101"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7516000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_4551000"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7516000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_5828000"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_7516000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000097"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_9354000"/>
+    </ClassAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

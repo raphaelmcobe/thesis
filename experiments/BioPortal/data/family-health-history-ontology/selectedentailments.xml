@@ -1,0 +1,594 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Brother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Sibling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Brother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Adopted_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Daughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Child"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Daughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Adopted_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Father"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Parent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Father"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Adopted_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Granddaughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Grandchild"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Granddaughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Adopted_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Grandfather"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Grandparent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Grandfather"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Adopted_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Grandmother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Grandparent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Grandmother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Adopted_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Grandson"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Grandchild"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Grandson"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Adopted_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Mother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Parent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Mother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Adopted_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Parent"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adopted_Kin_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Parent"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Parent_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Sister"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Sibling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Sister"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Adopted_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Son"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Child"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adoptive_Son"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Adopted_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Adopted_Relation"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adopted_Kin_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Adopted_Relation"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Blood_Relation"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Blood_Relation"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Cousin"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Cousin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Cousin"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Fictive_Kin"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Fictive_Kin"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Fictive_Kin_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Foster_Relation"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Foster_Relation"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Kin_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Partner"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Partner"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Partner_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Step_Relation"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Step_Relation"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Kin_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Brother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Sibling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Brother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Foster_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Daughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Foster_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Daughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Child"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Father"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Parent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Father"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Foster_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Granddaughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Foster_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Granddaughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Grandchild"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Grandfather"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Grandparent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Grandfather"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Foster_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Grandmother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Foster_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Grandmother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Grandparent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Grandson"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Grandchild"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Grandson"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Foster_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Mother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Foster_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Mother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Parent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Parent"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Kin_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Parent"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Parent_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Sister"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Foster_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Sister"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Sibling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Son"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Child"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Son"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Foster_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Fraternal_Twin_Brother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Fraternal_Twin_Sibling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Fraternal_Twin_Brother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Twin_Brother"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Fraternal_Twin_Sister"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Fraternal_Twin_Sibling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Fraternal_Twin_Sister"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Twin_Sister"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Granddaughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Granddaughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Grandchild"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Grandson"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Grandchild"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Grandson"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Great_Granddaughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Great_Granddaughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Great_Grandchild"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Great_Grandfather"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Great_Grandparent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Great_Grandfather"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Great_Grandmother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Great_Grandmother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Great_Grandparent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Great_Grandson"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Great_Grandchild"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Great_Grandson"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Half_Brother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Half_Sibling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Half_Brother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Half_Sister"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Half_Sister"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Half_Sibling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Identical_Twin_Brother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Identical_Twin_Sibling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Identical_Twin_Brother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Twin_Brother"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Identical_Twin_Sister"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Identical_Twin_Sibling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Identical_Twin_Sister"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Twin_Sister"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Adopted_Relation"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Adopted_Kin_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Adopted_Relation"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Blood_Relation"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Blood_Relation"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Cousin"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Cousin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Cousin"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Fictive_Kin"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Fictive_Kin_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Fictive_Kin"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Foster_Relation"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Foster_Kin_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Foster_Relation"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Partner"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Partner"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Partner_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Step_Relation"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Step_Relation"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Kin_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Maternal_Grandfather"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Maternal_Grandfather"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Maternal_Grandparent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Maternal_Grandmother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Maternal_Grandmother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Maternal_Grandparent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Brother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Brother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Full_Sibling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Daughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Daughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Child"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Father"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Father"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Parent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Mother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Mother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Parent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Parent"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#First_Degree_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Parent"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Parent_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Sister"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Sister"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Full_Sibling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Son"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Son"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Child"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Paternal_Grandfather"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Paternal_Grandfather"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Paternal_Grandparent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Paternal_Grandmother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Blood_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Paternal_Grandmother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Paternal_Grandparent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Brother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Step_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Brother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Sibling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Daughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Step_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Daughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Child"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Father"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Step_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Father"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Parent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Granddaughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Step_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Granddaughter"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Grandchild"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Grandfather"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Step_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Grandfather"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Grandparent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Grandmother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Step_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Grandmother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Grandparent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Grandson"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Step_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Grandson"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Grandchild"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Mother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Step_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Mother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Parent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Parent"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Parent_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Parent"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Kin_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Sister"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Female_Step_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Sister"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Sibling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Son"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Male_Step_Relation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Son"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Step_Child"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Twin_Brother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Brother"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Twin_Brother"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Twin_Sibling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Twin_Sister"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Natural_Sister"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Twin_Sister"/>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1172270693.owl#Twin_Sibling"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

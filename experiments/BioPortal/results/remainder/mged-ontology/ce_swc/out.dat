@@ -1,0 +1,4 @@
+#i        Axioms    size           time           exp_time       cont_time      RC             ont_mean_size       RC_mean_time        RC_total_time       mem            Sanity         
+1         -1        -1             -1             -1             -1             -1             -1                  -1                  -1                  -1             false          
+#Axiom String                                                         i         No. Axioms          size           time           exp_time       cont_time      RC             ont_mean_size       RC_mean_time        RC_total_time       mem            sanity    
+Image_subClassOf_PhysicalBioAssay                                     2         2545                2544           306335.00      118841.00      187494.00      615            2386.79             439.19              270099.00           10825          

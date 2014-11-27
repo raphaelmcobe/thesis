@@ -1,0 +1,78 @@
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+C-sequence_subClassOf_Molecule_EntityType                             3         1112                5              5143.00        239            4952.00             477            
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+D-gene_subClassOf_Molecule_EntityType                                 8         1112                5              4978.00        246            4777.00             466            
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+J-sequence_subClassOf_Molecule_EntityType                             15        1112                5              4729.00        243            4531.00             472            
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+L-V-transcript_subClassOf_Molecule_EntityType                         27        1112                5              8613.00        263            8428.00             416            
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+L-nt-sequence_subClassOf_Molecule_EntityType                          28        1112                5              12383.00       271            12175.00            222            
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+conventional-gene_subClassOf_Molecule_EntityType                      36        1112                5              5625.00        253            5434.00             119            
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#i        Axioms    size           time           RC             RC_total_time       mem            Sanity    
+-1        -1        -1             -1             -1             -1                  -1             false     
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+protein_subClassOf_MoleculeType                                       39        1112                2              369.00         27             300.00              13             

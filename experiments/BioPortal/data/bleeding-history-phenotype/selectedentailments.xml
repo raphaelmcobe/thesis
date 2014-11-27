@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#abdominal_striae"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#abnormal_connective_tissue"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#angioma"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#angioma"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aspirin"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ancillary_treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aspirin"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#anticoagulant_or_antiplatelet_medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aspirin"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aspirin"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aspirin"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#generic_bleeding_treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aspirin"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aspirin"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aspirin"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#symptom-specific_treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#avoidance"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#avoidance"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#avoidance"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bleeding_at_delivery"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bleeding_disorder"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bleeding_disorder"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bleeding_disorder"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bleeding_disorder"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bleeding_during_pregnancy"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#body_piercing"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#body_piercing"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bruise"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#central_nervous_system_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cephalohematoma"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#circumcision_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cushings_syndrome"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cushings_syndrome"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cutaneous_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#epistaxis"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#anatomic_location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#epistaxis"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#epistaxis"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gynecologic_disorder"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#hematocrit"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#hematuria"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#hemoglobin"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#hemoptysis"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#joint"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#anatomic_location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#limb"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#anatomic_location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#menstrual_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#menstrual_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#minor_cut_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#musculoskeletal_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#non_steroidal_anti_inflammatory_drug"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#non_steroidal_anti_inflammatory_drug"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#non_steroidal_anti_inflammatory_drug"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#oral_cavity_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ovulation_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#postpartum_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pregnancy_event"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pregnancy_event"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pregnancy_event"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#procedural_and_surgical_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#procedural_and_surgical_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#shaving"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#shaving"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#shaving"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#shaving"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#spontaneous_gum_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#stroke"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#study_subject"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#suction_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#surgery"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#surgery"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#surgery"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#telangiectasia"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#telangiectasia"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#tooth_extraction"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#tooth_extraction"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#trauma"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#trauma"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#trauma"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#trauma_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#trauma_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#traumatic_gum_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#umbilical_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urinary_tract_infection"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_disorder"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#venipuncture_bleeding"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

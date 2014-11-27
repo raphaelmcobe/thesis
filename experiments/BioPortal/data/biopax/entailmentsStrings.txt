@@ -1,0 +1,4 @@
+Degradation subClassOf Conversion
+GeneticInteraction subClassOf Interaction
+Catalysis subClassOf Control
+UnificationXref subClassOf Xref

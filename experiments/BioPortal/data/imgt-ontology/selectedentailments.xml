@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#AA-chain"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#C-gene"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#C-sequence"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#C-transcript"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#D-J-C-sequence"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#D-J-C-transcript"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#D-J-gene"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#D-gene"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#D-sequence"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#D-transcript"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#J-C-gene"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#J-C-sequence"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#J-C-transcript"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#J-gene"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#J-sequence"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#J-transcript"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#L-AA-chain"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#L-V-D-J-C-chain"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#L-V-D-J-C-sequence"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#L-V-D-J-C-transcript"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#L-V-D-sequence"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#L-V-D-transcript"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#L-V-J-C-chain"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#L-V-J-C-sequence"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#L-V-J-C-transcript"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#L-V-sequence"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#L-V-transcript"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#L-nt-sequence"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#L-nt-transcript"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#V-D-J-C-chain"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#V-D-J-gene"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#V-D-gene"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#V-J-C-chain"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#V-J-gene"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#V-gene"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#conventional-gene"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#nt-sequence"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#nt-transcript"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#Molecule_EntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#protein"/>
+        <Class IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-0.owl#MoleculeType"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

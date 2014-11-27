@@ -1,0 +1,664 @@
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000005_subClassOf_SWO_0000111                                    1         2079                2              285.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000007_subClassOf_SWO_0000111                                    2         2079                2              308.00         17             244.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000008_subClassOf_SWO_0000026                                    3         2079                2              285.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000021_subClassOf_SWO_0000111                                    4         2079                2              287.00         13             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000022_subClassOf_SWO_0000111                                    5         2079                2              286.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000025_subClassOf_SWO_0000026                                    6         2079                2              286.00         13             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000027_subClassOf_SWO_0000111                                    7         2079                2              282.00         12             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000032_subClassOf_SWO_0000034                                    8         2079                2              287.00         13             225.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000035_subClassOf_SWO_0000111                                    9         2079                2              290.00         13             225.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000041_subClassOf_SWO_0000111                                    10        2079                2              267.00         14             208.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000048_subClassOf_SWO_0000111                                    11        2079                2              285.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000050_subClassOf_SWO_0000111                                    12        2079                2              300.00         15             236.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000053_subClassOf_SWO_0000111                                    13        2079                2              284.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000059_subClassOf_SWO_0000111                                    14        2079                2              283.00         12             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000066_subClassOf_SWO_0000111                                    15        2079                2              282.00         12             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000068_subClassOf_SWO_0000111                                    16        2079                2              283.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000070_subClassOf_SWO_0000111                                    17        2079                2              285.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000071_subClassOf_SWO_0000111                                    18        2079                2              283.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000072_subClassOf_SWO_0000427                                    19        2079                2              305.00         15             243.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000075_subClassOf_SWO_0000111                                    20        2079                2              282.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000077_subClassOf_SWO_0000111                                    21        2079                2              285.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000078_subClassOf_SWO_0000111                                    22        2079                2              285.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000079_subClassOf_SWO_0000111                                    23        2079                2              278.00         11             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000080_subClassOf_SWO_0000111                                    24        2079                2              281.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000085_subClassOf_SWO_0000111                                    25        2079                2              283.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000086_subClassOf_SWO_0000111                                    26        2079                2              283.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000087_subClassOf_SWO_0000111                                    27        2079                2              281.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000090_subClassOf_SWO_0000111                                    28        2079                2              291.00         13             227.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000092_subClassOf_SWO_0000111                                    29        2079                2              281.00         11             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000098_subClassOf_SWO_0000111                                    30        2079                2              282.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000099_subClassOf_SWO_0000111                                    31        2079                2              285.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000103_subClassOf_SWO_0000111                                    32        2079                2              281.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000104_subClassOf_SWO_0000111                                    33        2079                2              285.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000105_subClassOf_SWO_0000111                                    34        2079                2              281.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000109_subClassOf_SWO_0000111                                    35        2079                2              284.00         13             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000120_subClassOf_SWO_0000111                                    36        2079                2              285.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000125_subClassOf_SWO_0000111                                    37        2079                2              287.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000126_subClassOf_SWO_0000111                                    38        2079                2              282.00         12             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000130_subClassOf_SWO_0000111                                    39        2079                2              280.00         11             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000132_subClassOf_SWO_0000111                                    40        2079                2              280.00         11             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000133_subClassOf_SWO_0000111                                    41        2079                2              283.00         12             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000134_subClassOf_SWO_0000111                                    42        2079                2              287.00         14             224.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000138_subClassOf_SWO_0000034                                    43        2079                2              300.00         13             237.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000147_subClassOf_SWO_0000034                                    44        2079                2              287.00         13             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000154_subClassOf_SWO_0000034                                    45        2079                2              283.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000158_subClassOf_SWO_0000111                                    46        2079                2              283.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000159_subClassOf_SWO_0000111                                    47        2079                2              281.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000161_subClassOf_SWO_0000111                                    48        2079                2              283.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000163_subClassOf_SWO_0000111                                    49        2079                2              282.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000164_subClassOf_SWO_0000111                                    50        2079                2              285.00         13             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000168_subClassOf_SWO_0000111                                    51        2079                2              283.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000170_subClassOf_SWO_0000111                                    52        2079                2              282.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000171_subClassOf_SWO_0000111                                    53        2079                2              280.00         11             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000188_subClassOf_SWO_0000111                                    54        2079                2              279.00         12             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000189_subClassOf_SWO_0000111                                    55        2079                2              282.00         12             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000190_subClassOf_SWO_0000111                                    56        2079                2              288.00         14             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000191_subClassOf_SWO_0000111                                    57        2079                2              282.00         13             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000192_subClassOf_SWO_0000111                                    58        2079                2              281.00         12             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000193_subClassOf_SWO_0000111                                    59        2079                2              282.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000196_subClassOf_SWO_0000111                                    60        2079                2              287.00         14             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000197_subClassOf_SWO_0000034                                    61        2079                2              281.00         11             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000201_subClassOf_SWO_0000111                                    62        2079                2              285.00         14             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000202_subClassOf_SWO_0000111                                    63        2079                2              285.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000203_subClassOf_SWO_0000111                                    64        2079                2              283.00         12             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000205_subClassOf_SWO_0000111                                    65        2079                2              285.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000206_subClassOf_SWO_0000111                                    66        2079                2              283.00         13             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000207_subClassOf_SWO_0000111                                    67        2079                2              284.00         12             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000208_subClassOf_SWO_0000111                                    68        2079                2              284.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000209_subClassOf_SWO_0000111                                    69        2079                2              282.00         11             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000213_subClassOf_SWO_0000111                                    70        2079                2              283.00         12             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000214_subClassOf_SWO_0000111                                    71        2079                2              288.00         14             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000222_subClassOf_SWO_0000111                                    72        2079                2              280.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000224_subClassOf_SWO_0000111                                    73        2079                2              280.00         13             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000225_subClassOf_SWO_0000111                                    74        2079                2              286.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000226_subClassOf_SWO_0000111                                    75        2079                2              286.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000230_subClassOf_SWO_0000111                                    76        2079                2              283.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000231_subClassOf_SWO_0000111                                    77        2079                2              284.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000245_subClassOf_SWO_0000026                                    78        2079                2              287.00         13             225.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000246_subClassOf_SWO_0000111                                    79        2079                2              285.00         13             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000247_subClassOf_SWO_0000111                                    80        2079                2              276.00         11             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000248_subClassOf_SWO_0000111                                    81        2079                2              283.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000252_subClassOf_SWO_0000111                                    82        2079                2              285.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000254_subClassOf_SWO_0000111                                    83        2079                2              283.00         13             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000258_subClassOf_SWO_0000111                                    84        2079                2              283.00         14             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000259_subClassOf_SWO_0000111                                    85        2079                2              282.00         12             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000269_subClassOf_SWO_0000111                                    86        2079                2              279.00         12             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000271_subClassOf_SWO_0000026                                    87        2079                2              283.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000279_subClassOf_SWO_0000111                                    88        2079                2              284.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000280_subClassOf_SWO_0000111                                    89        2079                2              278.00         11             215.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000283_subClassOf_SWO_0000111                                    90        2079                2              286.00         13             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000285_subClassOf_SWO_0000111                                    91        2079                2              280.00         11             215.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000288_subClassOf_SWO_0000111                                    92        2079                2              280.00         12             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000289_subClassOf_SWO_0000111                                    93        2079                2              280.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000292_subClassOf_SWO_0000111                                    94        2079                2              285.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000293_subClassOf_SWO_0000111                                    95        2079                2              282.00         12             215.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000294_subClassOf_SWO_0000111                                    96        2079                2              284.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000295_subClassOf_SWO_0000111                                    97        2079                2              279.00         11             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000307_subClassOf_SWO_0000111                                    98        2079                2              282.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000308_subClassOf_SWO_0000111                                    99        2079                2              285.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000309_subClassOf_SWO_0000111                                    100       2079                2              288.00         14             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000311_subClassOf_SWO_0000111                                    101       2079                2              284.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000312_subClassOf_SWO_0000111                                    102       2079                2              278.00         11             214.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000314_subClassOf_SWO_0000111                                    103       2079                2              279.00         12             215.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000316_subClassOf_SWO_0000111                                    104       2079                2              280.00         11             215.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000317_subClassOf_SWO_0000111                                    105       2079                2              279.00         12             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000319_subClassOf_SWO_0000111                                    106       2079                2              284.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000322_subClassOf_SWO_0000111                                    107       2079                2              281.00         13             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000333_subClassOf_SWO_0000111                                    108       2079                2              284.00         13             224.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000335_subClassOf_SWO_0000111                                    109       2079                2              278.00         11             214.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000338_subClassOf_SWO_0000111                                    110       2079                2              281.00         13             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000346_subClassOf_SWO_0000111                                    111       2079                2              280.00         12             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000347_subClassOf_SWO_0000111                                    112       2079                2              285.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000348_subClassOf_SWO_0000111                                    113       2079                2              282.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000349_subClassOf_SWO_0000111                                    114       2079                2              284.00         12             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000350_subClassOf_SWO_0000111                                    115       2079                2              280.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000352_subClassOf_SWO_0000111                                    116       2079                2              282.00         12             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000353_subClassOf_SWO_0000111                                    117       2079                2              277.00         11             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000354_subClassOf_SWO_0000111                                    118       2079                2              285.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000355_subClassOf_SWO_0000111                                    119       2079                2              289.00         13             225.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000356_subClassOf_SWO_0000111                                    120       2079                2              282.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000358_subClassOf_SWO_0000111                                    121       2079                2              284.00         14             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000359_subClassOf_SWO_0000111                                    122       2079                2              285.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000360_subClassOf_SWO_0000111                                    123       2079                2              301.00         17             237.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000361_subClassOf_SWO_0000111                                    124       2079                2              285.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000362_subClassOf_SWO_0000111                                    125       2079                2              284.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000367_subClassOf_SWO_0000111                                    126       2079                2              279.00         12             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000368_subClassOf_SWO_0000111                                    127       2079                2              282.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000369_subClassOf_SWO_0000111                                    128       2079                2              284.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000370_subClassOf_SWO_0000111                                    129       2079                2              281.00         12             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000373_subClassOf_SWO_0000111                                    130       2079                2              282.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000377_subClassOf_SWO_0000111                                    131       2079                2              282.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000382_subClassOf_SWO_0000111                                    132       2079                2              255.00         13             199.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000383_subClassOf_SWO_0000111                                    133       2079                2              285.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000384_subClassOf_SWO_0000111                                    134       2079                2              282.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000385_subClassOf_SWO_0000111                                    135       2079                2              284.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000387_subClassOf_SWO_0000111                                    136       2079                2              278.00         11             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000388_subClassOf_SWO_0000111                                    137       2079                2              288.00         14             225.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000390_subClassOf_SWO_0000111                                    138       2079                2              282.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000405_subClassOf_SWO_0000111                                    139       2079                2              279.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000405_subClassOf_SWO_0000115                                    140       2079                2              288.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000416_subClassOf_SWO_0000111                                    141       2079                2              285.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000421_subClassOf_SWO_0000034                                    142       2079                2              285.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000422_subClassOf_SWO_0000111                                    143       2079                2              285.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000424_subClassOf_SWO_0000034                                    144       2079                2              286.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000432_subClassOf_SWO_0000026                                    145       2079                2              283.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000435_subClassOf_SWO_0000111                                    146       2079                2              285.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000438_subClassOf_SWO_0000111                                    147       2079                2              282.00         12             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000442_subClassOf_SWO_0000111                                    148       2079                2              282.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000446_subClassOf_SWO_0000111                                    149       2079                2              280.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000450_subClassOf_SWO_0000111                                    150       2079                2              279.00         11             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000452_subClassOf_SWO_0000111                                    151       2079                2              281.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000453_subClassOf_SWO_0000111                                    152       2079                2              287.00         14             224.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000454_subClassOf_SWO_0000111                                    153       2079                2              284.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000456_subClassOf_SWO_0000111                                    154       2079                2              288.00         14             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000457_subClassOf_SWO_0000111                                    155       2079                2              279.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000458_subClassOf_SWO_0000111                                    156       2079                2              284.00         14             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000459_subClassOf_SWO_0000111                                    157       2079                2              281.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000460_subClassOf_SWO_0000111                                    158       2079                2              286.00         13             224.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000461_subClassOf_SWO_0000111                                    159       2079                2              283.00         12             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000463_subClassOf_SWO_0000111                                    160       2079                2              279.00         12             215.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000465_subClassOf_SWO_0000111                                    161       2079                2              285.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000466_subClassOf_SWO_0000111                                    162       2079                2              284.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000468_subClassOf_SWO_0000111                                    163       2079                2              278.00         11             214.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000470_subClassOf_SWO_0000111                                    164       2079                2              287.00         14             224.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000471_subClassOf_SWO_0000111                                    165       2079                2              286.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000472_subClassOf_SWO_0000111                                    166       2079                2              278.00         11             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000473_subClassOf_SWO_0000111                                    167       2079                2              285.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000474_subClassOf_SWO_0000111                                    168       2079                2              281.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000479_subClassOf_SWO_0000111                                    169       2079                2              283.00         13             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000480_subClassOf_SWO_0000111                                    170       2079                2              277.00         11             215.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000481_subClassOf_SWO_0000111                                    171       2079                2              288.00         14             225.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000482_subClassOf_SWO_0000111                                    172       2079                2              285.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000483_subClassOf_SWO_0000111                                    173       2079                2              283.00         12             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000485_subClassOf_SWO_0000111                                    174       2079                2              283.00         12             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000486_subClassOf_SWO_0000111                                    175       2079                2              279.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000487_subClassOf_SWO_0000111                                    176       2079                2              285.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000488_subClassOf_SWO_0000111                                    177       2079                2              283.00         12             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000489_subClassOf_SWO_0000111                                    178       2079                2              284.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000491_subClassOf_SWO_0000111                                    179       2079                2              279.00         12             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000494_subClassOf_SWO_0000111                                    180       2079                2              282.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000495_subClassOf_SWO_0000111                                    181       2079                2              283.00         12             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000496_subClassOf_SWO_0000111                                    182       2079                2              284.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000499_subClassOf_SWO_0000111                                    183       2079                2              279.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000501_subClassOf_SWO_0000111                                    184       2079                2              283.00         12             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000504_subClassOf_SWO_0000111                                    185       2079                2              286.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000505_subClassOf_SWO_0000111                                    186       2079                2              286.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000506_subClassOf_SWO_0000111                                    187       2079                2              286.00         12             224.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000507_subClassOf_SWO_0000111                                    188       2079                2              308.00         18             243.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000510_subClassOf_SWO_0000111                                    189       2079                2              285.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000512_subClassOf_SWO_0000111                                    190       2079                2              283.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000514_subClassOf_SWO_0000111                                    191       2079                2              284.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000520_subClassOf_SWO_0000111                                    192       2079                2              283.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000521_subClassOf_SWO_0000111                                    193       2079                2              289.00         14             224.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000522_subClassOf_SWO_0000111                                    194       2079                2              287.00         14             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000523_subClassOf_SWO_0000111                                    195       2079                2              281.00         12             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000525_subClassOf_SWO_0000111                                    196       2079                2              279.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000526_subClassOf_SWO_0000111                                    197       2079                2              283.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000527_subClassOf_SWO_0000111                                    198       2079                2              285.00         13             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000528_subClassOf_SWO_0000111                                    199       2079                2              286.00         13             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000529_subClassOf_SWO_0000111                                    200       2079                2              288.00         14             225.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000530_subClassOf_SWO_0000111                                    201       2079                2              280.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000532_subClassOf_SWO_0000111                                    202       2079                2              284.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000533_subClassOf_SWO_0000111                                    203       2079                2              285.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000534_subClassOf_SWO_0000111                                    204       2079                2              281.00         13             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000536_subClassOf_SWO_0000111                                    205       2079                2              279.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000537_subClassOf_SWO_0000111                                    206       2079                2              282.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000538_subClassOf_SWO_0000111                                    207       2079                2              283.00         12             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000539_subClassOf_SWO_0000111                                    208       2079                2              282.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000540_subClassOf_SWO_0000111                                    209       2079                2              282.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000541_subClassOf_SWO_0000111                                    210       2079                2              282.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000542_subClassOf_SWO_0000111                                    211       2079                2              283.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000543_subClassOf_SWO_0000111                                    212       2079                2              281.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000544_subClassOf_SWO_0000111                                    213       2079                2              287.00         13             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000545_subClassOf_SWO_0000111                                    214       2079                2              284.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000547_subClassOf_SWO_0000111                                    215       2079                2              281.00         11             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000549_subClassOf_SWO_0000111                                    216       2079                2              282.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000550_subClassOf_SWO_0000111                                    217       2079                2              282.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000551_subClassOf_SWO_0000111                                    218       2079                2              282.00         11             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000555_subClassOf_SWO_0000111                                    219       2079                2              285.00         13             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000556_subClassOf_SWO_0000111                                    220       2079                2              283.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000557_subClassOf_SWO_0000111                                    221       2079                2              282.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000558_subClassOf_SWO_0000111                                    222       2079                2              282.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000561_subClassOf_SWO_0000111                                    223       2079                2              311.00         16             249.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000563_subClassOf_SWO_0000111                                    224       2079                2              284.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000564_subClassOf_SWO_0000111                                    225       2079                2              282.00         13             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000565_subClassOf_SWO_0000111                                    226       2079                2              284.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000567_subClassOf_SWO_0000111                                    227       2079                2              285.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000572_subClassOf_SWO_0000111                                    228       2079                2              284.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000574_subClassOf_SWO_0000111                                    229       2079                2              285.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000577_subClassOf_SWO_0000111                                    230       2079                2              284.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000578_subClassOf_SWO_0000111                                    231       2079                2              278.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000579_subClassOf_SWO_0000111                                    232       2079                2              279.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000581_subClassOf_SWO_0000111                                    233       2079                2              283.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000582_subClassOf_SWO_0000111                                    234       2079                2              278.00         11             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000583_subClassOf_SWO_0000111                                    235       2079                2              283.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000590_subClassOf_SWO_0000111                                    236       2079                2              280.00         13             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000591_subClassOf_SWO_0000111                                    237       2079                2              283.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000593_subClassOf_SWO_0000111                                    238       2079                2              284.00         14             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000594_subClassOf_SWO_0000111                                    239       2079                2              288.00         14             225.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000599_subClassOf_SWO_0000111                                    240       2079                2              281.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000601_subClassOf_SWO_0000111                                    241       2079                2              281.00         11             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000603_subClassOf_SWO_0000111                                    242       2079                2              285.00         13             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000604_subClassOf_SWO_0000111                                    243       2079                2              283.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000605_subClassOf_SWO_0000111                                    244       2079                2              284.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000606_subClassOf_SWO_0000111                                    245       2079                2              278.00         11             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000607_subClassOf_SWO_0000111                                    246       2079                2              282.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000608_subClassOf_SWO_0000111                                    247       2079                2              284.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000609_subClassOf_SWO_0000111                                    248       2079                2              285.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000610_subClassOf_SWO_0000111                                    249       2079                2              285.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000611_subClassOf_SWO_0000111                                    250       2079                2              282.00         12             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000612_subClassOf_SWO_0000111                                    251       2079                2              282.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000613_subClassOf_SWO_0000111                                    252       2079                2              282.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000616_subClassOf_SWO_0000111                                    253       2079                2              280.00         12             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000617_subClassOf_SWO_0000111                                    254       2079                2              284.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000619_subClassOf_SWO_0000111                                    255       2079                2              285.00         13             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000621_subClassOf_SWO_0000111                                    256       2079                2              289.00         14             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000622_subClassOf_SWO_0000111                                    257       2079                2              279.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000623_subClassOf_SWO_0000111                                    258       2079                2              283.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000625_subClassOf_SWO_0000111                                    259       2079                2              287.00         11             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000630_subClassOf_SWO_0000111                                    260       2079                2              285.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000632_subClassOf_SWO_0000111                                    261       2079                2              283.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000635_subClassOf_SWO_0000111                                    262       2079                2              279.00         12             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000636_subClassOf_SWO_0000111                                    263       2079                2              287.00         13             224.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000637_subClassOf_SWO_0000111                                    264       2079                2              279.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000638_subClassOf_SWO_0000111                                    265       2079                2              280.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000639_subClassOf_SWO_0000111                                    266       2079                2              286.00         13             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000641_subClassOf_SWO_0000111                                    267       2079                2              280.00         11             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000642_subClassOf_SWO_0000111                                    268       2079                2              279.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000645_subClassOf_SWO_0000111                                    269       2079                2              279.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000646_subClassOf_SWO_0000111                                    270       2079                2              285.00         13             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000647_subClassOf_SWO_0000111                                    271       2079                2              281.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000649_subClassOf_SWO_0000111                                    272       2079                2              285.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000650_subClassOf_SWO_0000111                                    273       2079                2              284.00         13             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000651_subClassOf_SWO_0000111                                    274       2079                2              284.00         12             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000653_subClassOf_SWO_0000111                                    275       2079                2              286.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000654_subClassOf_SWO_0000111                                    276       2079                2              283.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000656_subClassOf_SWO_0000111                                    277       2079                2              284.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000657_subClassOf_SWO_0000111                                    278       2079                2              276.00         11             212.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000658_subClassOf_SWO_0000111                                    279       2079                2              281.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000659_subClassOf_SWO_0000111                                    280       2079                2              280.00         11             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000660_subClassOf_SWO_0000111                                    281       2079                2              281.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000662_subClassOf_SWO_0000111                                    282       2079                2              278.00         11             213.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000665_subClassOf_SWO_0000111                                    283       2079                2              283.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000666_subClassOf_SWO_0000111                                    284       2079                2              282.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000667_subClassOf_SWO_0000111                                    285       2079                2              287.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000669_subClassOf_SWO_0000111                                    286       2079                2              282.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000671_subClassOf_SWO_0000111                                    287       2079                2              284.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000672_subClassOf_SWO_0000111                                    288       2079                2              281.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000675_subClassOf_SWO_0000111                                    289       2079                2              280.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000676_subClassOf_SWO_0000111                                    290       2079                2              285.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000677_subClassOf_SWO_0000111                                    291       2079                2              284.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000678_subClassOf_SWO_0000111                                    292       2079                2              280.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000679_subClassOf_SWO_0000111                                    293       2079                2              302.00         13             237.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000683_subClassOf_SWO_0000111                                    294       2079                2              287.00         13             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000685_subClassOf_SWO_0000111                                    295       2079                2              283.00         12             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000686_subClassOf_SWO_0000111                                    296       2079                2              281.00         13             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000688_subClassOf_SWO_0000111                                    297       2079                2              284.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000689_subClassOf_SWO_0000111                                    298       2079                2              281.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000690_subClassOf_SWO_0000111                                    299       2079                2              298.00         15             235.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000691_subClassOf_SWO_0000111                                    300       2079                2              281.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000692_subClassOf_SWO_0000111                                    301       2079                2              283.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000693_subClassOf_SWO_0000111                                    302       2079                2              283.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000694_subClassOf_SWO_0000111                                    303       2079                2              285.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000696_subClassOf_SWO_0000111                                    304       2079                2              281.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000697_subClassOf_SWO_0000111                                    305       2079                2              284.00         13             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000698_subClassOf_SWO_0000111                                    306       2079                2              288.00         13             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000699_subClassOf_SWO_0000111                                    307       2079                2              285.00         13             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000700_subClassOf_SWO_0000111                                    308       2079                2              281.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000701_subClassOf_SWO_0000111                                    309       2079                2              281.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000703_subClassOf_SWO_0000111                                    310       2079                2              280.00         11             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000704_subClassOf_SWO_0000111                                    311       2079                2              284.00         12             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000705_subClassOf_SWO_0000111                                    312       2079                2              280.00         11             214.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000706_subClassOf_SWO_0000111                                    313       2079                2              283.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000707_subClassOf_SWO_0000111                                    314       2079                2              284.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000710_subClassOf_SWO_0000111                                    315       2079                2              284.00         13             220.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000711_subClassOf_SWO_0000111                                    316       2079                2              286.00         13             224.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000712_subClassOf_SWO_0000111                                    317       2079                2              284.00         12             221.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000714_subClassOf_SWO_0000111                                    318       2079                2              282.00         13             219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000716_subClassOf_SWO_0000111                                    319       2079                2              281.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000717_subClassOf_SWO_0000111                                    320       2079                2              286.00         13             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000718_subClassOf_SWO_0000111                                    321       2079                2              285.00         14             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000719_subClassOf_SWO_0000111                                    322       2079                2              279.00         12             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000720_subClassOf_SWO_0000111                                    323       2079                2              279.00         12             215.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000721_subClassOf_SWO_0000111                                    324       2079                2              281.00         13             217.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000723_subClassOf_SWO_0000111                                    325       2079                2              289.00         14             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000725_subClassOf_SWO_0000111                                    326       2079                2              287.00         14             225.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000726_subClassOf_SWO_0000111                                    327       2079                2              280.00         12             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000727_subClassOf_SWO_0000111                                    328       2079                2              284.00         14             222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000728_subClassOf_SWO_0000111                                    329       2079                2              277.00         11             216.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000729_subClassOf_SWO_0000111                                    330       2079                2              279.00         12             218.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000730_subClassOf_SWO_0000111                                    331       2079                2              286.00         13             223.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SWO_0000731_subClassOf_SWO_0000111                                    332       2079                2              281.00         13             220.00              13             

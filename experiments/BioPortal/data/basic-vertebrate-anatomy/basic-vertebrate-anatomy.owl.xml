@@ -1,0 +1,3195 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.co-ode.org/ontologies/basic-bio/basic-vertebrate-gross-anatomy.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.co-ode.org/ontologies/basic-bio/basic-vertebrate-gross-anatomy.owl">
+    <Prefix name="ont" IRI="http://owl.cs.manchester.ac.uk/ontology#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Discrete_continuant_entity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_entity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Lobe_of_lung"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Lobe"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#is_subdivision_of"/>
+                <Class IRI="#Lung"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Paired_or_unpaired"/>
+        <ObjectUnionOf>
+            <Class IRI="#Paired_value"/>
+            <Class IRI="#Unpaired_value"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Amount_of_biological_matter_or_energy"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_entity"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_entity"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Material_entity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biologic_discrete_nonmaterial_entity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_entity"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_non_material_entity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_cavity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biologic_discrete_nonmaterial_entity"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Cavity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_discrete_physical_continuant"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_entity"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_Physical_continuant"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_entity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#has_bio_status"/>
+                <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_object"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_entity"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_object"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_physical_process"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_entity"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Occurrent_entity"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_entity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Non_biological_entity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#has_bio_status"/>
+                <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Non_biological"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Amount_of_matter_or_energy"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_entity"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Material_entity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_Physical_continuant"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_entity"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_entity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_non_material_entity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_entity"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Non_material_entity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_entity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Non_material_entity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_entity"/>
+            <ObjectComplementOf>
+                <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Material_entity"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_object"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_entity"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Material_entity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Aggregation"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Composed_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Collective"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Aggregation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Collective"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Group"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Aggregation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Group"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Quality"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Composed_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Relationship"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Composed_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#Proportion"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Relationship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Aortic_valve"/>
+        <Class IRI="#Cardiac_valve"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Blood"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Amount_of_Biological_substance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Body_proper"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body_part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Body_proper"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_subdivision_of_directly"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Brain"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Bronchus"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Caranium"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Cardiac_atrium"/>
+        <Class IRI="#Cardiac_chamber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Cardiac_chamber"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Cardiac_valve"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Cardiac_ventricle"/>
+        <Class IRI="#Cardiac_chamber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Half_heart"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Head"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body_part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Head"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_subdivision_of_directly"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Heart"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Laterality_selector_value"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#Selector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Laterality_selector_value"/>
+        <ObjectUnionOf>
+            <Class IRI="#Left_laterality_value"/>
+            <Class IRI="#Right_laterality_value"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Left_laterality_value"/>
+        <Class IRI="#Laterality_selector_value"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Limb"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body_part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Limb"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_subdivision_of_directly"/>
+            <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Liver"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Lobe"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_division"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Lower_limb"/>
+        <Class IRI="#Limb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Lung"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Mirror_imaged_value"/>
+        <Class IRI="#Paired_value"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Mitral_valve"/>
+        <Class IRI="#Cardiac_valve"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Neck"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body_part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Neck"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_subdivision_of_directly"/>
+            <Class IRI="#Body_proper"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Paired_or_unpaired"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#Intrinsic_characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Paired_value"/>
+        <Class IRI="#Paired_or_unpaired"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Pericardium"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Pulmonary_valve"/>
+        <Class IRI="#Cardiac_valve"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Right_laterality_value"/>
+        <Class IRI="#Laterality_selector_value"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Stomach"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Trachea"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Tricuspid_valve"/>
+        <Class IRI="#Cardiac_valve"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Trunk"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body_part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Trunk"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_subdivision_of_directly"/>
+            <Class IRI="#Body_proper"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Unpaired_value"/>
+        <Class IRI="#Paired_or_unpaired"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Upper_limb"/>
+        <Class IRI="#Limb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#Intrinsic_characteristic"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Refining_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#Quality_partition"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Refining_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#Selector"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#Intrinsic_characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Adenine_residue"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Nucleic_acid_base_residue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Amount_of_Biological_substance"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Amount_of_biological_matter_or_energy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Amount_of_Tissue"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Amount_of_biological_matter_or_energy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Of_biological_origin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_Macromolecule"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_small_molecule"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_status_value_partition"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#Intrinsic_characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#gross_anat_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body_part"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#gross_anat_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body_part_subdivision"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#gross_anat_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cell"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cell_part"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cytosine_residue"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Nucleic_acid_base_residue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Guanine_residue"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Nucleic_acid_base_residue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Non_biological"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_status_value_partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Nucleic_acid_base_residue"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_small_molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Of_biological_origin"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_status_value_partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#gross_anat_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_component"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_division"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_part"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#gross_anat_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organelle"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cell_part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organism"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Thymine_residue"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Nucleic_acid_base_residue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#gross_anat_structure"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Cavity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_non_material_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Composed_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Material_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Material_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Natural_pattern"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Non_physical_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Occurrent_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Oeuvre"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Pattern"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Pattern"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Pattern"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Non_physical_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/very-top.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Refining_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Domain_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/very-top.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Domain_entity"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Aortic_valve"/>
+        <Class IRI="#Mitral_valve"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Aortic_valve"/>
+        <Class IRI="#Pulmonary_valve"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Aortic_valve"/>
+        <Class IRI="#Tricuspid_valve"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Brain"/>
+        <Class IRI="#Heart"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Brain"/>
+        <Class IRI="#Liver"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Brain"/>
+        <Class IRI="#Lung"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Brain"/>
+        <Class IRI="#Pericardium"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Brain"/>
+        <Class IRI="#Stomach"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Bronchus"/>
+        <Class IRI="#Caranium"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Bronchus"/>
+        <Class IRI="#Cardiac_chamber"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Bronchus"/>
+        <Class IRI="#Cardiac_valve"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Bronchus"/>
+        <Class IRI="#Half_heart"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Bronchus"/>
+        <Class IRI="#Trachea"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Caranium"/>
+        <Class IRI="#Cardiac_chamber"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Caranium"/>
+        <Class IRI="#Cardiac_valve"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Caranium"/>
+        <Class IRI="#Half_heart"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Caranium"/>
+        <Class IRI="#Trachea"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Cardiac_atrium"/>
+        <Class IRI="#Cardiac_ventricle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Cardiac_chamber"/>
+        <Class IRI="#Cardiac_valve"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Cardiac_chamber"/>
+        <Class IRI="#Half_heart"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Cardiac_chamber"/>
+        <Class IRI="#Trachea"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Cardiac_valve"/>
+        <Class IRI="#Half_heart"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Cardiac_valve"/>
+        <Class IRI="#Trachea"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Half_heart"/>
+        <Class IRI="#Trachea"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Head"/>
+        <Class IRI="#Limb"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Head"/>
+        <Class IRI="#Neck"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Head"/>
+        <Class IRI="#Trunk"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Heart"/>
+        <Class IRI="#Liver"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Heart"/>
+        <Class IRI="#Lung"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Heart"/>
+        <Class IRI="#Pericardium"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Heart"/>
+        <Class IRI="#Stomach"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Left_laterality_value"/>
+        <Class IRI="#Right_laterality_value"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Limb"/>
+        <Class IRI="#Neck"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Limb"/>
+        <Class IRI="#Trunk"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Liver"/>
+        <Class IRI="#Lung"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Liver"/>
+        <Class IRI="#Pericardium"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Liver"/>
+        <Class IRI="#Stomach"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Lower_limb"/>
+        <Class IRI="#Upper_limb"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Lung"/>
+        <Class IRI="#Pericardium"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Lung"/>
+        <Class IRI="#Stomach"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Mitral_valve"/>
+        <Class IRI="#Pulmonary_valve"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Mitral_valve"/>
+        <Class IRI="#Tricuspid_valve"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Neck"/>
+        <Class IRI="#Trunk"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Paired_value"/>
+        <Class IRI="#Unpaired_value"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Pericardium"/>
+        <Class IRI="#Stomach"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="#Pulmonary_valve"/>
+        <Class IRI="#Tricuspid_valve"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Adenine_residue"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cytosine_residue"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Adenine_residue"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Guanine_residue"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Adenine_residue"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Thymine_residue"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body_part"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cell"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cell_part"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_part"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organism"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body_part"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cell"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body_part"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cell_part"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body_part"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body_part"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_part"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body_part"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organism"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cell"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cell_part"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cell"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cell"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_part"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cell"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organism"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cell_part"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cell_part"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_part"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cell_part"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organism"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cytosine_residue"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Guanine_residue"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Cytosine_residue"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Thymine_residue"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Guanine_residue"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Thymine_residue"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Non_biological"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Of_biological_origin"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_part"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organism"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ_part"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organism"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Occurrent_entity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Discrete_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_entity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl</IRI>
+        </Annotation>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Non_physical_entity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_entity"/>
+    </DisjointClasses>
+    <ObjectPropertyAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/very-top.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#web-reference"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Refining_entity"/>
+        <NamedIndividual IRI="http://www.w3.org/TR/swbp-specified-values/"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/very-top.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#web-reference"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+        <NamedIndividual IRI="http://www.cs.man.ac.uk/mig/people/rector/"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#acts_on"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_participant"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#contains"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_physical_location_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#defines"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_determinate_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_abstraction"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_pattern"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_actor"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_participant"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_clinical_part"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_generic_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_constituent"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_gross_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_determinate_part"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_gross_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_functional_part"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_clinical_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_generic_part"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_localisation_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_grain"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_member"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_grain"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_spatial_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_gross_part"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_clinical_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_gross_part"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_spatial_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_in_group"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_member"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_ingredient"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_gross_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_localisation"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#relational_property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_locus"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_localisation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_manifestation"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_pattern_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_means"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_participant"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_member"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_generic_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_outcome"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#acts_on"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_participant"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#relational_property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_pattern"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#inverse_relational_property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_physical_location"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_localisation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_portion"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_gross_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_proportion"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_ingredient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_quality"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_localisation_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_spatial_part"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_physical_location_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_abstracted_from"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_pattern_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_acted_on_by"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_participant_in"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_actor_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_participant_in"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_clinical_part_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_generic_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_constituent_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_gross_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_contained_in"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_physical_location"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_defined_by"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_determinate_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_determinate_part_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_gross_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_functional_part_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_clinical_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_generic_part_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_localisation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_grain_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_member_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_grain_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_spatial_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_gross_part_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_clinical_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_gross_part_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_spatial_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_in_group_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_member_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_ingredient_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_gross_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_localisation_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#inverse_relational_property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_locus_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_localisation_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_manifestation_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_pattern"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_means_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_participant_in"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_member_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_generic_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_of_ingredient"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_ingredient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_outcome_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_acted_on_by"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_participant_in"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#inverse_relational_property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_pattern_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#relational_property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_physical_location_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_localisation_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_portion_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_gross_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_proportion"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_ingredient_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_quality_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_localisation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_spatial_part_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_physical_location"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#of_mixture"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_ingredient_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_component"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#defines"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_component_directly"/>
+        <ObjectProperty IRI="#has_component"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_laterality"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#selector_property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_pairedness"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#selector_property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_subdivision"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_determinate_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_subdivision_directly"/>
+        <ObjectProperty IRI="#has_subdivision"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#is_component_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_determinate_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#is_component_of_directly"/>
+        <ObjectProperty IRI="#is_component_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#is_subdivision_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_determinate_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#is_subdivision_of_directly"/>
+        <ObjectProperty IRI="#is_subdivision_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#Modifier_property"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#refining_property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#has_value"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#Modifier_property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#intrinsic_property"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#refining_property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#selector_property"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#intrinsic_property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#has_bio_status"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#intrinsic_property"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#acts_on"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_acted_on_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_contained_in"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#contains"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_defined_by"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#defines"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_abstracted_from"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_abstraction"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_actor_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_actor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_clinical_part"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_clinical_part_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_constituent"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_constituent_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_determinate_part"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_determinate_part_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_functional_part"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_functional_part_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_generic_part_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_generic_part"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_grain"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_grain_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_gross_part"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_gross_part_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_in_group"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_in_group_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_ingredient_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_ingredient"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_localisation_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_localisation"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_locus"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_locus_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_manifestation_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_manifestation"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_means"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_means_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_member_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_member"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_outcome"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_outcome_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_participant"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_participant_in"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_pattern_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_pattern"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_physical_location"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_physical_location_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_portion_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_portion"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_proportion"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#of_mixture"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_quality"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_quality_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_spatial_part"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_spatial_part_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_of_ingredient"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_proportion"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_component"/>
+        <ObjectProperty IRI="#is_component_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_component_directly"/>
+        <ObjectProperty IRI="#is_component_of_directly"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#is_subdivision_of"/>
+        <ObjectProperty IRI="#has_subdivision"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_subdivision_directly"/>
+        <ObjectProperty IRI="#is_subdivision_of_directly"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/very-top.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#relational_property"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#inverse_relational_property"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_quality_of"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_laterality"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_pairedness"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#has_value"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#has_bio_status"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_quality"/>
+    </InverseFunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_localisation"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_physical_location"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_contained_in"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_determinate_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_gross_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_spatial_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#is_component_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#is_subdivision_of"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#contains"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Cavity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#defines"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Material_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_abstraction"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_constituent"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Discrete_continuant_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_determinate_part"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_grain"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Collective"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_gross_part"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_ingredient"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_manifestation"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Oeuvre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_member"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Composed_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_participant"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Occurrent_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_pattern"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_portion"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_proportion"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_quality"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_spatial_part"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_abstracted_from"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Natural_pattern"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_constituent_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_contained_in"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Material_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_defined_by"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Non_material_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_determinate_part_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_grain_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Discrete_continuant_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_gross_part_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_ingredient_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_manifestation_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_of_ingredient"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_participant_in"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_pattern_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Pattern"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_physical_location_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_portion_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_proportion"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_quality_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Quality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_spatial_part_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#of_mixture"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_laterality"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body_part"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="#has_pairedness"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Body_part"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#Modifier_property"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Domain_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#has_value"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Quality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#has_bio_status"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/very-top.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#inverse_relational_property"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/very-top.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#refining_property"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Domain_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/very-top.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#relational_property"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#contains"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Material_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#defines"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Non_material_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_abstraction"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Natural_pattern"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_constituent"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_determinate_part"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_grain"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Discrete_continuant_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_ingredient"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_manifestation"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_participant"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_pattern"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Pattern"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_physical_location"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_portion"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_quality"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Quality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#has_spatial_part"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_constituent_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Discrete_continuant_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_contained_in"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Cavity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_defined_by"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Material_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_determinate_part_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Physical_object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_grain_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/additional-top-self-standing.owl#Collective"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_gross_part_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_ingredient_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_manifestation_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Oeuvre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_member_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Composed_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_participant_in"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Occurrent_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_pattern_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_portion_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_proportion"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#is_spatial_part_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Continuant_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/advanced-relational-properties.owl#of_mixture"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-self-standing.owl#Mass_continuant_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#has_value"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#Quality_partition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#intrinsic_property"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/refining-entities-and-properties.owl#Intrinsic_characteristic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/top-bio.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#has_bio_status"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Biological_status_value_partition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/very-top.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#inverse_relational_property"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/very-top.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#refining_property"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Refining_entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI>http://www.co-ode.org/ontologies/basic-bio/very-top.owl</IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#relational_property"/>
+        <Class IRI="http://www.co-ode.org/ontologies/basic-bio/very-top.owl#Self_standing_entity"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

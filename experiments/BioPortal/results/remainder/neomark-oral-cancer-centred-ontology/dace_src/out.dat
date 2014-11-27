@@ -1,0 +1,2 @@
+#Axiom String                                                         i         No. Axioms          size           time           exp_time       cont_time      RC             ont_mean_size       RC_mean_time        RC_total_time       mem            sanity    
+BiologicalRegulation_subClassOf_Nothing                               1         1213                1212           1893.00        1109.00        784.00         4              1212.25             91.75               367.00              280            

@@ -1,0 +1,1775 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.onto-med.de/ontologies/gfo-basic.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.onto-med.de/ontologies/gfo-basic.owl">
+    <Prefix name="ont" IRI="http://owl.cs.manchester.ac.uk/ontology#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Left_time_boundary"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time_boundary"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#left_boundary_of"/>
+                <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Chronoid"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Line"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#spatial_boundary_of"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Surface"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Point"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#spatial_boundary_of"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Line"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Right_time_boundary"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time_boundary"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#right_boundary_of"/>
+                <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Chronoid"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_boundary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#spatial_boundary_of"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Surface"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#spatial_boundary_of"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Topoid"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time_boundary"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Left_time_boundary"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Right_time_boundary"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time_boundary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#time_boundary_of"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Temporal_region"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Abstract"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Amount_of_substrate"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Change"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Chronoid"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Temporal_region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Chronoid"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_left_time_boundary"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Chronoid"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_right_time_boundary"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concept"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Continuous_change"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Change"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Continuous_process"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Discrete_change"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Change"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Discrete_process"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Event"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#History"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Left_time_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time_boundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Line"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_boundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_boundary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#depends_on"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_object"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_boundary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#framed_by"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_boundary"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_object"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_object"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#framed_by"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Topoid"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Processual_Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Perpetuant"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Point"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_boundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#exists_at"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time_boundary"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Processual_Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#projects_to"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Temporal_region"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Processual_Structure"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Processual_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Processual_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Processual_role"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#role_of"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Property"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Relational_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Relational_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Relational_role"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#played_by"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Relational_role"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#role_of"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Relator"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Relator"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Right_time_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time_boundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Social_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space_time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space_time"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_region"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#State"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Surface"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_boundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Symbol_structure"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Temporal_region"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space_time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Topoid"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Universal"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Property"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#property_of"/>
+                <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Abstract"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Abstract"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space_time"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Category"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Individual"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Change"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Event"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Change"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#History"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concept"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Symbol_structure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concept"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Universal"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space_time"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Continuous_change"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Discrete_change"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Event"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#History"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Left_time_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Right_time_boundary"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Material_object"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Processual_Structure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Processual_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Relational_role"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Processual_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Social_role"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Property"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Relator"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Relational_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Social_role"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_region"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Symbol_structure"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Universal"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Temporal_region"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time_boundary"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#boundary_of"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#depends_on"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_boundary"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#necessary_for"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_left_time_boundary"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_time_boundary"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_part"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#abstract_has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_proper_part"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_right_time_boundary"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_time_boundary"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_role"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#abstract_has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_spatial_boundary"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_boundary"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_temporal_part"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_time_boundary"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_boundary"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_token"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#instantiated_by"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#left_boundary_of"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#time_boundary_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#occupied_by"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#frames"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#occupies"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#framed_by"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#part_of"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#abstract_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#proper_part_of"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#right_boundary_of"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#time_boundary_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#role_of"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#abstract_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#spatial_boundary_of"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#boundary_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#temporal_part_of"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#time_boundary_of"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#boundary_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#token_of"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#instance_of"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#abstract_part_of"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#abstract_has_part"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#boundary_of"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_boundary"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#depends_on"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#necessary_for"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#framed_by"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#frames"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_left_time_boundary"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#left_boundary_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_part"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#part_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_participant"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#participates_in"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_proper_part"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#proper_part_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_property"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#property_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_right_time_boundary"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#right_boundary_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_role"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#role_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_spatial_boundary"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#spatial_boundary_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_temporal_part"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#temporal_part_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_time_boundary"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#time_boundary_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_token"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#token_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#instance_of"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#instantiated_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#occupied_by"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#occupies"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#played_by"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#plays_role"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#projects_to"/>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#projection_of"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#boundary_of"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#exists_at"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_left_time_boundary"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_right_time_boundary"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#left_boundary_of"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#occupies"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#played_by"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#projects_to"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#right_boundary_of"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#spatial_boundary_of"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#time_boundary_of"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_boundary"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_left_time_boundary"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_property"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_right_time_boundary"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_spatial_boundary"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_time_boundary"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#left_boundary_of"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#occupied_by"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#plays_role"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#projection_of"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#right_boundary_of"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#coincides_with"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#abstract_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#depends_on"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_proper_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#necessary_for"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#proper_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#temporal_part_of"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#coincides_with"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_boundary"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time_boundary"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#exhibits"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Perpetuant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#exists_at"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#framed_by"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#frames"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_participant"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Processual_Structure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_property"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_spatial_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_time_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Temporal_region"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_token"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Symbol_structure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#instance_of"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#instantiated_by"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Category"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#occupied_by"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#occupies"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#part_of"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space_time"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#participates_in"/>
+        <ObjectComplementOf>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Processual_Structure"/>
+        </ObjectComplementOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#participates_in"/>
+        <ObjectComplementOf>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space_time"/>
+        </ObjectComplementOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#played_by"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Role"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#plays_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#projection_of"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#property_of"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Property"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#role_of"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Role"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#spatial_boundary_of"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_boundary"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#temporal_part_of"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#time_boundary_of"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time_boundary"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#token_of"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#coincides_with"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_boundary"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time_boundary"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#exhibits"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#exists_at"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time_boundary"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#framed_by"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#frames"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_left_time_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Left_time_boundary"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_participant"/>
+        <ObjectComplementOf>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Processual_Structure"/>
+        </ObjectComplementOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_participant"/>
+        <ObjectComplementOf>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space_time"/>
+        </ObjectComplementOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_property"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Property"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_right_time_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Right_time_boundary"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Role"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_spatial_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Spatial_boundary"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_time_boundary"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time_boundary"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#has_token"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#instance_of"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Category"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#instantiated_by"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#occupied_by"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#occupies"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#part_of"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Concrete"/>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space_time"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#participates_in"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Processual_Structure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#played_by"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#plays_role"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Role"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#projects_to"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#role_of"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#spatial_boundary_of"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#temporal_part_of"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time"/>
+            <ObjectComplementOf>
+                <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Time_boundary"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#time_boundary_of"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Temporal_region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="ont:sourceOntology"/>
+            <IRI></IRI>
+        </Annotation>
+        <ObjectProperty IRI="http://www.onto-med.de/ontologies/gfo.owl#token_of"/>
+        <Class IRI="http://www.onto-med.de/ontologies/gfo.owl#Symbol_structure"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

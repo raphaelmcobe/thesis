@@ -1,0 +1,200 @@
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Activation_subClassOf_PositiveRegulation                              1         952                 1              316.00         11             246.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ActivationOfPolymeraseActivity_subClassOf_ActivationOfProteinFunction 2         952                 1              401.00         16             322.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ActivationOfProcess_subClassOf_Activation                             3         952                 1              294.00         7              227.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ActivationOfProcess_subClassOf_RegulationOfProcess                    4         952                 1              350.00         16             281.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ActivationOfProteinFunction_subClassOf_Activation                     5         952                 1              311.00         5              237.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ActivationOfProteinFunction_subClassOf_RegulationOfFunction           6         952                 3              820.00         88             731.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ActivationOfTranscriptionRegulatorActivity_subClassOf_ActivationOfProteinFunction7         952                 1              385.00         14             308.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Behavior_subClassOf_OrganismalProcess                                 8         952                 1              366.00         16             299.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfDNABindingDomainOfProteinToDNA_subClassOf_BindingOfMolecularEntity9         952                 1              736.00         42             656.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfDNABindingDomainOfProteinToDNA_subClassOf_BindingToMolecularEntity10        952                 1              731.00         45             652.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfDNABindingDomainOfProteinToDNA_subClassOf_MolecularInteraction11        952                 1              901.00         61             816.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfMolecularEntity_subClassOf_MolecularBinding                  12        952                 1              301.00         6              234.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfMolecularEntity_subClassOf_MolecularProcess                  13        952                 1              417.00         26             349.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfProtein_subClassOf_BindingOfMolecularEntity                  14        952                 1              449.00         25             369.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfProteinToDNA_subClassOf_BindingOfProtein                     15        952                 1              356.00         8              283.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfProteinToDNA_subClassOf_BindingToMolecularEntity             16        952                 1              569.00         31             494.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfProteinToDNA_subClassOf_DNAProteinInteraction                17        952                 1              446.00         18             371.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfProteinToProteinBindingSiteOfDNA_subClassOf_BindingOfProteinToDNA18        952                 1              538.00         26             462.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfProteinToProteinBindingSiteOfProtein_subClassOf_BindingOfProtein19        952                 1              347.00         7              273.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfProteinToProteinBindingSiteOfProtein_subClassOf_BindingToBindingSiteOfProtein20        952                 1              436.00         19             363.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfProteinToProteinBindingSiteOfProtein_subClassOf_MolecularInteraction21        952                 1              814.00         51             735.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfTFToTFBindingSiteOfDNA_subClassOf_BindingOfProteinToProteinBindingSiteOfDNA22        952                 2              1066.00        82             974.00              44             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfTFToTFBindingSiteOfDNA_subClassOf_BindingOfTranscriptionFactorToDNA23        952                 3              1174.00        120            1072.00             54             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfTFToTFBindingSiteOfProtein_subClassOf_BindingOfProteinToProteinBindingSiteOfProtein24        952                 2              885.00         61             802.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfTranscriptionActivatorToEnhancer_subClassOf_BindingOfProteinToProteinBindingSiteOfDNA25        952                 2              1348.00        104            1251.00             65             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfTranscriptionFactorToDNA_subClassOf_BindingOfProteinToDNA    26        952                 2              909.00         68             820.00              44             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfTranscriptionFactorToOperator_subClassOf_BindingOfTFToTFBindingSiteOfDNA27        952                 1              498.00         21             419.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfTranscriptionRepressorToSilencer_subClassOf_BindingOfProteinToProteinBindingSiteOfDNA28        952                 2              1347.00        114            1246.00             75             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfTranslationInitiationComplexToRNA_subClassOf_BindingOfMolecularEntity29        952                 1              570.00         31             491.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfTranslationInitiationComplexToRNA_subClassOf_BindingToRNA    30        952                 1              364.00         8              286.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingOfTranslationInitiationComplexToRNA_subClassOf_MolecularInteraction31        952                 1              827.00         54             741.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingToBindingSiteOfProtein_subClassOf_BindingToMolecularEntity     32        952                 1              581.00         36             504.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingToMolecularEntity_subClassOf_MolecularBinding                  33        952                 1              298.00         6              232.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingToProtein_subClassOf_BindingToMolecularEntity                  34        952                 1              446.00         25             376.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+BindingToRNA_subClassOf_BindingToMolecularEntity                      35        952                 1              567.00         37             490.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CellDeath_subClassOf_CellularProcess                                  36        952                 2              476.00         33             408.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CellGrowth_subClassOf_CellularProcess                                 37        952                 2              455.00         27             382.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CellularDevelopmentalProcess_subClassOf_CellularProcess               38        952                 1              378.00         15             308.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CellularDevelopmentalProcess_subClassOf_DevelopmentalProcess          39        952                 1              313.00         7              242.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+CellularProcess_subClassOf_PhysiologicalProcess                       40        952                 1              297.00         4              233.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DNA_subClassOf_NucleicAcid                                            41        952                 1              296.00         6              226.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+DNAProteinInteraction_subClassOf_MolecularInteraction                 42        952                 1              687.00         39             607.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Enzyme_subClassOf_Protein                                             43        952                 1              301.00         6              229.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+GeneProduct_subClassOf_InformationBiopolymer                          44        952                 1              467.00         28             391.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Histone_subClassOf_Protein                                            45        952                 2              458.00         25             374.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Inhibition_subClassOf_NegativeRegulation                              46        952                 1              314.00         10             247.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+IntraCellularProcess_subClassOf_MolecularProcess                      47        952                 1              316.00         6              245.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+IntraCellularTransport_subClassOf_IntraCellularProcess                48        952                 3              825.00         78             735.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+IntraCellularTransport_subClassOf_Transport                           49        952                 1              338.00         10             265.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+IntraOrganismalProcess_subClassOf_OrganismalProcess                   50        952                 1              330.00         10             263.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Microorganism_subClassOf_Organism                                     51        952                 2              400.00         34             331.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MolecularBinding_subClassOf_Binding                                   52        952                 1              372.00         17             302.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MolecularInteraction_subClassOf_MolecularProcess                      53        952                 1              370.00         20             301.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MolecularInteraction_subClassOf_PhysicalInteraction                   54        952                 1              305.00         9              240.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+MolecularProcess_subClassOf_Process                                   55        952                 1              286.00         7              227.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NegativeRegulation_subClassOf_RegulatoryProcess                       56        952                 1              282.00         5              219.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NegativeRegulationOfGeneExpression_subClassOf_NegativeRegulation      57        952                 1              679.00         15             584.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NegativeRegulationOfGeneExpression_subClassOf_RegulationOfGeneExpression58        952                 1              434.00         7              347.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NegativeRegulationOfTranscription_subClassOf_NegativeRegulation       59        952                 1              690.00         15             600.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NegativeRegulationOfTranscription_subClassOf_RegulationOfTranscription60        952                 1              433.00         6              346.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NegativeRegulationOfTranscriptionOfGene_subClassOf_NegativeRegulationOfTranscription61        952                 1              957.00         18             864.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NegativeRegulationOfTranslation_subClassOf_NegativeRegulation         62        952                 1              683.00         14             592.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+NegativeRegulationOfTranslation_subClassOf_RegulationOfTranslation    63        952                 1              431.00         6              346.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+OpenReadingFrame_subClassOf_ProteinCodingDNARegion                    64        952                 1              352.00         10             279.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PositiveRegulation_subClassOf_RegulatoryProcess                       65        952                 1              290.00         7              225.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PositiveRegulationOfGeneExpression_subClassOf_PositiveRegulation      66        952                 1              676.00         14             588.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PositiveRegulationOfGeneExpression_subClassOf_RegulationOfGeneExpression67        952                 1              427.00         4              340.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PositiveRegulationOfTranscription_subClassOf_PositiveRegulation       68        952                 1              690.00         15             605.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PositiveRegulationOfTranscription_subClassOf_RegulationOfTranscription69        952                 1              431.00         5              344.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PositiveRegulationOfTranscriptionOfGene_subClassOf_PositiveRegulationOfTranscription70        952                 1              848.00         16             759.00              34             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PositiveRegulationOfTranslation_subClassOf_PositiveRegulation         71        952                 1              692.00         17             603.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PositiveRegulationOfTranslation_subClassOf_RegulationOfTranslation    72        952                 1              423.00         4              339.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProteinBindingSiteOfProtein_subClassOf_BindingSiteOfProtein           73        952                 1              315.00         5              245.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProteinCodingDNARegion_subClassOf_DNARegion                           74        952                 1              306.00         5              236.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProteinCodingDNARegion_subClassOf_ProteinCodingRegion                 75        952                 1              389.00         19             315.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProteinCodingGene_subClassOf_ProteinCodingDNARegion                   76        952                 1              407.00         21             333.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProteinCodingRegion_subClassOf_NucleicAcidRegion                      77        952                 1              311.00         6              238.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProteinMutation_subClassOf_Mutation                                   78        952                 1              303.00         6              234.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProteinProteinInteraction_subClassOf_MolecularInteraction             79        952                 1              468.00         27             395.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProteinTargeting_subClassOf_IntraCellularTransport                    80        952                 1              494.00         28             417.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+ProteinTransport_subClassOf_Transport                                 81        952                 1              302.00         6              232.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RNACodingDNARegion_subClassOf_DNARegion                               82        952                 1              310.00         7              238.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RNACodingDNARegion_subClassOf_RNACodingRegion                         83        952                 1              385.00         18             312.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RNACodingRegion_subClassOf_NucleicAcidRegion                          84        952                 1              305.00         4              232.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RNAPolymerase_subClassOf_Polymerase                                   85        952                 1              303.00         7              235.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RNAProteinInteraction_subClassOf_MolecularInteraction                 86        952                 1              658.00         38             583.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RegulationOfFunction_subClassOf_RegulatoryProcess                     87        952                 1              291.00         5              226.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RegulationOfGeneExpression_subClassOf_RegulationOfProcess             88        952                 1              1201.00        46             1106.00             55             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RegulationOfModificationOfMolecularEntity_subClassOf_RegulationOfProcess89        952                 2              544.00         49             466.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RegulationOfPathway_subClassOf_RegulationOfProcess                    90        952                 1              395.00         21             326.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RegulationOfPhysicalInteraction_subClassOf_RegulationOfProcess        91        952                 1              368.00         18             298.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RegulationOfProcess_subClassOf_RegulatoryProcess                      92        952                 1              286.00         5              222.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RegulationOfTranscription_subClassOf_RegulationOfPathway              93        952                 1              1489.00        62             1394.00             75             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+RegulationOfTranslation_subClassOf_RegulationOfPathway                94        952                 1              1355.00        57             1256.00             65             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+SigmaFactor_subClassOf_TranscriptionRegulator                         95        952                 1              372.00         17             299.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TranscriptionActivator_subClassOf_PositiveTranscriptionRegulator      96        952                 1              314.00         7              243.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TranscriptionCofactor_subClassOf_TranscriptionRegulator               97        952                 1              356.00         6              279.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TranscriptionCorepressor_subClassOf_TranscriptionCofactor             98        952                 1              342.00         5              265.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TranscriptionCorepressor_subClassOf_TranscriptionRepressor            99        952                 1              342.00         5              267.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+TranscriptionFactor_subClassOf_TranscriptionRegulator                 100       952                 1              308.00         6              238.00              13             

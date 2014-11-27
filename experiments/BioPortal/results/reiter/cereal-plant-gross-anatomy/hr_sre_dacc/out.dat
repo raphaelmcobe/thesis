@@ -1,0 +1,4 @@
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PO_0025056_subClassOf_PO_0025055                                      1         1868                2              313.00         14             245.00              13             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+PO_0025057_subClassOf_PO_0025055                                      2         1868                2              316.00         16             248.00              13             

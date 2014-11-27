@@ -1,0 +1,498 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000020"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000021"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000023"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000024"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000026"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000071"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000026"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000079"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000027"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000071"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000027"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000084"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000028"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000028"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000082"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000029"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000071"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000029"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000082"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000030"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000030"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000079"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000031"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000032"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000033"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000034"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000035"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000035"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000084"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000041"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000042"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000042"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000671"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000042"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000683"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000043"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000044"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000045"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000045"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000671"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000045"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000682"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000046"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000046"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000672"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000046"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000683"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000047"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000028"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000047"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000672"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000047"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000682"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000048"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000069"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000048"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000679"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000048"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000683"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000049"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000049"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000683"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000049"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000684"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000050"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000071"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000050"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000052"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000053"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000064"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000064"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000069"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000079"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000069"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000071"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000072"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000073"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000074"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000075"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000076"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000077"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000078"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000079"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000080"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000079"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000080"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000082"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000081"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000083"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000084"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000085"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000082"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000085"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000084"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000112"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000112"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000084"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000371"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000372"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000373"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000374"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000376"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000377"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000378"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000379"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000381"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000382"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000383"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000384"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000671"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000671"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000071"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000672"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000672"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000673"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000673"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000674"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000674"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000677"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000677"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000077"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000678"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000678"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000679"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000679"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000079"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000680"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000080"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000680"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000679"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000680"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000682"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000682"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000682"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000082"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000683"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000683"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000684"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000684"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000084"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000685"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000685"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000682"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000685"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000684"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000686"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000686"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000671"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000686"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000679"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000687"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000687"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000672"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000687"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000679"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000688"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000688"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000671"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000688"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000684"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000689"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000035"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000689"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000672"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000689"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BSPO_0000684"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

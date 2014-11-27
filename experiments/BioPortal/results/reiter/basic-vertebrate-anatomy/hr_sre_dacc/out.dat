@@ -1,0 +1,66 @@
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Amount_of_biological_matter_or_energy_subClassOf_Amount_of_matter_or_energy1         313                 1              282.00         8              225.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Amount_of_biological_matter_or_energy_subClassOf_Biological_entity    2         313                 1              273.00         7              217.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Amount_of_matter_or_energy_subClassOf_Mass_continuant_entity          3         313                 1              286.00         11             230.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Amount_of_matter_or_energy_subClassOf_Material_entity                 4         313                 1              265.00         6              210.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Biologic_discrete_nonmaterial_entity_subClassOf_Biological_discrete_physical_continuant5         313                 1              369.00         23             309.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Biologic_discrete_nonmaterial_entity_subClassOf_Discrete_non_material_entity6         313                 1              275.00         6              219.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Biological_cavity_subClassOf_Biologic_discrete_nonmaterial_entity     7         313                 1              271.00         4              211.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Biological_cavity_subClassOf_Cavity                                   8         313                 1              274.00         6              216.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Biological_discrete_physical_continuant_subClassOf_Biological_entity  9         313                 1              267.00         4              209.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Biological_discrete_physical_continuant_subClassOf_Discrete_Physical_continuant10        313                 1              270.00         4              214.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Biological_entity_subClassOf_Self_standing_entity                     11        313                 1              258.00         4              203.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Biological_object_subClassOf_Biological_discrete_physical_continuant  12        313                 1              385.00         26             326.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Biological_object_subClassOf_Physical_object                          13        313                 1              274.00         6              214.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Biological_physical_process_subClassOf_Biological_entity              14        313                 1              269.00         7              215.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Biological_physical_process_subClassOf_Occurrent_entity               15        313                 1              265.00         7              211.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Biological_physical_process_subClassOf_Physical_entity                16        313                 1              265.00         6              211.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Discrete_Physical_continuant_subClassOf_Discrete_continuant_entity    17        313                 1              274.00         8              217.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Discrete_Physical_continuant_subClassOf_Physical_entity               18        313                 1              260.00         4              204.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Discrete_continuant_entity_subClassOf_Continuant_entity               19        313                 1              254.00         4              200.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Discrete_continuant_entity_subClassOf_Discrete_entity                 20        313                 1              252.00         4              199.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Discrete_non_material_entity_subClassOf_Discrete_Physical_continuant  21        313                 1              288.00         11             235.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Discrete_non_material_entity_subClassOf_Non_material_entity           22        313                 1              268.00         6              213.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Lobe_of_lung_subClassOf_Lobe                                          23        313                 1              283.00         4              220.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Mass_continuant_entity_subClassOf_Continuant_entity                   24        313                 1              257.00         5              204.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Mass_continuant_entity_subClassOf_Mass_entity                         25        313                 1              257.00         5              203.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Non_biological_entity_subClassOf_Self_standing_entity                 26        313                 1              259.00         4              203.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Non_material_entity_subClassOf_Continuant_entity                      27        313                 1              256.00         4              202.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Non_material_entity_subClassOf_Physical_entity                        28        313                 1              255.00         4              202.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Paired_value_subClassOf_Paired_or_unpaired                            29        313                 2              283.00         11             227.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Pattern_subClassOf_Discrete_continuant_entity                         30        313                 1              274.00         10             219.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Physical_object_subClassOf_Discrete_Physical_continuant               31        313                 1              305.00         15             247.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Physical_object_subClassOf_Material_entity                            32        313                 1              264.00         5              207.00              23             
+#Axiom String                                                         i         No. Axioms          size           time           RC             RC_total_time       mem            sanity    
+Unpaired_value_subClassOf_Paired_or_unpaired                          33        313                 2              282.00         10             222.00              23             

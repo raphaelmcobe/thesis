@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology:ont1"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="owlapi:ontology:ont1">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Carboxylation"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#ChemicalModification"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugMetabolism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Dealkylation"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Demethylation"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Derivative"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugActivity"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugPharmacodynamics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugAdverseReaction"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugPharmacodynamics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugDependence"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugPharmacodynamics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugDistribution"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugPharmacokinetics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugEffect"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugPharmacogenomics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugEfficacy"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugPharmacodynamics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugPharmacodynamics"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Phenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugRelatedAnalgesia"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugPharmacodynamics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugRelatedAnticoagulation"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugPharmacodynamics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugRelatedComplication"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugPharmacodynamics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugRelatedImmunosuppression"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugPharmacodynamics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugRelatedStress"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugPharmacodynamics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugToxicity"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugPharmacodynamics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Phenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransport"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugPharmacokinetics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Glucuronidation"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Hydroxylation"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Hypermethylation"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Methyl-transfer"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Methylation"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Myristoylation"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Oxidation"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Palmytoylation"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Phosphorylation"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Prenylation"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Sulfation"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Sulfoxydation"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Synthesis"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#Ubiquitination"/>
+        <Class IRI="http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+
